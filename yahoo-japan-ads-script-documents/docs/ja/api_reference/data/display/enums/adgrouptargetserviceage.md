@@ -1,0 +1,184 @@
+# Enumeration: AdGroupTargetServiceAge
+
+
+<div lang=\"ja\"> AdGroupTargetServiceAgeは、年代を表します。<br> ADDおよびREPLACE時、このフィールドは必須となります。 </div>  <dl class=term>   <dt class=\"term__item\">GT_RANGE13_14</dt>   <dd class=\"term__desc\"><span lang=\"ja\">13歳から14歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE15_17</dt>   <dd class=\"term__desc\"><span lang=\"ja\">15歳から17歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE18_19</dt>   <dd class=\"term__desc\"><span lang=\"ja\">18歳から19歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE20_21</dt>   <dd class=\"term__desc\"><span lang=\"ja\">20歳から21歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE22_29</dt>   <dd class=\"term__desc\"><span lang=\"ja\">22歳から29歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE30_39</dt>   <dd class=\"term__desc\"><span lang=\"ja\">30歳から39歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE40_49</dt>   <dd class=\"term__desc\"><span lang=\"ja\">40歳から49歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE50_59</dt>   <dd class=\"term__desc\"><span lang=\"ja\">50歳から59歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE60_69</dt>   <dd class=\"term__desc\"><span lang=\"ja\">60歳から69歳です。</span></dd>   <dt class=\"term__item\">GT_RANGE70_UL</dt>   <dd class=\"term__desc\"><span lang=\"ja\">70歳以上です。</span></dd>   <dt class=\"term__item\">GT_UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">年齢不明です。</span></dd>   <dt class=\"term__item\">GT_RANGE15_19</dt>   <dd class=\"term__desc\"><span lang=\"ja\">15歳から19歳です。<br>※現在利用できません</span><span lang=\"en\">From 15 to 19.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE20_24</dt>   <dd class=\"term__desc\"><span lang=\"ja\">20歳から24歳です。<br>※現在利用できません</span><span lang=\"en\">From 20 to 24.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE25_29</dt>   <dd class=\"term__desc\"><span lang=\"ja\">25歳から29歳です。<br>※現在利用できません</span><span lang=\"en\">From 25 to 29.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE30_34</dt>   <dd class=\"term__desc\"><span lang=\"ja\">30歳から34歳です。<br>※現在利用できません</span><span lang=\"en\">From 30 to 34.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE35_39</dt>   <dd class=\"term__desc\"><span lang=\"ja\">35歳から39歳です。<br>※現在利用できません</span><span lang=\"en\">From 35 to 39.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE40_44</dt>   <dd class=\"term__desc\"><span lang=\"ja\">40歳から44歳です。<br>※現在利用できません</span><span lang=\"en\">From 40 to 44.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE45_49</dt>   <dd class=\"term__desc\"><span lang=\"ja\">45歳から49歳です。<br>※現在利用できません</span><span lang=\"en\">From 45 to 49.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE50_54</dt>   <dd class=\"term__desc\"><span lang=\"ja\">50歳から54歳です。<br>※現在利用できません</span><span lang=\"en\">From 50 to 54.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE55_59</dt>   <dd class=\"term__desc\"><span lang=\"ja\">55歳から59歳です。<br>※現在利用できません</span><span lang=\"en\">From 55 to 59.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE60_64</dt>   <dd class=\"term__desc\"><span lang=\"ja\">60歳から64歳です。<br>※現在利用できません</span><span lang=\"en\">From 60 to 64.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE65_69</dt>   <dd class=\"term__desc\"><span lang=\"ja\">65歳から69歳です。<br>※現在利用できません</span><span lang=\"en\">From 65 to 69.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_RANGE70_UL2</dt>   <dd class=\"term__desc\"><span lang=\"ja\">70歳以上です。<br>※現在利用できません</span><span lang=\"en\">70 and up.<br>* Not Available.</span></dd>   <dt class=\"term__item\">GT_UNKNOWN2</dt>   <dd class=\"term__desc\"><span lang=\"ja\">年齢不明です。<br>※現在利用できません</span><span lang=\"en\">AdGroupTargetServiceAge unknown.<br>* Not Available.</span></dd>   <dt class=\"term__item\">UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span></dd> </dl>
+
+## Table of contents
+
+### Enumeration members
+
+- [GtRange1314](adgrouptargetserviceage.md#gtrange1314)
+- [GtRange1517](adgrouptargetserviceage.md#gtrange1517)
+- [GtRange1519](adgrouptargetserviceage.md#gtrange1519)
+- [GtRange1819](adgrouptargetserviceage.md#gtrange1819)
+- [GtRange2021](adgrouptargetserviceage.md#gtrange2021)
+- [GtRange2024](adgrouptargetserviceage.md#gtrange2024)
+- [GtRange2229](adgrouptargetserviceage.md#gtrange2229)
+- [GtRange2529](adgrouptargetserviceage.md#gtrange2529)
+- [GtRange3034](adgrouptargetserviceage.md#gtrange3034)
+- [GtRange3039](adgrouptargetserviceage.md#gtrange3039)
+- [GtRange3539](adgrouptargetserviceage.md#gtrange3539)
+- [GtRange4044](adgrouptargetserviceage.md#gtrange4044)
+- [GtRange4049](adgrouptargetserviceage.md#gtrange4049)
+- [GtRange4549](adgrouptargetserviceage.md#gtrange4549)
+- [GtRange5054](adgrouptargetserviceage.md#gtrange5054)
+- [GtRange5059](adgrouptargetserviceage.md#gtrange5059)
+- [GtRange5559](adgrouptargetserviceage.md#gtrange5559)
+- [GtRange6064](adgrouptargetserviceage.md#gtrange6064)
+- [GtRange6069](adgrouptargetserviceage.md#gtrange6069)
+- [GtRange6569](adgrouptargetserviceage.md#gtrange6569)
+- [GtRange70Ul](adgrouptargetserviceage.md#gtrange70ul)
+- [GtRange70Ul2](adgrouptargetserviceage.md#gtrange70ul2)
+- [GtUnknown](adgrouptargetserviceage.md#gtunknown)
+- [GtUnknown2](adgrouptargetserviceage.md#gtunknown2)
+- [Unknown](adgrouptargetserviceage.md#unknown)
+
+## Enumeration members
+
+### GtRange1314
+
+• **GtRange1314**: = "GT\_RANGE13\_14"
+
+___
+
+### GtRange1517
+
+• **GtRange1517**: = "GT\_RANGE15\_17"
+
+___
+
+### GtRange1519
+
+• **GtRange1519**: = "GT\_RANGE15\_19"
+
+___
+
+### GtRange1819
+
+• **GtRange1819**: = "GT\_RANGE18\_19"
+
+___
+
+### GtRange2021
+
+• **GtRange2021**: = "GT\_RANGE20\_21"
+
+___
+
+### GtRange2024
+
+• **GtRange2024**: = "GT\_RANGE20\_24"
+
+___
+
+### GtRange2229
+
+• **GtRange2229**: = "GT\_RANGE22\_29"
+
+___
+
+### GtRange2529
+
+• **GtRange2529**: = "GT\_RANGE25\_29"
+
+___
+
+### GtRange3034
+
+• **GtRange3034**: = "GT\_RANGE30\_34"
+
+___
+
+### GtRange3039
+
+• **GtRange3039**: = "GT\_RANGE30\_39"
+
+___
+
+### GtRange3539
+
+• **GtRange3539**: = "GT\_RANGE35\_39"
+
+___
+
+### GtRange4044
+
+• **GtRange4044**: = "GT\_RANGE40\_44"
+
+___
+
+### GtRange4049
+
+• **GtRange4049**: = "GT\_RANGE40\_49"
+
+___
+
+### GtRange4549
+
+• **GtRange4549**: = "GT\_RANGE45\_49"
+
+___
+
+### GtRange5054
+
+• **GtRange5054**: = "GT\_RANGE50\_54"
+
+___
+
+### GtRange5059
+
+• **GtRange5059**: = "GT\_RANGE50\_59"
+
+___
+
+### GtRange5559
+
+• **GtRange5559**: = "GT\_RANGE55\_59"
+
+___
+
+### GtRange6064
+
+• **GtRange6064**: = "GT\_RANGE60\_64"
+
+___
+
+### GtRange6069
+
+• **GtRange6069**: = "GT\_RANGE60\_69"
+
+___
+
+### GtRange6569
+
+• **GtRange6569**: = "GT\_RANGE65\_69"
+
+___
+
+### GtRange70Ul
+
+• **GtRange70Ul**: = "GT\_RANGE70\_UL"
+
+___
+
+### GtRange70Ul2
+
+• **GtRange70Ul2**: = "GT\_RANGE70\_UL2"
+
+___
+
+### GtUnknown
+
+• **GtUnknown**: = "GT\_UNKNOWN"
+
+___
+
+### GtUnknown2
+
+• **GtUnknown2**: = "GT\_UNKNOWN2"
+
+___
+
+### Unknown
+
+• **Unknown**: = "UNKNOWN"
