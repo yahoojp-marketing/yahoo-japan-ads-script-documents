@@ -14,7 +14,7 @@
 
 ### deliverType
 
-• `Optional` **deliverType**: ``null`` \| [*Include*](./enums/guaranteedsimulationservicedelivertype.md#include) \| [*Exclude*](./enums/guaranteedsimulationservicedelivertype.md#exclude) \| [*Unknown*](./enums/guaranteedsimulationservicedelivertype.md#unknown)
+• `Optional` **deliverType**: ``null`` \| [*Include*](./enums/guaranteedsimulationservicetargetlistdelivertype.md#include) \| [*Exclude*](./enums/guaranteedsimulationservicetargetlistdelivertype.md#exclude) \| [*Unknown*](./enums/guaranteedsimulationservicetargetlistdelivertype.md#unknown)
 
 **`memberof`** GuaranteedSimulationServiceSiteRetargetingTarget
 

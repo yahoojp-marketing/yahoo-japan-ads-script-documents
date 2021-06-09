@@ -1,7 +1,7 @@
 # ConversionTrackerServiceAppLinkConversion
 
 
-<div lang=\"ja\">ConversionTrackerServiceAppLinkConversionオブジェクトは、アプリコンバージョン測定タグやタグごとのパフォーマンスデータなどのアプリコンバージョントラッカー情報を表します。<br> このフィールドは、ADDおよびSET時に省略可能となります。<br> ※ADD時、conversionTrackerTypeがAPP_LINK_CONVERSIONの場合は必須です。</div> 
+<div lang=\"ja\">ConversionTrackerServiceAppLinkConversionオブジェクトは、アプリコンバージョン測定タグやタグごとのパフォーマンスデータなどのアプリコンバージョントラッカー情報を表します。<br> ADD時、このフィールドは省略可能となります。</div> 
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ ___
 
 • `Optional` **appEventType**: ``null`` \| *string*
 
-<div lang=\"ja\">アプリイベントタイプです。</div> 
+<div lang=\"ja\">アプリイベントタイプです。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div> 
 
 **`memberof`** ConversionTrackerServiceAppLinkConversion
 
@@ -40,7 +40,7 @@ ___
 
 • `Optional` **appId**: ``null`` \| *string*
 
-<div lang=\"ja\">アプリケーションIDです。</div> 
+<div lang=\"ja\">アプリケーションIDです。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div> 
 
 **`memberof`** ConversionTrackerServiceAppLinkConversion
 
@@ -58,7 +58,7 @@ ___
 
 • `Optional` **appVendorId**: ``null`` \| *string*
 
-<div lang=\"ja\">アプリ計測ベンダー識別子です。</div> 
+<div lang=\"ja\">アプリ計測ベンダー識別子です。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div> 
 
 **`memberof`** ConversionTrackerServiceAppLinkConversion
 

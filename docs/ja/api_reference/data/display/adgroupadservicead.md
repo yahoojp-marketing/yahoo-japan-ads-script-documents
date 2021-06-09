@@ -10,6 +10,7 @@
 - [adType](adgroupadservicead.md#adtype)
 - [bannerImageAd](adgroupadservicead.md#bannerimagead)
 - [bannerVideoAd](adgroupadservicead.md#bannervideoad)
+- [carouselAd](adgroupadservicead.md#carouselad)
 - [dynamicAd](adgroupadservicead.md#dynamicad)
 - [mobileAd](adgroupadservicead.md#mobilead)
 - [posAd](adgroupadservicead.md#posad)
@@ -22,7 +23,7 @@
 
 ### adType
 
-• `Optional` **adType**: ``null`` \| [*TextLongAd1*](./enums/adgroupadserviceadtype.md#textlongad1) \| [*TextLongAd2*](./enums/adgroupadserviceadtype.md#textlongad2) \| [*TextShortAd1*](./enums/adgroupadserviceadtype.md#textshortad1) \| [*TextShortAd2*](./enums/adgroupadserviceadtype.md#textshortad2) \| [*PosAd*](./enums/adgroupadserviceadtype.md#posad) \| [*ResponsiveImageAd*](./enums/adgroupadserviceadtype.md#responsiveimagead) \| [*StaticFrameAd*](./enums/adgroupadserviceadtype.md#staticframead) \| [*ResponsiveVideoAd*](./enums/adgroupadserviceadtype.md#responsivevideoad) \| [*DynamicAd*](./enums/adgroupadserviceadtype.md#dynamicad) \| [*BannerImageAd*](./enums/adgroupadserviceadtype.md#bannerimagead) \| [*BannerVideoAd*](./enums/adgroupadserviceadtype.md#bannervideoad) \| [*Unknown*](./enums/adgroupadserviceadtype.md#unknown)
+• `Optional` **adType**: ``null`` \| [*TextLongAd1*](./enums/adgroupadserviceadtype.md#textlongad1) \| [*TextLongAd2*](./enums/adgroupadserviceadtype.md#textlongad2) \| [*TextShortAd1*](./enums/adgroupadserviceadtype.md#textshortad1) \| [*TextShortAd2*](./enums/adgroupadserviceadtype.md#textshortad2) \| [*PosAd*](./enums/adgroupadserviceadtype.md#posad) \| [*ResponsiveImageAd*](./enums/adgroupadserviceadtype.md#responsiveimagead) \| [*StaticFrameAd*](./enums/adgroupadserviceadtype.md#staticframead) \| [*ResponsiveVideoAd*](./enums/adgroupadserviceadtype.md#responsivevideoad) \| [*DynamicAd*](./enums/adgroupadserviceadtype.md#dynamicad) \| [*BannerImageAd*](./enums/adgroupadserviceadtype.md#bannerimagead) \| [*BannerVideoAd*](./enums/adgroupadserviceadtype.md#bannervideoad) \| [*CarouselAd*](./enums/adgroupadserviceadtype.md#carouselad) \| [*Unknown*](./enums/adgroupadserviceadtype.md#unknown)
 
 **`memberof`** AdGroupAdServiceAd
 
@@ -39,6 +40,14 @@ ___
 ### bannerVideoAd
 
 • `Optional` **bannerVideoAd**: ``null`` \| [*AdGroupAdServiceBannerVideoAd*](adgroupadservicebannervideoad.md)
+
+**`memberof`** AdGroupAdServiceAd
+
+___
+
+### carouselAd
+
+• `Optional` **carouselAd**: ``null`` \| [*AdGroupAdServiceCarouselAd*](adgroupadservicecarouselad.md)
 
 **`memberof`** AdGroupAdServiceAd
 

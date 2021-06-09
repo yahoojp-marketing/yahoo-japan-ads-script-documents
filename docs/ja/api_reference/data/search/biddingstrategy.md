@@ -11,7 +11,6 @@
 - [biddingScheme](biddingstrategy.md#biddingscheme)
 - [biddingStrategyId](biddingstrategy.md#biddingstrategyid)
 - [biddingStrategyName](biddingstrategy.md#biddingstrategyname)
-- [type](biddingstrategy.md#type)
 
 ## Properties
 
@@ -48,13 +47,5 @@ ___
 • `Optional` **biddingStrategyName**: ``null`` \| *string*
 
 <div lang=\"ja\">自動入札名です（50文字以内になります）。<br> このフィールドは、ADD時は必須となり、SET時は省略可能となります。</div> 
-
-**`memberof`** BiddingStrategy
-
-___
-
-### type
-
-• `Optional` **type**: ``null`` \| [*TargetRoas*](./enums/biddingstrategyservicetype.md#targetroas) \| [*TargetSpend*](./enums/biddingstrategyservicetype.md#targetspend) \| [*TargetCpa*](./enums/biddingstrategyservicetype.md#targetcpa) \| [*TargetImpressionShare*](./enums/biddingstrategyservicetype.md#targetimpressionshare) \| [*Unknown*](./enums/biddingstrategyservicetype.md#unknown)
 
 **`memberof`** BiddingStrategy

@@ -15,6 +15,7 @@
 - [genderTarget](guaranteedsimulationservicetarget.md#gendertarget)
 - [geoTarget](guaranteedsimulationservicetarget.md#geotarget)
 - [osTarget](guaranteedsimulationservicetarget.md#ostarget)
+- [placementCategoryDetailTarget](guaranteedsimulationservicetarget.md#placementcategorydetailtarget)
 - [placementCategoryTarget](guaranteedsimulationservicetarget.md#placementcategorytarget)
 - [positionTarget](guaranteedsimulationservicetarget.md#positiontarget)
 - [siteRetargetingTarget](guaranteedsimulationservicetarget.md#siteretargetingtarget)
@@ -87,6 +88,14 @@ ___
 
 ___
 
+### placementCategoryDetailTarget
+
+• `Optional` **placementCategoryDetailTarget**: ``null`` \| [*GuaranteedSimulationServicePlacementCategoryDetailTarget*](guaranteedsimulationserviceplacementcategorydetailtarget.md)
+
+**`memberof`** GuaranteedSimulationServiceTarget
+
+___
+
 ### placementCategoryTarget
 
 • `Optional` **placementCategoryTarget**: ``null`` \| [*GuaranteedSimulationServicePlacementCategoryTarget*](guaranteedsimulationserviceplacementcategorytarget.md)
@@ -123,6 +132,6 @@ ___
 
 ### targetType
 
-• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/guaranteedsimulationservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/guaranteedsimulationservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/guaranteedsimulationservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/guaranteedsimulationservicetargettype.md#gendertarget) \| [*DeviceTarget*](./enums/guaranteedsimulationservicetargettype.md#devicetarget) \| [*AppTarget*](./enums/guaranteedsimulationservicetargettype.md#apptarget) \| [*OsTarget*](./enums/guaranteedsimulationservicetargettype.md#ostarget) \| [*AudienceCategoryTarget*](./enums/guaranteedsimulationservicetargettype.md#audiencecategorytarget) \| [*PlacementCategoryTarget*](./enums/guaranteedsimulationservicetargettype.md#placementcategorytarget) \| [*PositionTarget*](./enums/guaranteedsimulationservicetargettype.md#positiontarget) \| [*SiteRetargeting*](./enums/guaranteedsimulationservicetargettype.md#siteretargeting) \| [*Unknown*](./enums/guaranteedsimulationservicetargettype.md#unknown)
+• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/guaranteedsimulationservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/guaranteedsimulationservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/guaranteedsimulationservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/guaranteedsimulationservicetargettype.md#gendertarget) \| [*DeviceTarget*](./enums/guaranteedsimulationservicetargettype.md#devicetarget) \| [*AppTarget*](./enums/guaranteedsimulationservicetargettype.md#apptarget) \| [*OsTarget*](./enums/guaranteedsimulationservicetargettype.md#ostarget) \| [*AudienceCategoryTarget*](./enums/guaranteedsimulationservicetargettype.md#audiencecategorytarget) \| [*PlacementCategoryTarget*](./enums/guaranteedsimulationservicetargettype.md#placementcategorytarget) \| [*PlacementCategoryDetailTarget*](./enums/guaranteedsimulationservicetargettype.md#placementcategorydetailtarget) \| [*PositionTarget*](./enums/guaranteedsimulationservicetargettype.md#positiontarget) \| [*SiteRetargeting*](./enums/guaranteedsimulationservicetargettype.md#siteretargeting) \| [*Unknown*](./enums/guaranteedsimulationservicetargettype.md#unknown)
 
 **`memberof`** GuaranteedSimulationServiceTarget

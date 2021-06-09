@@ -11,7 +11,6 @@
 - [biddingStrategyId](campaignservicebiddingstrategy.md#biddingstrategyid)
 - [biddingStrategyName](campaignservicebiddingstrategy.md#biddingstrategyname)
 - [biddingStrategySource](campaignservicebiddingstrategy.md#biddingstrategysource)
-- [biddingStrategyType](campaignservicebiddingstrategy.md#biddingstrategytype)
 
 ## Properties
 
@@ -46,13 +45,5 @@ ___
 ### biddingStrategySource
 
 • `Optional` **biddingStrategySource**: ``null`` \| [*Campaign*](./enums/campaignservicebiddingstrategysource.md#campaign) \| [*Unknown*](./enums/campaignservicebiddingstrategysource.md#unknown)
-
-**`memberof`** CampaignServiceBiddingStrategy
-
-___
-
-### biddingStrategyType
-
-• `Optional` **biddingStrategyType**: ``null`` \| [*ManualCpc*](./enums/campaignservicebiddingstrategytype.md#manualcpc) \| [*TargetRoas*](./enums/campaignservicebiddingstrategytype.md#targetroas) \| [*TargetSpend*](./enums/campaignservicebiddingstrategytype.md#targetspend) \| [*TargetCpa*](./enums/campaignservicebiddingstrategytype.md#targetcpa) \| [*MaximizeConversions*](./enums/campaignservicebiddingstrategytype.md#maximizeconversions) \| [*TargetImpressionShare*](./enums/campaignservicebiddingstrategytype.md#targetimpressionshare) \| [*Unknown*](./enums/campaignservicebiddingstrategytype.md#unknown)
 
 **`memberof`** CampaignServiceBiddingStrategy

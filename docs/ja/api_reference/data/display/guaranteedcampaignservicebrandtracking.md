@@ -37,6 +37,6 @@ ___
 
 • `Optional` **businessCategoryIds**: ``null`` \| *string*[]
 
-<div lang=\"ja\"> ビジネスカテゴリIDグループです。<br> アンケート対象になる広告・商材の業種の種別を表します。<br> ※返却される値は、DictionaryServiceのgetBusinessCategoryで取得されるDictionaryServiceBusinessCategoryのbusinessCategoryIdフィールドをご確認ください。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> 
+<div lang=\"ja\"> ビジネスカテゴリIDグループです。<br> アンケート対象になる広告・商材の業種の種別を表します。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。<br> ※返却される値は、DictionaryServiceのgetBusinessCategoryで取得されるDictionaryServiceBusinessCategoryのbusinessCategoryIdフィールドをご確認ください。 </div> 
 
 **`memberof`** GuaranteedCampaignServiceBrandTracking

@@ -1,7 +1,7 @@
 # CampaignServiceViewableFrequencyCap
 
 
-<div lang=\"ja\"> CampaignServiceViewableFrequencyCapは、ビューアブルフリクエンシー制御を表します。<br> ADDおよびSET時、このフィールドは目的なしの場合は設定不可となり、目的ありの場合は省略可能となります。<br> REMOVE時は無視されます。<br> ※ADD時は全ての項目の指定が必須です。<br> ※SET時は更新する項目のみのリクエストが可能です。<br> ※ビューアブルフリークエンシーキャップの解除方法は、以下の通りです： </div>  <code> {     \"viewableFrequencyCap\": {         \"vImps\": 0     } } </code>
+<div lang=\"ja\"> CampaignServiceViewableFrequencyCapは、ビューアブルフリークエンシー制御を表します。<br> ADDおよびSET時、このフィールドは目的なしの場合は設定不可となり、目的ありの場合は省略可能となります。<br> REMOVE時は無視されます。<br> ※ADD時は全ての項目の指定が必須です。<br> ※SET時は更新する項目のみのリクエストが可能です。<br> ※ビューアブルフリークエンシーキャップの解除方法は、以下の通りです： </div>  <code> {     \"viewableFrequencyCap\": {         \"vImps\": 0     } } </code>
 
 ## Table of contents
 

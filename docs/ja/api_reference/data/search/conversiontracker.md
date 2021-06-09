@@ -115,7 +115,7 @@ ___
 
 • `Optional` **conversionTrackerTrackId**: ``null`` \| *number*
 
-<div lang=\"ja\">トラッキング用コンバージョントラッカーIDです。</div> 
+<div lang=\"ja\">トラッキング用コンバージョントラッカーIDです。<br> ADD時、このフィールドは省略可能となります。※conversionTrackerTypeがAPP_LINK_CONVERSIONの場合は必須です。</div> 
 
 **`memberof`** ConversionTracker
 

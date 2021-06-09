@@ -29,6 +29,7 @@
 - [startDate](campaign.md#startdate)
 - [type](campaign.md#type)
 - [userStatus](campaign.md#userstatus)
+- [vendorName](campaign.md#vendorname)
 - [viewableFrequencyCap](campaign.md#viewablefrequencycap)
 
 ## Properties
@@ -228,6 +229,16 @@ ___
 ### userStatus
 
 • `Optional` **userStatus**: ``null`` \| [*Active*](./enums/campaignserviceuserstatus.md#active) \| [*Paused*](./enums/campaignserviceuserstatus.md#paused) \| [*Unknown*](./enums/campaignserviceuserstatus.md#unknown)
+
+**`memberof`** Campaign
+
+___
+
+### vendorName
+
+• `Optional` **vendorName**: ``null`` \| *string*
+
+<div lang=\"ja\"> キャンペーンの広告効果測定ツールのベンダー名です。キャンペーン目的「アプリ訴求」の場合にのみ設定されます。<br> このフィールドはキャンペーン作成後、最初にリンク先URLを設定した広告が作成された時に設定されます。<br> キャンペーンに紐づく広告のリンク先URLには、このベンダー名に対応する広告効果測定ツールのURLのみが指定できます。<br> ADDおよびSET時、このフィールドは指定できません。<br> </div> 
 
 **`memberof`** Campaign
 

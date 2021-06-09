@@ -9,6 +9,7 @@
 
 - [accountId](adgroupserviceselector.md#accountid)
 - [adGroupIds](adgroupserviceselector.md#adgroupids)
+- [biddingKeywordCpcRange](adgroupserviceselector.md#biddingkeywordcpcrange)
 - [biddingStrategyIds](adgroupserviceselector.md#biddingstrategyids)
 - [campaignIds](adgroupserviceselector.md#campaignids)
 - [containsLabelId](adgroupserviceselector.md#containslabelid)
@@ -35,6 +36,14 @@ ___
 • `Optional` **adGroupIds**: ``null`` \| *number*[]
 
 <div lang=\"ja\">検索条件：広告グループID</div> 
+
+**`memberof`** AdGroupServiceSelector
+
+___
+
+### biddingKeywordCpcRange
+
+• `Optional` **biddingKeywordCpcRange**: ``null`` \| [*AdGroupServiceBiddingKeywordCpcRange*](adgroupservicebiddingkeywordcpcrange.md)
 
 **`memberof`** AdGroupServiceSelector
 

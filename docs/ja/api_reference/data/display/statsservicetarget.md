@@ -18,6 +18,7 @@
 - [interestCategoryTarget](statsservicetarget.md#interestcategorytarget)
 - [osTarget](statsservicetarget.md#ostarget)
 - [osVersionTarget](statsservicetarget.md#osversiontarget)
+- [placementCategoryDetailTarget](statsservicetarget.md#placementcategorydetailtarget)
 - [placementTarget](statsservicetarget.md#placementtarget)
 - [searchTarget](statsservicetarget.md#searchtarget)
 - [siteCategoryTarget](statsservicetarget.md#sitecategorytarget)
@@ -116,6 +117,14 @@ ___
 
 ___
 
+### placementCategoryDetailTarget
+
+• `Optional` **placementCategoryDetailTarget**: ``null`` \| [*StatsServicePlacementCategoryDetailTarget*](statsserviceplacementcategorydetailtarget.md)
+
+**`memberof`** StatsServiceTarget
+
+___
+
 ### placementTarget
 
 • `Optional` **placementTarget**: ``null`` \| [*StatsServicePlacementTarget*](statsserviceplacementtarget.md)
@@ -168,6 +177,6 @@ ___
 
 ### targetType
 
-• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/statsservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/statsservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/statsservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/statsservicetargettype.md#gendertarget) \| [*InterestCategory*](./enums/statsservicetargettype.md#interestcategory) \| [*SiteCategory*](./enums/statsservicetargettype.md#sitecategory) \| [*SiteRetargeting*](./enums/statsservicetargettype.md#siteretargeting) \| [*SearchTarget*](./enums/statsservicetargettype.md#searchtarget) \| [*PlacementTarget*](./enums/statsservicetargettype.md#placementtarget) \| [*DeviceTarget*](./enums/statsservicetargettype.md#devicetarget) \| [*CarrierTarget*](./enums/statsservicetargettype.md#carriertarget) \| [*AudienceCategory*](./enums/statsservicetargettype.md#audiencecategory) \| [*Unknown*](./enums/statsservicetargettype.md#unknown)
+• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/statsservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/statsservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/statsservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/statsservicetargettype.md#gendertarget) \| [*InterestCategory*](./enums/statsservicetargettype.md#interestcategory) \| [*SiteCategory*](./enums/statsservicetargettype.md#sitecategory) \| [*SiteRetargeting*](./enums/statsservicetargettype.md#siteretargeting) \| [*SearchTarget*](./enums/statsservicetargettype.md#searchtarget) \| [*PlacementTarget*](./enums/statsservicetargettype.md#placementtarget) \| [*DeviceTarget*](./enums/statsservicetargettype.md#devicetarget) \| [*CarrierTarget*](./enums/statsservicetargettype.md#carriertarget) \| [*AudienceCategory*](./enums/statsservicetargettype.md#audiencecategory) \| [*PlacementCategoryDetailTarget*](./enums/statsservicetargettype.md#placementcategorydetailtarget) \| [*Unknown*](./enums/statsservicetargettype.md#unknown)
 
 **`memberof`** StatsServiceTarget

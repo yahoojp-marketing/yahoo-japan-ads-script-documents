@@ -1,7 +1,7 @@
 # GuaranteedCampaignServiceViewableFrequencyCap
 
 
-<div lang=\"ja\"> GuaranteedCampaignServiceViewableFrequencyCapは、ビューアブルフリクエンシー制御を表します。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> 
+<div lang=\"ja\"> GuaranteedCampaignServiceViewableFrequencyCapは、ビューアブルフリークエンシー制御を表します。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> 
 
 ## Table of contents
 

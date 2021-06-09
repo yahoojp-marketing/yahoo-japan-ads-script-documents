@@ -22,6 +22,8 @@
 - [CampaignLabelService](README.md#campaignlabelservice)
 - [CampaignMigrationService](README.md#campaignmigrationservice)
 - [CampaignService](README.md#campaignservice)
+- [ContentsKeywordIdeaService](README.md#contentskeywordideaservice)
+- [ContentsKeywordListService](README.md#contentskeywordlistservice)
 - [ConversionTrackerService](README.md#conversiontrackerservice)
 - [DictionaryService](README.md#dictionaryservice)
 - [FeedDataService](README.md#feeddataservice)
@@ -33,6 +35,7 @@
 - [GuaranteedAdGroupAdService](README.md#guaranteedadgroupadservice)
 - [GuaranteedAdGroupService](README.md#guaranteedadgroupservice)
 - [GuaranteedCampaignService](README.md#guaranteedcampaignservice)
+- [GuaranteedInventoryService](README.md#guaranteedinventoryservice)
 - [GuaranteedPreviewService](README.md#guaranteedpreviewservice)
 - [GuaranteedReservationService](README.md#guaranteedreservationservice)
 - [GuaranteedSimulationService](README.md#guaranteedsimulationservice)
@@ -154,6 +157,18 @@ ___
 
 ___
 
+### ContentsKeywordIdeaService
+
+• **ContentsKeywordIdeaService**: [*ContentsKeywordIdeaService*](contentskeywordideaservice.md)
+
+___
+
+### ContentsKeywordListService
+
+• **ContentsKeywordListService**: [*ContentsKeywordListService*](contentskeywordlistservice.md)
+
+___
+
 ### ConversionTrackerService
 
 • **ConversionTrackerService**: [*ConversionTrackerService*](conversiontrackerservice.md)
@@ -217,6 +232,12 @@ ___
 ### GuaranteedCampaignService
 
 • **GuaranteedCampaignService**: [*GuaranteedCampaignService*](guaranteedcampaignservice.md)
+
+___
+
+### GuaranteedInventoryService
+
+• **GuaranteedInventoryService**: [*GuaranteedInventoryService*](guaranteedinventoryservice.md)
 
 ___
 

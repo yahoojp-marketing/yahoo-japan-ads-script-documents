@@ -14,6 +14,7 @@
 - [getMediaAdFormat](dictionaryservice.md#getmediaadformat)
 - [getOsVersion](dictionaryservice.md#getosversion)
 - [getSiteCategory](dictionaryservice.md#getsitecategory)
+- [getStationPlacementCategory](dictionaryservice.md#getstationplacementcategory)
 - [getThirdPartyTrackingDomain](dictionaryservice.md#getthirdpartytrackingdomain)
 
 ## Methods
@@ -159,6 +160,22 @@ ___
 | `dictionaryServiceCategorySelector?` | [*DictionaryServiceCategorySelector*](../../data/display/dictionaryservicecategoryselector.md) |
 
 **Returns:** [*DictionaryServiceGetSiteCategoryResponse*](../../data/display/dictionaryservicegetsitecategoryresponse.md)
+
+___
+
+### getStationPlacementCategory
+
+▸ **getStationPlacementCategory**(`dictionaryServicePlacementCategorySelector?`: [*DictionaryServicePlacementCategorySelector*](../../data/display/dictionaryserviceplacementcategoryselector.md)): [*DictionaryServiceGetPlacementCategoryResponse*](../../data/display/dictionaryservicegetplacementcategoryresponse.md)
+
+<div lang=\"ja\"> プレイスメントカテゴリリストに含まれる駅情報一覧を取得します。 </div> 
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `dictionaryServicePlacementCategorySelector?` | [*DictionaryServicePlacementCategorySelector*](../../data/display/dictionaryserviceplacementcategoryselector.md) |
+
+**Returns:** [*DictionaryServiceGetPlacementCategoryResponse*](../../data/display/dictionaryservicegetplacementcategoryresponse.md)
 
 ___
 

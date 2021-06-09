@@ -8,6 +8,7 @@
 ### Properties
 
 - [campaignBiddingStrategyToTargetCpa](recommendation.md#campaignbiddingstrategytotargetcpa)
+- [campaignsForAddingAds](recommendation.md#campaignsforaddingads)
 - [dailyBudgetOver](recommendation.md#dailybudgetover)
 - [impsShareBudgetLossOver](recommendation.md#impssharebudgetlossover)
 - [migrateToYda](recommendation.md#migratetoyda)
@@ -19,6 +20,14 @@
 ### campaignBiddingStrategyToTargetCpa
 
 • `Optional` **campaignBiddingStrategyToTargetCpa**: ``null`` \| [*RecommendationServiceCampaignBiddingStrategyToTargetCpa*](recommendationservicecampaignbiddingstrategytotargetcpa.md)
+
+**`memberof`** Recommendation
+
+___
+
+### campaignsForAddingAds
+
+• `Optional` **campaignsForAddingAds**: ``null`` \| [*RecommendationServiceCampaignsForAddingAds*](recommendationservicecampaignsforaddingads.md)
 
 **`memberof`** Recommendation
 
@@ -58,6 +67,6 @@ ___
 
 ### type
 
-• `Optional` **type**: ``null`` \| [*DailyBudgetOver*](./enums/recommendationservicetype.md#dailybudgetover) \| [*ImpressionShareBudgetLossOver*](./enums/recommendationservicetype.md#impressionsharebudgetlossover) \| [*BidStrategyToTargetCpa*](./enums/recommendationservicetype.md#bidstrategytotargetcpa) \| [*MigrateToYda*](./enums/recommendationservicetype.md#migratetoyda) \| [*SearchKeywordListIdea*](./enums/recommendationservicetype.md#searchkeywordlistidea) \| [*Unknown*](./enums/recommendationservicetype.md#unknown)
+• `Optional` **type**: ``null`` \| [*DailyBudgetOver*](./enums/recommendationservicetype.md#dailybudgetover) \| [*ImpressionShareBudgetLossOver*](./enums/recommendationservicetype.md#impressionsharebudgetlossover) \| [*BidStrategyToTargetCpa*](./enums/recommendationservicetype.md#bidstrategytotargetcpa) \| [*MigrateToYda*](./enums/recommendationservicetype.md#migratetoyda) \| [*SearchKeywordListIdea*](./enums/recommendationservicetype.md#searchkeywordlistidea) \| [*CampaignsForAddingAds*](./enums/recommendationservicetype.md#campaignsforaddingads) \| [*Unknown*](./enums/recommendationservicetype.md#unknown)
 
 **`memberof`** Recommendation

@@ -39,7 +39,7 @@ ___
 
 • `Optional` **bidMultiplier**: ``null`` \| *number*
 
-<div lang=\"ja\">入札調整率です。0～10.0まで指定できます。0を指定した場合、広告は配信されません。<br> SET時、このフィールドは必須となります。</div> 
+<div lang=\"ja\">入札価格調整率です。0～10.00まで指定できます。0を指定した場合、広告は配信されません。<br> また、入札価格調整率の値は小数点第二位まで指定可能です。<br> SET時、このフィールドは必須となります。</div> 
 
 **`memberof`** AdGroupBidMultiplier
 

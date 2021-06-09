@@ -1,7 +1,7 @@
 # CampaignServiceFrequencyCap
 
 
-<div lang=\"ja\"> CampaignServiceFrequencyCapは、フリクエンシー制御を表します。<br> このフィールドは、ADDおよびSET時に省略可能となり、REMOVE時に無視されます。<br> ※ADDおよびSET時、目的ありの場合は設定不可となります。<br> ※ADD時、このフィールドは指定できません。<br> ※SET時は更新する項目のみのリクエストが可能です。<br> ※フリークエンシーキャップの解除方法は、以下の通りです： </div>  <code> {   \"frequencyCap\": {     \"impression\": 0   } } </code>
+<div lang=\"ja\"> CampaignServiceFrequencyCapは、フリークエンシー制御を表します。<br> このフィールドは、ADDおよびSET時に省略可能となり、REMOVE時に無視されます。<br> ※ADDおよびSET時、目的ありの場合は設定不可となります。<br> ※ADD時、このフィールドは指定できません。<br> ※SET時は更新する項目のみのリクエストが可能です。<br> ※フリークエンシーキャップの解除方法は、以下の通りです： </div>  <code> {   \"frequencyCap\": {     \"impression\": 0   } } </code>
 
 ## Table of contents
 

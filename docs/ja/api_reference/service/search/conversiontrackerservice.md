@@ -48,7 +48,7 @@ ___
 
 ▸ **getAppEventType**(`conversionTrackerServiceAppEventTypeSelector?`: [*ConversionTrackerServiceAppEventTypeSelector*](../../data/search/conversiontrackerserviceappeventtypeselector.md)): [*ConversionTrackerServiceGetAppEventTypeResponse*](../../data/search/conversiontrackerservicegetappeventtyperesponse.md)
 
-<div lang=\"ja\">コンバージョントラッカー情報を更新します。</div> 
+<div lang=\"ja\">アプリイベントタイプ情報を取得します。</div> 
 
 #### Parameters
 

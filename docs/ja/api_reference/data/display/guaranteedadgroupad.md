@@ -23,6 +23,7 @@
 - [isRemoveBeaconUrls](guaranteedadgroupad.md#isremovebeaconurls)
 - [isRemoveImpressionBeaconUrls](guaranteedadgroupad.md#isremoveimpressionbeaconurls)
 - [isRemoveThirdPartyTrackingScriptUrl](guaranteedadgroupad.md#isremovethirdpartytrackingscripturl)
+- [isRemoveViewableImpressionBeaconUrls](guaranteedadgroupad.md#isremoveviewableimpressionbeaconurls)
 - [labels](guaranteedadgroupad.md#labels)
 - [landingPageStatus](guaranteedadgroupad.md#landingpagestatus)
 - [landingPageUpdateScheduledTime](guaranteedadgroupad.md#landingpageupdatescheduledtime)
@@ -31,6 +32,7 @@
 - [thirdPartyTrackingScriptUrl](guaranteedadgroupad.md#thirdpartytrackingscripturl)
 - [thirdPartyTrackingVendor](guaranteedadgroupad.md#thirdpartytrackingvendor)
 - [userStatus](guaranteedadgroupad.md#userstatus)
+- [viewableImpressionBeaconUrls](guaranteedadgroupad.md#viewableimpressionbeaconurls)
 
 ## Properties
 
@@ -182,6 +184,14 @@ ___
 
 ___
 
+### isRemoveViewableImpressionBeaconUrls
+
+• `Optional` **isRemoveViewableImpressionBeaconUrls**: ``null`` \| [*True*](./enums/guaranteedadgroupadserviceisremoveflg.md#true) \| [*False*](./enums/guaranteedadgroupadserviceisremoveflg.md#false) \| [*Unknown*](./enums/guaranteedadgroupadserviceisremoveflg.md#unknown)
+
+**`memberof`** GuaranteedAdGroupAd
+
+___
+
 ### labels
 
 • `Optional` **labels**: ``null`` \| [*GuaranteedAdGroupAdServiceLabel*](guaranteedadgroupadservicelabel.md)[]
@@ -202,7 +212,7 @@ ___
 
 • `Optional` **landingPageUpdateScheduledTime**: ``null`` \| *string*
 
-<div lang=\"ja\"> リンク先更新予定日時です。<br> ※フォーマット：yyyyMMddHHmm<br> </div> 
+<div lang=\"ja\"> リンク先更新予定日時です。<br> ※フォーマット：yyyyMMddHHmm<br> ※landingPageStatusがSPECIFIED_UPDATE_SCHEDULED_TIMEの場合は必須です。 </div> 
 
 **`memberof`** GuaranteedAdGroupAd
 
@@ -222,7 +232,7 @@ ___
 
 • `Optional` **preApprovalId**: ``null`` \| *string*
 
-<div lang=\"ja\"> 事前承認IDです。<br> </div> 
+<div lang=\"ja\"> 事前承認ID（数字のみ）です。<br> </div> 
 
 **`memberof`** GuaranteedAdGroupAd
 
@@ -251,5 +261,15 @@ ___
 ### userStatus
 
 • `Optional` **userStatus**: ``null`` \| [*Active*](./enums/guaranteedadgroupadserviceuserstatus.md#active) \| [*Paused*](./enums/guaranteedadgroupadserviceuserstatus.md#paused) \| [*Unknown*](./enums/guaranteedadgroupadserviceuserstatus.md#unknown)
+
+**`memberof`** GuaranteedAdGroupAd
+
+___
+
+### viewableImpressionBeaconUrls
+
+• `Optional` **viewableImpressionBeaconUrls**: ``null`` \| *string*[]
+
+<div lang=\"ja\"> ビューアブルインプレッションビーコンURLです。<br> ADDおよびSET時、このフィールドは省略可能となります。 </div> 
 
 **`memberof`** GuaranteedAdGroupAd

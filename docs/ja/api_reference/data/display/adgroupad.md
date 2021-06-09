@@ -20,14 +20,17 @@
 - [campaignName](adgroupad.md#campaignname)
 - [createdDate](adgroupad.md#createddate)
 - [disapprovalReasonCodes](adgroupad.md#disapprovalreasoncodes)
+- [disapprovalReasonDescription](adgroupad.md#disapprovalreasondescription)
 - [impressionBeaconUrls](adgroupad.md#impressionbeaconurls)
-- [isRemoveBeaconUrls](adgroupad.md#isremovebeaconurls)
+- [isRemoveImpressionBeaconUrls](adgroupad.md#isremoveimpressionbeaconurls)
 - [isRemoveThirdPartyTrackingScriptUrl](adgroupad.md#isremovethirdpartytrackingscripturl)
+- [isRemoveViewableImpressionBeaconUrls](adgroupad.md#isremoveviewableimpressionbeaconurls)
 - [labels](adgroupad.md#labels)
 - [mediaId](adgroupad.md#mediaid)
 - [thirdPartyTrackingScriptUrl](adgroupad.md#thirdpartytrackingscripturl)
 - [thirdPartyTrackingVendor](adgroupad.md#thirdpartytrackingvendor)
 - [userStatus](adgroupad.md#userstatus)
+- [viewableImpressionBeaconUrls](adgroupad.md#viewableimpressionbeaconurls)
 
 ## Properties
 
@@ -153,6 +156,16 @@ ___
 
 ___
 
+### disapprovalReasonDescription
+
+• `Optional` **disapprovalReasonDescription**: ``null`` \| *string*
+
+<div lang=\"ja\"> 掲載拒否の理由詳細です。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> 
+
+**`memberof`** AdGroupAd
+
+___
+
 ### impressionBeaconUrls
 
 • `Optional` **impressionBeaconUrls**: ``null`` \| *string*[]
@@ -163,9 +176,9 @@ ___
 
 ___
 
-### isRemoveBeaconUrls
+### isRemoveImpressionBeaconUrls
 
-• `Optional` **isRemoveBeaconUrls**: ``null`` \| [*True*](./enums/adgroupadserviceisremoveflg.md#true) \| [*False*](./enums/adgroupadserviceisremoveflg.md#false) \| [*Unknown*](./enums/adgroupadserviceisremoveflg.md#unknown)
+• `Optional` **isRemoveImpressionBeaconUrls**: ``null`` \| [*True*](./enums/adgroupadserviceisremoveflg.md#true) \| [*False*](./enums/adgroupadserviceisremoveflg.md#false) \| [*Unknown*](./enums/adgroupadserviceisremoveflg.md#unknown)
 
 **`memberof`** AdGroupAd
 
@@ -174,6 +187,14 @@ ___
 ### isRemoveThirdPartyTrackingScriptUrl
 
 • `Optional` **isRemoveThirdPartyTrackingScriptUrl**: ``null`` \| [*True*](./enums/adgroupadserviceisremoveflg.md#true) \| [*False*](./enums/adgroupadserviceisremoveflg.md#false) \| [*Unknown*](./enums/adgroupadserviceisremoveflg.md#unknown)
+
+**`memberof`** AdGroupAd
+
+___
+
+### isRemoveViewableImpressionBeaconUrls
+
+• `Optional` **isRemoveViewableImpressionBeaconUrls**: ``null`` \| [*True*](./enums/adgroupadserviceisremoveflg.md#true) \| [*False*](./enums/adgroupadserviceisremoveflg.md#false) \| [*Unknown*](./enums/adgroupadserviceisremoveflg.md#unknown)
 
 **`memberof`** AdGroupAd
 
@@ -220,5 +241,15 @@ ___
 ### userStatus
 
 • `Optional` **userStatus**: ``null`` \| [*Active*](./enums/adgroupadserviceuserstatus.md#active) \| [*Paused*](./enums/adgroupadserviceuserstatus.md#paused) \| [*Unknown*](./enums/adgroupadserviceuserstatus.md#unknown)
+
+**`memberof`** AdGroupAd
+
+___
+
+### viewableImpressionBeaconUrls
+
+• `Optional` **viewableImpressionBeaconUrls**: ``null`` \| *string*[]
+
+<div lang=\"ja\"> ビューアブルインプレッションビーコンURLです。<br> ADDおよびSET時、このフィールドは省略可能となります。 </div> 
 
 **`memberof`** AdGroupAd

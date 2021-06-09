@@ -1,7 +1,7 @@
 # GuaranteedSimulationServiceViewableFrequencyCap
 
 
-<div lang=\"ja\"> GuaranteedCampaignServiceViewableFrequencyCapは、ビューアブルフリクエンシー制御を表します。<br> ADD時、このフィールドは省略可能となります。 </div> 
+<div lang=\"ja\"> GuaranteedCampaignServiceViewableFrequencyCapは、ビューアブルフリークエンシー制御を表します。<br> ADD時、このフィールドは省略可能となります。 </div> 
 
 ## Table of contents
 

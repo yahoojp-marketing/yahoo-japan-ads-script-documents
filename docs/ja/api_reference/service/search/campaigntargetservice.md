@@ -64,7 +64,7 @@ ___
 
 ▸ **set**(`campaignTargetServiceOperation?`: [*CampaignTargetServiceOperation*](../../data/search/campaigntargetserviceoperation.md)): [*CampaignTargetServiceMutateResponse*](../../data/search/campaigntargetservicemutateresponse.md)
 
-<div lang=\"ja\">キャンペーンのターゲティング設定に関する情報を変更します。※入札調整率（bidmultiplier）のみ変更可能です。</div> 
+<div lang=\"ja\">キャンペーンのターゲティング設定に関する情報を変更します。※入札価格調整率（bidmultiplier）のみ変更可能です。</div> 
 
 #### Parameters
 

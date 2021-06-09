@@ -52,7 +52,7 @@ ___
 
 • `Optional` **bidMultiplier**: ``null`` \| *number*
 
-<div lang=\"ja\">MaxCPC上昇値です。<br> このフィールドは省略可能となります。その際、デフォルト設定値は1.00となります。</div> 
+<div lang=\"ja\">   MaxCPC上昇値です。<br>   0.10～10.00まで指定できます。<br>   また、0を指定した場合、広告は配信されません。<br>   MaxCPC上昇値の値は小数点第二位まで指定可能です。<br>   このフィールドは省略可能となります。その際、デフォルト設定値は1.0となります。 </div> 
 
 **`memberof`** AdGroupRetargetingList
 

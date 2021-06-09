@@ -1,7 +1,7 @@
 # Enumeration: ConversionTrackerServiceConversionTrackerType
 
 
-<div lang=\"ja\">ConversionTrackerServiceConversionTrackerTypeは、コンバージョンの種別を表します。<br> このフィールドはADDおよびSET時に必須となります。</div>  <dl class=term>   <dt class=\"term__item\">WEB_CONVERSION</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ウェブページのコンバージョンです。</span></dd>   <dt class=\"term__item\">APP_CONVERSION</dt>   <dd class=\"term__desc\"><span lang=\"ja\">アプリのコンバージョンです。</span></dd>   <dt class=\"term__item\">UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span></dd> </dl>
+<div lang=\"ja\">ConversionTrackerServiceConversionTrackerTypeは、コンバージョンの種別を表します。<br> このフィールドはADDおよびSET時に必須となります。</div>  <dl class=term>   <dt class=\"term__item\">WEB_CONVERSION</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ウェブページのコンバージョンです。</span></dd>   <dt class=\"term__item\">APP_CONVERSION</dt>   <dd class=\"term__desc\"><span lang=\"ja\">アプリのコンバージョンです。</span></dd>   <dt class=\"term__item\">APP_LINK_CONVERSION</dt>   <dd class=\"term__desc\"><span lang=\"ja\">アプリリンクコンバージョンです。</span></dd>   <dt class=\"term__item\">UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span></dd> </dl>
 
 ## Table of contents
 

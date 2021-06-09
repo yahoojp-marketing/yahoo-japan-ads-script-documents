@@ -14,6 +14,7 @@
 - [brandPanelPanoramaVideo](guaranteedadgroupadservicead.md#brandpanelpanoramavideo)
 - [brandPanelQuintie](guaranteedadgroupadservicead.md#brandpanelquintie)
 - [brandPanelQuintieVideo](guaranteedadgroupadservicead.md#brandpanelquintievideo)
+- [carouselAd](guaranteedadgroupadservicead.md#carouselad)
 - [instreamVideo](guaranteedadgroupadservicead.md#instreamvideo)
 - [topImpactPanorama](guaranteedadgroupadservicead.md#topimpactpanorama)
 - [topImpactPanoramaSideSwitchVideo](guaranteedadgroupadservicead.md#topimpactpanoramasideswitchvideo)
@@ -33,7 +34,7 @@
 
 ### adType
 
-• `Optional` **adType**: ``null`` \| [*BannerVideoAd*](./enums/guaranteedadgroupadserviceadtype.md#bannervideoad) \| [*BannerImageAd*](./enums/guaranteedadgroupadserviceadtype.md#bannerimagead) \| [*BrandpanelQuintie*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelquintie) \| [*BrandpanelQuintieVideo*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelquintievideo) \| [*BrandpanelPanorama*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelpanorama) \| [*BrandpanelPanoramaVideo*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelpanoramavideo) \| [*TopImpactSquare*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquare) \| [*TopImpactSquareVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquarevideo) \| [*TopImpactQuintie*](./enums/guaranteedadgroupadserviceadtype.md#topimpactquintie) \| [*TopImpactQuintieVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactquintievideo) \| [*TopImpactPanorama*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanorama) \| [*TopImpactPanoramaVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanoramavideo) \| [*TopImpactPanoramaSideVisionVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanoramasidevisionvideo) \| [*TopImpactPanoramaSideSwitchVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanoramasideswitchvideo) \| [*TopImpactTheaterVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpacttheatervideo) \| [*TopImpactSquareSpecial*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquarespecial) \| [*TopImpactSquareSpecialVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquarespecialvideo) \| [*TopImpactPrimeDisplayDouble*](./enums/guaranteedadgroupadserviceadtype.md#topimpactprimedisplaydouble) \| [*TopImpactPrimeDisplayDoubleVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactprimedisplaydoublevideo) \| [*InstreamVideoAd*](./enums/guaranteedadgroupadserviceadtype.md#instreamvideoad) \| [*Unknown*](./enums/guaranteedadgroupadserviceadtype.md#unknown)
+• `Optional` **adType**: ``null`` \| [*BannerVideoAd*](./enums/guaranteedadgroupadserviceadtype.md#bannervideoad) \| [*BannerImageAd*](./enums/guaranteedadgroupadserviceadtype.md#bannerimagead) \| [*BrandpanelQuintie*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelquintie) \| [*BrandpanelQuintieVideo*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelquintievideo) \| [*BrandpanelPanorama*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelpanorama) \| [*BrandpanelPanoramaVideo*](./enums/guaranteedadgroupadserviceadtype.md#brandpanelpanoramavideo) \| [*TopImpactSquare*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquare) \| [*TopImpactSquareVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquarevideo) \| [*TopImpactQuintie*](./enums/guaranteedadgroupadserviceadtype.md#topimpactquintie) \| [*TopImpactQuintieVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactquintievideo) \| [*TopImpactPanorama*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanorama) \| [*TopImpactPanoramaVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanoramavideo) \| [*TopImpactPanoramaSideVisionVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanoramasidevisionvideo) \| [*TopImpactPanoramaSideSwitchVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactpanoramasideswitchvideo) \| [*TopImpactTheaterVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpacttheatervideo) \| [*TopImpactSquareSpecial*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquarespecial) \| [*TopImpactSquareSpecialVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactsquarespecialvideo) \| [*TopImpactPrimeDisplayDouble*](./enums/guaranteedadgroupadserviceadtype.md#topimpactprimedisplaydouble) \| [*TopImpactPrimeDisplayDoubleVideo*](./enums/guaranteedadgroupadserviceadtype.md#topimpactprimedisplaydoublevideo) \| [*InstreamVideoAd*](./enums/guaranteedadgroupadserviceadtype.md#instreamvideoad) \| [*CarouselAd*](./enums/guaranteedadgroupadserviceadtype.md#carouselad) \| [*Unknown*](./enums/guaranteedadgroupadserviceadtype.md#unknown)
 
 **`memberof`** GuaranteedAdGroupAdServiceAd
 
@@ -82,6 +83,14 @@ ___
 ### brandPanelQuintieVideo
 
 • `Optional` **brandPanelQuintieVideo**: ``null`` \| [*GuaranteedAdGroupAdServiceBrandPanelQuintieVideo*](guaranteedadgroupadservicebrandpanelquintievideo.md)
+
+**`memberof`** GuaranteedAdGroupAdServiceAd
+
+___
+
+### carouselAd
+
+• `Optional` **carouselAd**: ``null`` \| [*GuaranteedAdGroupAdServiceCarouselAd*](guaranteedadgroupadservicecarouselad.md)
 
 **`memberof`** GuaranteedAdGroupAdServiceAd
 

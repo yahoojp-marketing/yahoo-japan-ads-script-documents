@@ -9,6 +9,7 @@
 
 - [fixedLifetimeBudget](guaranteedsimulationservicevimpscustompricingpackage.md#fixedlifetimebudget)
 - [maximumPurchaseVImps](guaranteedsimulationservicevimpscustompricingpackage.md#maximumpurchasevimps)
+- [minimumPurchaseBudget](guaranteedsimulationservicevimpscustompricingpackage.md#minimumpurchasebudget)
 - [minimumPurchaseVImps](guaranteedsimulationservicevimpscustompricingpackage.md#minimumpurchasevimps)
 
 ## Properties
@@ -28,6 +29,16 @@ ___
 • `Optional` **maximumPurchaseVImps**: ``null`` \| *number*
 
 <div lang=\"ja\">最大購入ビューアブルインプレッション数を表します。</div> 
+
+**`memberof`** GuaranteedSimulationServiceVimpsCustomPricingPackage
+
+___
+
+### minimumPurchaseBudget
+
+• `Optional` **minimumPurchaseBudget**: ``null`` \| *number*
+
+<div lang=\"ja\">最低購入価格を表します。</div> 
 
 **`memberof`** GuaranteedSimulationServiceVimpsCustomPricingPackage
 

@@ -9,6 +9,7 @@
 
 - [accountId](campaignserviceselector.md#accountid)
 - [biddingStrategyIds](campaignserviceselector.md#biddingstrategyids)
+- [budgetAmountRange](campaignserviceselector.md#budgetamountrange)
 - [campaignIds](campaignserviceselector.md#campaignids)
 - [containsLabelId](campaignserviceselector.md#containslabelid)
 - [createdDateRange](campaignserviceselector.md#createddaterange)
@@ -34,6 +35,14 @@ ___
 • `Optional` **biddingStrategyIds**: ``null`` \| *number*[]
 
 <div lang=\"ja\">検索条件：自動入札IDです。</div> 
+
+**`memberof`** CampaignServiceSelector
+
+___
+
+### budgetAmountRange
+
+• `Optional` **budgetAmountRange**: ``null`` \| [*CampaignServiceBudgetAmountRange*](campaignservicebudgetamountrange.md)
 
 **`memberof`** CampaignServiceSelector
 

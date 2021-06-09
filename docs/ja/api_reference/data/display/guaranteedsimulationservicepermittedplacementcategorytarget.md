@@ -9,6 +9,7 @@
 
 - [placementCategoryListId](guaranteedsimulationservicepermittedplacementcategorytarget.md#placementcategorylistid)
 - [placementCategoryListName](guaranteedsimulationservicepermittedplacementcategorytarget.md#placementcategorylistname)
+- [placementCategoryType](guaranteedsimulationservicepermittedplacementcategorytarget.md#placementcategorytype)
 
 ## Properties
 
@@ -27,5 +28,13 @@ ___
 • `Optional` **placementCategoryListName**: ``null`` \| *string*
 
 <div lang=\"ja\">プレイスメントカテゴリリスト名です。</div> 
+
+**`memberof`** GuaranteedSimulationServicePermittedPlacementCategoryTarget
+
+___
+
+### placementCategoryType
+
+• `Optional` **placementCategoryType**: ``null`` \| [*Page*](./enums/guaranteedsimulationserviceplacementcategorytype.md#page) \| [*Station*](./enums/guaranteedsimulationserviceplacementcategorytype.md#station) \| [*Unknown*](./enums/guaranteedsimulationserviceplacementcategorytype.md#unknown)
 
 **`memberof`** GuaranteedSimulationServicePermittedPlacementCategoryTarget

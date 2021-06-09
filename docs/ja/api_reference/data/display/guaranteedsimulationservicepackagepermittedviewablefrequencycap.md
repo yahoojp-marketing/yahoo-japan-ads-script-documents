@@ -1,7 +1,7 @@
 # GuaranteedSimulationServicePackagePermittedViewableFrequencyCap
 
 
-<div lang=\"ja\">GuaranteedSimulationServicePackagePermittedViewableFrequencyCapは、ビューアブルフリクエンシー制御を表します。</div> 
+<div lang=\"ja\">GuaranteedSimulationServicePackagePermittedViewableFrequencyCapは、ビューアブルフリークエンシー制御を表します。</div> 
 
 ## Table of contents
 

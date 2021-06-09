@@ -10,6 +10,7 @@
 - [accountId](adgroupcriterionserviceselector.md#accountid)
 - [adGroupIds](adgroupcriterionserviceselector.md#adgroupids)
 - [approvalStatuses](adgroupcriterionserviceselector.md#approvalstatuses)
+- [biddingKeywordCpcRange](adgroupcriterionserviceselector.md#biddingkeywordcpcrange)
 - [biddingStrategyIds](adgroupcriterionserviceselector.md#biddingstrategyids)
 - [campaignIds](adgroupcriterionserviceselector.md#campaignids)
 - [containsLabelId](adgroupcriterionserviceselector.md#containslabelid)
@@ -46,6 +47,14 @@ ___
 ### approvalStatuses
 
 • `Optional` **approvalStatuses**: ``null`` \| [*AdGroupCriterionServiceApprovalStatus*](./enums/adgroupcriterionserviceapprovalstatus.md)[]
+
+**`memberof`** AdGroupCriterionServiceSelector
+
+___
+
+### biddingKeywordCpcRange
+
+• `Optional` **biddingKeywordCpcRange**: ``null`` \| [*AdGroupCriterionServiceBiddingKeywordCpcRange*](adgroupcriterionservicebiddingkeywordcpcrange.md)
 
 **`memberof`** AdGroupCriterionServiceSelector
 

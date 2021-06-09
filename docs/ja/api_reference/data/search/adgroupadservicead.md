@@ -17,6 +17,7 @@
 - [description1](adgroupadservicead.md#description1)
 - [devicePreference](adgroupadservicead.md#devicepreference)
 - [displayUrl](adgroupadservicead.md#displayurl)
+- [dynamicSearchLinkedAd](adgroupadservicead.md#dynamicsearchlinkedad)
 - [extendedTextAd](adgroupadservicead.md#extendedtextad)
 - [headline1](adgroupadservicead.md#headline1)
 - [responsiveSearchAd](adgroupadservicead.md#responsivesearchad)
@@ -109,6 +110,14 @@ ___
 • `Optional` **displayUrl**: ``null`` \| *string*
 
 <div lang=\"ja\">表示URLです。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div> 
+
+**`memberof`** AdGroupAdServiceAd
+
+___
+
+### dynamicSearchLinkedAd
+
+• `Optional` **dynamicSearchLinkedAd**: ``null`` \| [*AdGroupAdServiceDynamicSearchLinkedAd*](adgroupadservicedynamicsearchlinkedad.md)
 
 **`memberof`** AdGroupAdServiceAd
 

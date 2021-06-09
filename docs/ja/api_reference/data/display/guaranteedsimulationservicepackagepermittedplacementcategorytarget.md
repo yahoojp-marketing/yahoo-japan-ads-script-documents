@@ -8,6 +8,7 @@
 ### Properties
 
 - [permittedTargets](guaranteedsimulationservicepackagepermittedplacementcategorytarget.md#permittedtargets)
+- [placementCategoryDetailMax](guaranteedsimulationservicepackagepermittedplacementcategorytarget.md#placementcategorydetailmax)
 - [placementMonopolyFlg](guaranteedsimulationservicepackagepermittedplacementcategorytarget.md#placementmonopolyflg)
 - [targetPermission](guaranteedsimulationservicepackagepermittedplacementcategorytarget.md#targetpermission)
 
@@ -16,6 +17,16 @@
 ### permittedTargets
 
 • `Optional` **permittedTargets**: [*GuaranteedSimulationServicePermittedPlacementCategoryTarget*](guaranteedsimulationservicepermittedplacementcategorytarget.md)[]
+
+**`memberof`** GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget
+
+___
+
+### placementCategoryDetailMax
+
+• `Optional` **placementCategoryDetailMax**: ``null`` \| *number*
+
+<div lang=\"ja\">プレイスメントカテゴリ詳細の最大数です。</div> 
 
 **`memberof`** GuaranteedSimulationServicePackagePermittedPlacementCategoryTarget
 
