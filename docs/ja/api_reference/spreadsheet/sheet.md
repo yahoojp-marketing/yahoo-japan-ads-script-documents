@@ -7,6 +7,9 @@
 
 ### Methods
 
+- [appendRow](sheet.md#appendrow)
+- [clear](sheet.md#clear)
+- [getDataRange](sheet.md#getdatarange)
 - [getIndex](sheet.md#getindex)
 - [getLastColumn](sheet.md#getlastcolumn)
 - [getLastRow](sheet.md#getlastrow)
@@ -31,6 +34,62 @@
 - [setName](sheet.md#setname)
 
 ## Methods
+
+### appendRow
+
+▸ **appendRow**(`rowContents`: *any*[]): [*Sheet*](sheet.md)
+
+シートに指定された値で1行書き込みます。<br>値のある最後の行の次の行に対して書き込みを行います。
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `rowContents` | *any*[] | 後に挿入する値の配列 |
+
+**Returns:** [*Sheet*](sheet.md)
+
+このシートオブジェクト
+
+___
+
+### clear
+
+▸ **clear**(): [*Sheet*](sheet.md)
+
+このシートオブジェクトのセルの値、フォーマットをクリアします。
+
+**Returns:** [*Sheet*](sheet.md)
+
+このシートオブジェクト
+
+▸ **clear**(`options`: [*SheetClearOptions*](sheetclearoptions.md)): [*Sheet*](sheet.md)
+
+このシートオブジェクトのセルの値/フォーマットを指定されたオプションでクリアします。
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options` | [*SheetClearOptions*](sheetclearoptions.md) | オプションの引数 |
+
+**Returns:** [*Sheet*](sheet.md)
+
+このシートオブジェクト
+
+___
+
+### getDataRange
+
+▸ **getDataRange**(): [*Range*](range.md)
+
+データが存在する範囲に対応するレンジオブジェクトを返却します。<br>A1からSheet.getLastColumn(), Sheet.getLastRow()で囲まれた範囲と同義となります。
+
+**Returns:** [*Range*](range.md)
+
+指定された範囲のレンジオブジェクト
+
+___
 
 ### getIndex
 
