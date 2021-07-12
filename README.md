@@ -13,9 +13,10 @@
 ヤフー広告 スクリプトのサンプルです
 目的に合わせてご参照ください。
 
-* [Spreadsheet](./docs/ja/samples/spreadsheet)
 * [検索広告](./docs/ja/samples/search)
 * [ディスプレイ広告](./docs/ja/samples/display)
+* [Spreadsheet](./docs/ja/samples/spreadsheet)
+* [Slack](./docs/ja/samples/slack)
 
 ## リファレンス
 

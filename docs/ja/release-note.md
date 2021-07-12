@@ -1,5 +1,11 @@
 # リリースノート
 
+## 2021/07/12
+* [Utilities](./api_reference/utility/utilities.md)に以下の機能を追加しました
+  * formatDate
+
+
+
 ## 2021/07/08
 
 * [Sheet](./api_reference/spreadsheet/sheet.md)に以下の機能を追加しました
