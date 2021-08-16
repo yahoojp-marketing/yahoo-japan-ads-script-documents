@@ -14,17 +14,16 @@ function createAccountReport(){
         reportDateRangeType: "THIS_MONTH",
     });
  
-    for (let i = 0; i < reports.reports.length; i++){
-        var report = reports.reports[i].rows;
+    var report = reports.reports[0].rows;
           
-        for (let j = 1; j < report.length; j++){
-            Logger.log('ACCOUNT_ID-> ' + report[j][0]
-              + ', ACCOUNT_NAME-> ' + report[j][1]
-              + ', IMPS-> ' + report[j][2]
-              + ', CLICKS-> ' + report[j][3]
-              + ', COST-> ' + report[j][4]);
-        }
+    for (let i = 1; i < report.length; i++){
+        Logger.log('ACCOUNT_ID-> ' + report[i][0]
+            + ', ACCOUNT_NAME-> ' + report[i][1]
+            + ', IMPS-> ' + report[i][2]
+            + ', CLICKS-> ' + report[i][3]
+            + ', COST-> ' + report[i][4]);
     }
+    
 }
 ```
 
@@ -42,16 +41,14 @@ function createAdReport(){
         reportDateRangeType: "THIS_MONTH",
     });
  
-    for (let i = 0; i < reports.reports.length; i++){
-        var report = reports.reports[i].rows;
+    var report = reports.reports[0].rows;
           
-        for (let j = 1; j < report.length; j++){
-            Logger.log('AD_ID-> ' + report[j][0]
-              + ', AD_NAME-> ' + report[j][1]
-              + ', IMPS-> ' + report[j][2]
-              + ', CLICKS-> ' + report[j][3]
-              + ', COST-> ' + report[j][4]);
-        }
+    for (let i = 1; i < report.length; i++){
+        Logger.log('AD_ID-> ' + report[i][0]
+            + ', AD_NAME-> ' + report[i][1]
+            + ', IMPS-> ' + report[i][2]
+            + ', CLICKS-> ' + report[i][3]
+            + ', COST-> ' + report[i][4]);
     }
 }
 ```

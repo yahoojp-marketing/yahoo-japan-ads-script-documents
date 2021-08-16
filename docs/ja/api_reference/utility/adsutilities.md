@@ -27,7 +27,7 @@ ___
 
 ### getDisplayReport
 
-▸ **getDisplayReport**(`reportDefinition`: [*ReportDefinition*](../data/display/reportdefinition.md)): [*Report*](report.md)
+▸ **getDisplayReport**(`reportDefinition`: [*ReportDefinition*](../data/display/reportdefinition.md)): [*Reports*](reports.md)
 
 Yahoo!広告 ディスプレイ広告 のレポートを取得します。
 
@@ -37,7 +37,7 @@ Yahoo!広告 ディスプレイ広告 のレポートを取得します。
 | :------ | :------ | :------ |
 | `reportDefinition` | [*ReportDefinition*](../data/display/reportdefinition.md) | レポート定義情報<br>アカウントIDは未指定の場合、スクリプト所有者のアカウントIDが設定されます。 |
 
-**Returns:** [*Report*](report.md)
+**Returns:** [*Reports*](reports.md)
 
 レポートオブジェクト
 
@@ -45,7 +45,7 @@ ___
 
 ### getSearchReport
 
-▸ **getSearchReport**(`reportDefinition`: [*ReportDefinition*](../data/search/reportdefinition.md)): [*Report*](report.md)
+▸ **getSearchReport**(`reportDefinition`: [*ReportDefinition*](../data/search/reportdefinition.md)): [*Reports*](reports.md)
 
 Yahoo!広告 検索広告 のレポートを取得します。
 
@@ -55,6 +55,6 @@ Yahoo!広告 検索広告 のレポートを取得します。
 | :------ | :------ | :------ |
 | `reportDefinition` | [*ReportDefinition*](../data/search/reportdefinition.md) | レポート定義情報<br>アカウントIDは未指定の場合、スクリプト所有者のアカウントIDが設定されます。 |
 
-**Returns:** [*Report*](report.md)
+**Returns:** [*Reports*](reports.md)
 
 レポートオブジェクト

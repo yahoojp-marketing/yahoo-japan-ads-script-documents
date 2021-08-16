@@ -1,16 +1,18 @@
 # Report
 
 
-取得したレポートの情報を表します。
+レポートデータを表します。
 
 ## Table of contents
 
 ### Properties
 
-- [reports](report.md#reports)
+- [rows](report.md#rows)
 
 ## Properties
 
-### reports
+### rows
 
-• **reports**: [{ `rows`: *any*[][]  }]
+• **rows**: *any*[][]
+
+レポートデータ

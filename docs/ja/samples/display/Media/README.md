@@ -24,34 +24,38 @@ function getAllImages(){
 }
 ```
 
-### Add a image
+### Add a image from Google Drive
 ```$xslt
-function addImage(){
- 
-    const accountId = AdsUtilities.getCurrentAccountId();
- 
-    const medias = Display.MediaService.add({
+function addImageFromGoogleDrive(){
+  const accountId = AdsUtilities.getCurrentAccountId();
+  
+  const fileId = "1234ABCD";
+  const fileBytes = DriveApp.getFileById(fileId).getBlob().getBytes();
+
+  var encoded = Utilities.base64Encode(fileBytes);
+
+  const medias = Display.MediaService.add({
+    "accountId": accountId,
+    "operand": [
+      {
         "accountId": accountId,
-        "operand": [
-            {
-                "accountId": accountId,
-                "imageMedia": {
-                    "data": "/9j/4AAQSkZJRgABAQEAYABgAAD"//encode of base64
-                },
-                "mediaName": "AAA.jpg",
-                "mediaTitle": "BBB",
-                "userStatus": "ACTIVE",
-            }
-        ]
-    }).rval;
- 
-    for (let i = 0; i < Object.keys(medias.values).length; i++){
-        let mediaRecord = medias.values[i].mediaRecord;
-         
-        Logger.log('mediaId -> ' + mediaRecord.mediaId
-            + ', mediaName -> ' + mediaRecord.mediaName
-            + ', mediaTitle -> ' + mediaRecord.mediaTitle);
-    }
+        "imageMedia": {
+            "data": encoded,
+        },
+        "mediaName": "AAAAA.jpg",
+        "mediaTitle": "BBBBB",
+        "userStatus": "ACTIVE",
+      }
+    ]
+  }).rval;
+
+  for (let i = 0; i < Object.keys(medias).length; i++){
+    let mediaRecord = medias.values[i].mediaRecord;
+    
+    Logger.log('mediaId -> ' + mediaRecord.mediaId
+      + ', mediaName -> ' + mediaRecord.mediaName
+      + ', mediaTitle -> ' + mediaRecord.mediaTitle);
+  }
 }
 ```
 

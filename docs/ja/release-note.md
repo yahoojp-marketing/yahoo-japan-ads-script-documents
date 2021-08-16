@@ -1,5 +1,15 @@
 # リリースノート
 
+## 2021/08/16
+* [DriveApp](./api_reference/utility/driveapp.md)を追加しました
+* [Utilities](./api_reference/utility/utilities.md)に以下の機能を追加しました
+  * base64Decode
+  * base64Encode
+  * newBlob
+* Google Drive APIのClientクラスを追加しました
+  * [diriveapi](./api_reference/driveapi/)
+
+
 ## 2021/07/12
 * [Utilities](./api_reference/utility/utilities.md)に以下の機能を追加しました
   * formatDate

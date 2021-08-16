@@ -15,15 +15,13 @@ function createAccountReport(){
         reportType: "ACCOUNT",
     });
  
-    for (let i = 0; i < Object.keys(reports.reports).length; i++){
-        var report = reports.reports[i].rows;
+    var report = reports.reports[0].rows;
          
-        for (let j = 1; j < report.length; j++){
-            Logger.log('ACCOUNT_ID->' + report[j][0]
-                + ', IMPS->' + report[j][1]
-                + ', CLICKS->' + report[j][2]
-                + ', COST->' + report[j][3]);
-        }
+    for (let i = 1; i < report.length; i++){
+        Logger.log('ACCOUNT_ID->' + report[i][0]
+            + ', IMPS->' + report[i][1]
+            + ', CLICKS->' + report[i][2]
+            + ', COST->' + report[i][3]);
     }
 }
 ```
@@ -41,16 +39,14 @@ function createKeywordReport(){
         reportDateRangeType: "THIS_MONTH",
         reportType: "KEYWORDS",
     });
- 
-    for (let i = 0; i < Object.keys(reports.reports).length; i++){
-        var report = reports.reports[i].rows;
+
+    var report = reports.reports[0].rows;
          
-        for (let j = 1; j < report.length; j++){
-            Logger.log('KEYWORD->' + report[j][0]
-                + ', IMPS->' + report[j][1]
-                + ', CLICKS->' + report[j][2]
-                + ', COST->' + report[j][3]);
-        }
-    }
+    for (let i = 1; i < report.length; i++){
+        Logger.log('KEYWORD->' + report[i][0]
+            + ', IMPS->' + report[i][1]
+            + ', CLICKS->' + report[i][2]
+            + ', COST->' + report[i][3]);
+    }  
 }
 ```
