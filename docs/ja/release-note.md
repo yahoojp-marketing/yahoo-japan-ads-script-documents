@@ -1,5 +1,10 @@
 # リリースノート
 
+## 2021/08/18
+* MCCにスクリプトが登録できるようになりました
+  MCCアカウントを選択し、ツールメニューからご利用可能です
+  
+
 ## 2021/08/16
 * [DriveApp](./api_reference/utility/driveapp.md)を追加しました
 * [Utilities](./api_reference/utility/utilities.md)に以下の機能を追加しました
