@@ -9,6 +9,8 @@
 
 - [biddingStrategyType](campaignservicebiddingscheme.md#biddingstrategytype)
 - [manualCpcBiddingScheme](campaignservicebiddingscheme.md#manualcpcbiddingscheme)
+- [maximizeConversionValueBiddingScheme](campaignservicebiddingscheme.md#maximizeconversionvaluebiddingscheme)
+- [maximizeConversionsBiddingScheme](campaignservicebiddingscheme.md#maximizeconversionsbiddingscheme)
 - [targetCpaBiddingScheme](campaignservicebiddingscheme.md#targetcpabiddingscheme)
 - [targetImpressionShareScheme](campaignservicebiddingscheme.md#targetimpressionsharescheme)
 - [targetRoasBiddingScheme](campaignservicebiddingscheme.md#targetroasbiddingscheme)
@@ -18,7 +20,7 @@
 
 ### biddingStrategyType
 
-• `Optional` **biddingStrategyType**: ``null`` \| [*ManualCpc*](./enums/campaignservicebiddingstrategytype.md#manualcpc) \| [*TargetRoas*](./enums/campaignservicebiddingstrategytype.md#targetroas) \| [*TargetSpend*](./enums/campaignservicebiddingstrategytype.md#targetspend) \| [*TargetCpa*](./enums/campaignservicebiddingstrategytype.md#targetcpa) \| [*MaximizeConversions*](./enums/campaignservicebiddingstrategytype.md#maximizeconversions) \| [*TargetImpressionShare*](./enums/campaignservicebiddingstrategytype.md#targetimpressionshare) \| [*Unknown*](./enums/campaignservicebiddingstrategytype.md#unknown)
+• `Optional` **biddingStrategyType**: ``null`` \| [*ManualCpc*](./enums/campaignservicebiddingstrategytype.md#manualcpc) \| [*TargetRoas*](./enums/campaignservicebiddingstrategytype.md#targetroas) \| [*TargetSpend*](./enums/campaignservicebiddingstrategytype.md#targetspend) \| [*TargetCpa*](./enums/campaignservicebiddingstrategytype.md#targetcpa) \| [*MaximizeConversions*](./enums/campaignservicebiddingstrategytype.md#maximizeconversions) \| [*MaximizeConversionValue*](./enums/campaignservicebiddingstrategytype.md#maximizeconversionvalue) \| [*TargetImpressionShare*](./enums/campaignservicebiddingstrategytype.md#targetimpressionshare) \| [*Unknown*](./enums/campaignservicebiddingstrategytype.md#unknown)
 
 **`memberof`** CampaignServiceBiddingScheme
 
@@ -27,6 +29,22 @@ ___
 ### manualCpcBiddingScheme
 
 • `Optional` **manualCpcBiddingScheme**: ``null`` \| [*CampaignServiceManualCpcBiddingScheme*](campaignservicemanualcpcbiddingscheme.md)
+
+**`memberof`** CampaignServiceBiddingScheme
+
+___
+
+### maximizeConversionValueBiddingScheme
+
+• `Optional` **maximizeConversionValueBiddingScheme**: ``null`` \| [*CampaignServiceMaximizeConversionValueBiddingScheme*](campaignservicemaximizeconversionvaluebiddingscheme.md)
+
+**`memberof`** CampaignServiceBiddingScheme
+
+___
+
+### maximizeConversionsBiddingScheme
+
+• `Optional` **maximizeConversionsBiddingScheme**: ``null`` \| [*CampaignServiceMaximizeConversionsBiddingScheme*](campaignservicemaximizeconversionsbiddingscheme.md)
 
 **`memberof`** CampaignServiceBiddingScheme
 

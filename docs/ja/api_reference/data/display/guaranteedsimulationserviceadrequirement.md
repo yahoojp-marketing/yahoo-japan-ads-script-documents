@@ -8,6 +8,7 @@
 ### Properties
 
 - [adType](guaranteedsimulationserviceadrequirement.md#adtype)
+- [adTypePermission](guaranteedsimulationserviceadrequirement.md#adtypepermission)
 - [aspectRatio](guaranteedsimulationserviceadrequirement.md#aspectratio)
 - [mediaAdFormat](guaranteedsimulationserviceadrequirement.md#mediaadformat)
 
@@ -16,6 +17,14 @@
 ### adType
 
 • `Optional` **adType**: ``null`` \| [*BannerVideoAd*](./enums/guaranteedsimulationserviceadtype.md#bannervideoad) \| [*BannerImageAd*](./enums/guaranteedsimulationserviceadtype.md#bannerimagead) \| [*BrandpanelQuintie*](./enums/guaranteedsimulationserviceadtype.md#brandpanelquintie) \| [*BrandpanelQuintieVideo*](./enums/guaranteedsimulationserviceadtype.md#brandpanelquintievideo) \| [*BrandpanelPanorama*](./enums/guaranteedsimulationserviceadtype.md#brandpanelpanorama) \| [*BrandpanelPanoramaVideo*](./enums/guaranteedsimulationserviceadtype.md#brandpanelpanoramavideo) \| [*TopImpactSquare*](./enums/guaranteedsimulationserviceadtype.md#topimpactsquare) \| [*TopImpactSquareVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpactsquarevideo) \| [*TopImpactQuintie*](./enums/guaranteedsimulationserviceadtype.md#topimpactquintie) \| [*TopImpactQuintieVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpactquintievideo) \| [*TopImpactPanorama*](./enums/guaranteedsimulationserviceadtype.md#topimpactpanorama) \| [*TopImpactPanoramaVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpactpanoramavideo) \| [*TopImpactPanoramaSideVisionVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpactpanoramasidevisionvideo) \| [*TopImpactPanoramaSideSwitchVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpactpanoramasideswitchvideo) \| [*TopImpactTheaterVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpacttheatervideo) \| [*TopImpactSquareSpecial*](./enums/guaranteedsimulationserviceadtype.md#topimpactsquarespecial) \| [*TopImpactSquareSpecialVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpactsquarespecialvideo) \| [*TopImpactPrimeDisplayDouble*](./enums/guaranteedsimulationserviceadtype.md#topimpactprimedisplaydouble) \| [*TopImpactPrimeDisplayDoubleVideo*](./enums/guaranteedsimulationserviceadtype.md#topimpactprimedisplaydoublevideo) \| [*InstreamVideoAd*](./enums/guaranteedsimulationserviceadtype.md#instreamvideoad) \| [*CarouselAd*](./enums/guaranteedsimulationserviceadtype.md#carouselad) \| [*Unknown*](./enums/guaranteedsimulationserviceadtype.md#unknown)
+
+**`memberof`** GuaranteedSimulationServiceAdRequirement
+
+___
+
+### adTypePermission
+
+• `Optional` **adTypePermission**: ``null`` \| [*Forbidden*](./enums/guaranteedsimulationservicepackagepermissiontype.md#forbidden) \| [*PermittedNonTargetEnable*](./enums/guaranteedsimulationservicepackagepermissiontype.md#permittednontargetenable) \| [*PermittedNonTargetDisable*](./enums/guaranteedsimulationservicepackagepermissiontype.md#permittednontargetdisable) \| [*Fixed*](./enums/guaranteedsimulationservicepackagepermissiontype.md#fixed) \| [*Unknown*](./enums/guaranteedsimulationservicepackagepermissiontype.md#unknown)
 
 **`memberof`** GuaranteedSimulationServiceAdRequirement
 

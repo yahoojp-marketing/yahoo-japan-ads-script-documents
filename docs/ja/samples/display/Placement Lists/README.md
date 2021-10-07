@@ -1,7 +1,7 @@
 # Placement Lists
 
 ### Add list and url
-```$xslt
+```.js
 function addListAndUrl(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -34,7 +34,7 @@ function addListAndUrl(){
 ```
 
 ### Set url
-```$xslt
+```.js
 function setUrl(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -77,7 +77,7 @@ function setUrl(){
 ```
 
 ### Get list and url
-```$xslt
+```.js
 function getListAndUrl(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -101,7 +101,7 @@ function getListAndUrl(){
 ```
 
 ### Apply a list to an ad group
-````$xslt
+````.js
 function applyListToAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

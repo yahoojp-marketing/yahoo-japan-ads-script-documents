@@ -11,12 +11,10 @@
 - [ageTarget](adgrouptargetservicetarget.md#agetarget)
 - [appTarget](adgrouptargetservicetarget.md#apptarget)
 - [audienceCategoryTarget](adgrouptargetservicetarget.md#audiencecategorytarget)
-- [carrierTarget](adgrouptargetservicetarget.md#carriertarget)
 - [contentsTarget](adgrouptargetservicetarget.md#contentstarget)
 - [deviceTarget](adgrouptargetservicetarget.md#devicetarget)
 - [genderTarget](adgrouptargetservicetarget.md#gendertarget)
 - [geoTarget](adgrouptargetservicetarget.md#geotarget)
-- [interestCategoryTarget](adgrouptargetservicetarget.md#interestcategorytarget)
 - [isRemove](adgrouptargetservicetarget.md#isremove)
 - [osTarget](adgrouptargetservicetarget.md#ostarget)
 - [osVersionTarget](adgrouptargetservicetarget.md#osversiontarget)
@@ -64,14 +62,6 @@ ___
 
 ___
 
-### carrierTarget
-
-• `Optional` **carrierTarget**: ``null`` \| [*AdGroupTargetServiceCarrierTarget*](adgrouptargetservicecarriertarget.md)
-
-**`memberof`** AdGroupTargetServiceTarget
-
-___
-
 ### contentsTarget
 
 • `Optional` **contentsTarget**: ``null`` \| [*AdGroupTargetServiceContentsTarget*](adgrouptargetservicecontentstarget.md)
@@ -99,14 +89,6 @@ ___
 ### geoTarget
 
 • `Optional` **geoTarget**: ``null`` \| [*AdGroupTargetServiceGeoTarget*](adgrouptargetservicegeotarget.md)
-
-**`memberof`** AdGroupTargetServiceTarget
-
-___
-
-### interestCategoryTarget
-
-• `Optional` **interestCategoryTarget**: ``null`` \| [*AdGroupTargetServiceInterestCategoryTarget*](adgrouptargetserviceinterestcategorytarget.md)
 
 **`memberof`** AdGroupTargetServiceTarget
 
@@ -198,7 +180,7 @@ ___
 
 • `Optional` **targetId**: ``null`` \| *string*
 
-<div lang=\"ja\"> ターゲットIDです。<br> このフィールドは、ADDおよびREPLACE時は省略可能となり、SETおよびREMOVE時は必須となります。<br> ※ADD時、targetTypeが以下のいずれかの場合は必須です。<br> ‐SITE_RETARGETING<br> ‐PLACEMENT_TARGET<br> ‐SEARCH_TARGET<br> ‐GEO_TARGET<br> ‐INTEREST_CATEGORY<br> ‐SITE_CATEGORY<br> ‐AUDIENCE_CATEGORY_TARGET<br> ‐PLACEMENT_CATEGORY_TARGET<br> -PLACEMENT_CATEGORY_DETAIL_TARGET<br> -CONTENTS_TARGET<br> ※REPLACE時、isRemoveがtrueの場合は設定不要です。<br> <br> ‐SITE_RETARGETING: targetListId<br> ‐PLACEMENT_TARGET: placementUrlListId<br> ‐SEARCH_TARGET: searchKeywordListId<br> ‐GEO_TARGET: IM地域コード(geo)<br> ‐INTEREST_CATEGORY: カテゴリーコード(category)<br> ‐SITE_CATEGORY: カテゴリーコード(category)<br> ‐OS_VERSION_TARGET: osVersion<br> ‐AUDIENCE_CATEGORY_TARGET: オーディエンスカテゴリーコード(audience category)<br> ‐POSITION_TARGET: PositionTypeのコード値<br> ‐PLACEMENT_CATEGORY_TARGET: placementCategoryListId<br> -PLACEMENT_CATEGORY_DETAIL_TARGET: placementCategoryId<br> -CONTENTS_TARGET: contentsKeywordListId </div> 
+<div lang=\"ja\"> ターゲットIDです。<br> このフィールドは、ADDおよびREPLACE時は省略可能となり、SETおよびREMOVE時は必須となります。<br> ※ADD時、targetTypeが以下のいずれかの場合は必須です。<br> ‐SITE_RETARGETING<br> ‐PLACEMENT_TARGET<br> ‐SEARCH_TARGET<br> ‐GEO_TARGET<br> ‐SITE_CATEGORY<br> ‐AUDIENCE_CATEGORY_TARGET<br> ‐PLACEMENT_CATEGORY_TARGET<br> -PLACEMENT_CATEGORY_DETAIL_TARGET<br> -CONTENTS_TARGET<br> ※REPLACE時、isRemoveがtrueの場合は設定不要です。<br> <br> ‐SITE_RETARGETING: targetListId<br> ‐PLACEMENT_TARGET: placementUrlListId<br> ‐SEARCH_TARGET: searchKeywordListId<br> ‐GEO_TARGET: IM地域コード(geo)<br> ‐SITE_CATEGORY: カテゴリーコード(category)<br> ‐OS_VERSION_TARGET: osVersion<br> ‐AUDIENCE_CATEGORY_TARGET: オーディエンスカテゴリーコード(audience category)<br> ‐POSITION_TARGET: PositionTypeのコード値<br> ‐PLACEMENT_CATEGORY_TARGET: placementCategoryListId<br> -PLACEMENT_CATEGORY_DETAIL_TARGET: placementCategoryId<br> -CONTENTS_TARGET: contentsKeywordListId </div> 
 
 **`memberof`** AdGroupTargetServiceTarget
 
@@ -206,6 +188,6 @@ ___
 
 ### targetType
 
-• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/adgrouptargetservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/adgrouptargetservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/adgrouptargetservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/adgrouptargetservicetargettype.md#gendertarget) \| [*InterestCategory*](./enums/adgrouptargetservicetargettype.md#interestcategory) \| [*SiteCategory*](./enums/adgrouptargetservicetargettype.md#sitecategory) \| [*SiteRetargeting*](./enums/adgrouptargetservicetargettype.md#siteretargeting) \| [*SearchTarget*](./enums/adgrouptargetservicetargettype.md#searchtarget) \| [*PlacementTarget*](./enums/adgrouptargetservicetargettype.md#placementtarget) \| [*DeviceTarget*](./enums/adgrouptargetservicetargettype.md#devicetarget) \| [*CarrierTarget*](./enums/adgrouptargetservicetargettype.md#carriertarget) \| [*AppTarget*](./enums/adgrouptargetservicetargettype.md#apptarget) \| [*OsTarget*](./enums/adgrouptargetservicetargettype.md#ostarget) \| [*OsVersionTarget*](./enums/adgrouptargetservicetargettype.md#osversiontarget) \| [*AudienceCategoryTarget*](./enums/adgrouptargetservicetargettype.md#audiencecategorytarget) \| [*PositionTarget*](./enums/adgrouptargetservicetargettype.md#positiontarget) \| [*PlacementCategoryTarget*](./enums/adgrouptargetservicetargettype.md#placementcategorytarget) \| [*PlacementCategoryDetailTarget*](./enums/adgrouptargetservicetargettype.md#placementcategorydetailtarget) \| [*ContentsTarget*](./enums/adgrouptargetservicetargettype.md#contentstarget) \| [*Unknown*](./enums/adgrouptargetservicetargettype.md#unknown)
+• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/adgrouptargetservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/adgrouptargetservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/adgrouptargetservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/adgrouptargetservicetargettype.md#gendertarget) \| [*SiteCategory*](./enums/adgrouptargetservicetargettype.md#sitecategory) \| [*SiteRetargeting*](./enums/adgrouptargetservicetargettype.md#siteretargeting) \| [*SearchTarget*](./enums/adgrouptargetservicetargettype.md#searchtarget) \| [*PlacementTarget*](./enums/adgrouptargetservicetargettype.md#placementtarget) \| [*DeviceTarget*](./enums/adgrouptargetservicetargettype.md#devicetarget) \| [*AppTarget*](./enums/adgrouptargetservicetargettype.md#apptarget) \| [*OsTarget*](./enums/adgrouptargetservicetargettype.md#ostarget) \| [*OsVersionTarget*](./enums/adgrouptargetservicetargettype.md#osversiontarget) \| [*AudienceCategoryTarget*](./enums/adgrouptargetservicetargettype.md#audiencecategorytarget) \| [*PositionTarget*](./enums/adgrouptargetservicetargettype.md#positiontarget) \| [*PlacementCategoryTarget*](./enums/adgrouptargetservicetargettype.md#placementcategorytarget) \| [*PlacementCategoryDetailTarget*](./enums/adgrouptargetservicetargettype.md#placementcategorydetailtarget) \| [*ContentsTarget*](./enums/adgrouptargetservicetargettype.md#contentstarget) \| [*Unknown*](./enums/adgrouptargetservicetargettype.md#unknown)
 
 **`memberof`** AdGroupTargetServiceTarget

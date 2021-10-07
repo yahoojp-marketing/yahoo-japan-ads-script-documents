@@ -1,7 +1,7 @@
 # README.md
 
 ### Create an account report
-```$xslt
+```.js
 
 function createAccountReport(){
  
@@ -27,7 +27,7 @@ function createAccountReport(){
 ```
 
 ### Create a keyword report
-```$xslt
+```.js
 function createKeywordReport(){
  
     const accountId = AdsUtilities.getCurrentAccountId();

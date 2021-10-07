@@ -11,19 +11,18 @@
 - [adGroupBiddingStrategy](adgroup.md#adgroupbiddingstrategy)
 - [adGroupId](adgroup.md#adgroupid)
 - [adGroupName](adgroup.md#adgroupname)
-- [bid](adgroup.md#bid)
 - [campaignId](adgroup.md#campaignid)
 - [campaignName](adgroup.md#campaignname)
-- [conversionOptimizer](adgroup.md#conversionoptimizer)
 - [createdDate](adgroup.md#createddate)
+- [customParameters](adgroup.md#customparameters)
 - [device](adgroup.md#device)
 - [deviceApp](adgroup.md#deviceapp)
 - [deviceOs](adgroup.md#deviceos)
 - [deviceOsVersion](adgroup.md#deviceosversion)
-- [dynamicImageExtensions](adgroup.md#dynamicimageextensions)
 - [feedSetId](adgroup.md#feedsetid)
+- [isRemoveTrackingUrl](adgroup.md#isremovetrackingurl)
 - [labels](adgroup.md#labels)
-- [smartDeviceCarriers](adgroup.md#smartdevicecarriers)
+- [trackingUrl](adgroup.md#trackingurl)
 - [userStatus](adgroup.md#userstatus)
 
 ## Properties
@@ -66,14 +65,6 @@ ___
 
 ___
 
-### bid
-
-• `Optional` **bid**: ``null`` \| [*AdGroupServiceBid*](adgroupservicebid.md)
-
-**`memberof`** AdGroup
-
-___
-
 ### campaignId
 
 • `Optional` **campaignId**: ``null`` \| *number*
@@ -94,19 +85,19 @@ ___
 
 ___
 
-### conversionOptimizer
-
-• `Optional` **conversionOptimizer**: ``null`` \| [*AdGroupServiceConversionOptimizer*](adgroupserviceconversionoptimizer.md)
-
-**`memberof`** AdGroup
-
-___
-
 ### createdDate
 
 • `Optional` **createdDate**: ``null`` \| *string*
 
 <div lang=\"ja\">広告グループが作成された日時です。<br>※フォーマット：yyyyMMdd</div> 
+
+**`memberof`** AdGroup
+
+___
+
+### customParameters
+
+• `Optional` **customParameters**: ``null`` \| [*AdGroupServiceCustomParameters*](adgroupservicecustomparameters.md)
 
 **`memberof`** AdGroup
 
@@ -146,19 +137,19 @@ ___
 
 ___
 
-### dynamicImageExtensions
-
-• `Optional` **dynamicImageExtensions**: ``null`` \| [*Active*](./enums/adgroupservicedynamicimageextensions.md#active) \| [*Paused*](./enums/adgroupservicedynamicimageextensions.md#paused) \| [*Unknown*](./enums/adgroupservicedynamicimageextensions.md#unknown)
-
-**`memberof`** AdGroup
-
-___
-
 ### feedSetId
 
 • `Optional` **feedSetId**: ``null`` \| *number*
 
 <div lang=\"ja\"> 商品セットIDです。<br> ADDおよびSET時、このフィールドは省略可能となります。<br> *ADD時に未指定の場合、デフォルトセットを自動で関連付けます。 </div> 
+
+**`memberof`** AdGroup
+
+___
+
+### isRemoveTrackingUrl
+
+• `Optional` **isRemoveTrackingUrl**: ``null`` \| [*True*](./enums/adgroupserviceisremoveflg.md#true) \| [*False*](./enums/adgroupserviceisremoveflg.md#false) \| [*Unknown*](./enums/adgroupserviceisremoveflg.md#unknown)
 
 **`memberof`** AdGroup
 
@@ -172,9 +163,11 @@ ___
 
 ___
 
-### smartDeviceCarriers
+### trackingUrl
 
-• `Optional` **smartDeviceCarriers**: ``null`` \| [*AdGroupServiceSmartDeviceCarrier*](./enums/adgroupservicesmartdevicecarrier.md)[]
+• `Optional` **trackingUrl**: ``null`` \| *string*
+
+<div lang=\"ja\">トラッキングURLです。<br> このフィールドは、省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。<br>※現在利用できません</div> 
 
 **`memberof`** AdGroup
 

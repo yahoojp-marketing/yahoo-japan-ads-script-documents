@@ -1,7 +1,7 @@
 # Campaigns
 
 ### Get all campaigns
-```$xslt
+```.js
 function getAllCampaigns() {
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -19,7 +19,7 @@ function getAllCampaigns() {
 ```
 
 ### Get a campaign by id
-```$xslt
+```.js
 function getCampaignById() {
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -40,7 +40,7 @@ function getCampaignById() {
 ```
 
 ### Add a campaign
-```$xslt
+```.js
 function addCampaign() {
       
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -82,7 +82,7 @@ function addCampaign() {
 ```
 
 ### Pause a campaign
-```$xslt
+```.js
 function pauseCampaign() {
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -118,7 +118,7 @@ function pauseCampaign() {
 ```
 
 ### Set campaign budget
-```$xslt
+```.js
 function setCampaignBudget() {
      
     const accountId = AdsUtilities.getCurrentAccountId();

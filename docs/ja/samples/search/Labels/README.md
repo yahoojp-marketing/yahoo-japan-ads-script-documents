@@ -1,7 +1,7 @@
 # Labels
 
 ### Get all labels
-```$xslt
+```.js
 function getAllLabels() {
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -19,7 +19,7 @@ function getAllLabels() {
 ```
 
 ### Add a label
-```$xslt
+```.js
 function addLabel() {
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -42,7 +42,7 @@ function addLabel() {
 ```
 
 ### Apply a label to a campaign
-```$xslt
+```.js
 function applyLabelToCampaign(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -66,7 +66,7 @@ function applyLabelToCampaign(){
 ```
 
 ### Apply a label to an ad group
-```$xslt
+```.js
 function applyLabelToAdGroup(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -93,7 +93,7 @@ function applyLabelToAdGroup(){
 ```
 
 ### Apply a label to an ad
-```$xslt
+```.js
 function applyLabelToAd(){
  
     const accountId = AdsUtilities.getCurrentAccountId();

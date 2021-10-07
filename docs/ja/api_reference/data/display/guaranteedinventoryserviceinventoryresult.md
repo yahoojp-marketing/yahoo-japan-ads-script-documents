@@ -14,6 +14,7 @@
 - [sellingSlots](guaranteedinventoryserviceinventoryresult.md#sellingslots)
 - [startDate](guaranteedinventoryserviceinventoryresult.md#startdate)
 - [unavailableReasons](guaranteedinventoryserviceinventoryresult.md#unavailablereasons)
+- [unreservableReason](guaranteedinventoryserviceinventoryresult.md#unreservablereason)
 
 ## Properties
 
@@ -80,5 +81,13 @@ ___
 ### unavailableReasons
 
 • `Optional` **unavailableReasons**: ``null`` \| [*GuaranteedInventoryServiceUnavailableReason*](guaranteedinventoryserviceunavailablereason.md)[]
+
+**`memberof`** GuaranteedInventoryServiceInventoryResult
+
+___
+
+### unreservableReason
+
+• `Optional` **unreservableReason**: ``null`` \| [*NotEnoughDeliveryTarget*](./enums/guaranteedinventoryserviceunreservablereason.md#notenoughdeliverytarget) \| [*OutOfStock*](./enums/guaranteedinventoryserviceunreservablereason.md#outofstock) \| [*OverSovDailyLimit*](./enums/guaranteedinventoryserviceunreservablereason.md#oversovdailylimit) \| [*OverSovWeeklyLimit*](./enums/guaranteedinventoryserviceunreservablereason.md#oversovweeklylimit) \| [*Unknown*](./enums/guaranteedinventoryserviceunreservablereason.md#unknown)
 
 **`memberof`** GuaranteedInventoryServiceInventoryResult

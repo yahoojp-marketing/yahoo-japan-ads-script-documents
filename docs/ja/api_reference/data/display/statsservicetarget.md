@@ -11,11 +11,10 @@
 - [ageTarget](statsservicetarget.md#agetarget)
 - [appTarget](statsservicetarget.md#apptarget)
 - [audienceCategoryTarget](statsservicetarget.md#audiencecategorytarget)
-- [carrierTarget](statsservicetarget.md#carriertarget)
+- [contentsTarget](statsservicetarget.md#contentstarget)
 - [deviceTarget](statsservicetarget.md#devicetarget)
 - [genderTarget](statsservicetarget.md#gendertarget)
 - [geoTarget](statsservicetarget.md#geotarget)
-- [interestCategoryTarget](statsservicetarget.md#interestcategorytarget)
 - [osTarget](statsservicetarget.md#ostarget)
 - [osVersionTarget](statsservicetarget.md#osversiontarget)
 - [placementCategoryDetailTarget](statsservicetarget.md#placementcategorydetailtarget)
@@ -61,9 +60,9 @@ ___
 
 ___
 
-### carrierTarget
+### contentsTarget
 
-• `Optional` **carrierTarget**: ``null`` \| [*StatsServiceCarrierTarget*](statsservicecarriertarget.md)
+• `Optional` **contentsTarget**: ``null`` \| [*StatsServiceContentsTarget*](statsservicecontentstarget.md)
 
 **`memberof`** StatsServiceTarget
 
@@ -88,14 +87,6 @@ ___
 ### geoTarget
 
 • `Optional` **geoTarget**: ``null`` \| [*StatsServiceGeoTarget*](statsservicegeotarget.md)
-
-**`memberof`** StatsServiceTarget
-
-___
-
-### interestCategoryTarget
-
-• `Optional` **interestCategoryTarget**: ``null`` \| [*StatsServiceInterestCategoryTarget*](statsserviceinterestcategorytarget.md)
 
 **`memberof`** StatsServiceTarget
 
@@ -177,6 +168,6 @@ ___
 
 ### targetType
 
-• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/statsservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/statsservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/statsservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/statsservicetargettype.md#gendertarget) \| [*InterestCategory*](./enums/statsservicetargettype.md#interestcategory) \| [*SiteCategory*](./enums/statsservicetargettype.md#sitecategory) \| [*SiteRetargeting*](./enums/statsservicetargettype.md#siteretargeting) \| [*SearchTarget*](./enums/statsservicetargettype.md#searchtarget) \| [*PlacementTarget*](./enums/statsservicetargettype.md#placementtarget) \| [*DeviceTarget*](./enums/statsservicetargettype.md#devicetarget) \| [*CarrierTarget*](./enums/statsservicetargettype.md#carriertarget) \| [*AudienceCategory*](./enums/statsservicetargettype.md#audiencecategory) \| [*PlacementCategoryDetailTarget*](./enums/statsservicetargettype.md#placementcategorydetailtarget) \| [*Unknown*](./enums/statsservicetargettype.md#unknown)
+• `Optional` **targetType**: ``null`` \| [*AdScheduleTarget*](./enums/statsservicetargettype.md#adscheduletarget) \| [*GeoTarget*](./enums/statsservicetargettype.md#geotarget) \| [*AgeTarget*](./enums/statsservicetargettype.md#agetarget) \| [*GenderTarget*](./enums/statsservicetargettype.md#gendertarget) \| [*SiteCategory*](./enums/statsservicetargettype.md#sitecategory) \| [*SiteRetargeting*](./enums/statsservicetargettype.md#siteretargeting) \| [*SearchTarget*](./enums/statsservicetargettype.md#searchtarget) \| [*PlacementTarget*](./enums/statsservicetargettype.md#placementtarget) \| [*DeviceTarget*](./enums/statsservicetargettype.md#devicetarget) \| [*AudienceCategory*](./enums/statsservicetargettype.md#audiencecategory) \| [*PlacementCategoryDetailTarget*](./enums/statsservicetargettype.md#placementcategorydetailtarget) \| [*ContentsTarget*](./enums/statsservicetargettype.md#contentstarget) \| [*Unknown*](./enums/statsservicetargettype.md#unknown)
 
 **`memberof`** StatsServiceTarget

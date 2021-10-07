@@ -1,7 +1,7 @@
 # Spreadsheet
 
 ### Append rows to a spreadsheet
-```$xslt
+```.js
 function appendRowsToSpreadsheet(){
  
   const spreadsheetId = 'スプレッドシートID';
@@ -15,7 +15,7 @@ function appendRowsToSpreadsheet(){
 ```
 
 ### Set a range's values
-```$xslt
+```.js
 function setRangeValues(){
  
     const spreadsheetId = 'スプレッドシートID';
@@ -34,7 +34,7 @@ function setRangeValues(){
 ```
 
 ### Log the data of a spreadsheet
-```$xslt
+```.js
 function logDataOfSpreadsheet(){
  
     const spreadsheetId = '1qa6_LqQZaK4JK9zaonu6uIarlDryzIG_r2lrJNH-xIs';
@@ -52,7 +52,7 @@ function logDataOfSpreadsheet(){
 ```
 
 ### Clear a sheets values
-```$xslt
+```.js
 function clearSheetsValues(){
      
     const spreadsheetId = 'スプレッドシートID';
@@ -66,7 +66,7 @@ function clearSheetsValues(){
 ```
 
 ### Report data to a spreadsheet
-```$xslt
+```.js
 function reportDataToSpreadsheet(){
  
     const spreadsheetId = 'スプレッドシートID';

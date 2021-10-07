@@ -9,7 +9,7 @@
 
 - [accountId](adgroupserviceselector.md#accountid)
 - [adGroupIds](adgroupserviceselector.md#adgroupids)
-- [campaignGoalFilterType](adgroupserviceselector.md#campaigngoalfiltertype)
+- [biddingValueCpcRange](adgroupserviceselector.md#biddingvaluecpcrange)
 - [campaignIds](adgroupserviceselector.md#campaignids)
 - [containsLabelIdFlg](adgroupserviceselector.md#containslabelidflg)
 - [createdDateRange](adgroupserviceselector.md#createddaterange)
@@ -41,9 +41,9 @@ ___
 
 ___
 
-### campaignGoalFilterType
+### biddingValueCpcRange
 
-• `Optional` **campaignGoalFilterType**: ``null`` \| [*All*](./enums/adgroupservicecampaigngoalfiltertype.md#all) \| [*NonGoal*](./enums/adgroupservicecampaigngoalfiltertype.md#nongoal) \| [*Goal*](./enums/adgroupservicecampaigngoalfiltertype.md#goal) \| [*Unknown*](./enums/adgroupservicecampaigngoalfiltertype.md#unknown)
+• `Optional` **biddingValueCpcRange**: ``null`` \| [*AdGroupServiceBiddingValueCpcRange*](adgroupservicebiddingvaluecpcrange.md)
 
 **`memberof`** AdGroupServiceSelector
 

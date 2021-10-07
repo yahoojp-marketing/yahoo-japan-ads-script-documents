@@ -22,6 +22,7 @@
 - [countingType](conversiontracker.md#countingtype)
 - [crossDeviceConversions](conversiontracker.md#crossdeviceconversions)
 - [excludeFromBidding](conversiontracker.md#excludefrombidding)
+- [isPreviousConversion](conversiontracker.md#ispreviousconversion)
 - [measurementPeriod](conversiontracker.md#measurementperiod)
 - [measurementPeriodView](conversiontracker.md#measurementperiodview)
 - [mostRecentConversionDate](conversiontracker.md#mostrecentconversiondate)
@@ -167,6 +168,14 @@ ___
 ### excludeFromBidding
 
 • `Optional` **excludeFromBidding**: ``null`` \| [*False*](./enums/conversiontrackerserviceexcludefrombidding.md#false) \| [*True*](./enums/conversiontrackerserviceexcludefrombidding.md#true) \| [*Unknown*](./enums/conversiontrackerserviceexcludefrombidding.md#unknown)
+
+**`memberof`** ConversionTracker
+
+___
+
+### isPreviousConversion
+
+• `Optional` **isPreviousConversion**: ``null`` \| [*True*](./enums/conversiontrackerserviceispreviousconversion.md#true) \| [*False*](./enums/conversiontrackerserviceispreviousconversion.md#false) \| [*Unknown*](./enums/conversiontrackerserviceispreviousconversion.md#unknown)
 
 **`memberof`** ConversionTracker
 

@@ -1,7 +1,7 @@
 # Target List
 
 ### Get All target list
-```$xslt
+```.js
 function getAllTargetList(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -20,7 +20,7 @@ function getAllTargetList(){
 ```
 
 ### Apply a target list to a campaign
-```$xslt
+```.js
 function applyTargetListToCampaign(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -52,7 +52,7 @@ function applyTargetListToCampaign(){
 ```
 
 ### Apply a target list to an ad group
-```$xslt
+```.js
 function applyTargetListToAdGroup(){
  
     const accountId = AdsUtilities.getCurrentAccountId();

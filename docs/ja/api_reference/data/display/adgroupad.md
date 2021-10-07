@@ -15,7 +15,6 @@
 - [adName](adgroupad.md#adname)
 - [adStyle](adgroupad.md#adstyle)
 - [approvalStatus](adgroupad.md#approvalstatus)
-- [bid](adgroupad.md#bid)
 - [campaignId](adgroupad.md#campaignid)
 - [campaignName](adgroupad.md#campaignname)
 - [createdDate](adgroupad.md#createddate)
@@ -103,14 +102,6 @@ ___
 ### approvalStatus
 
 • `Optional` **approvalStatus**: ``null`` \| [*Approved*](./enums/adgroupadserviceapprovalstatus.md#approved) \| [*ApprovedWithReview*](./enums/adgroupadserviceapprovalstatus.md#approvedwithreview) \| [*Review*](./enums/adgroupadserviceapprovalstatus.md#review) \| [*PreDisapproved*](./enums/adgroupadserviceapprovalstatus.md#predisapproved) \| [*PostDisapproved*](./enums/adgroupadserviceapprovalstatus.md#postdisapproved) \| [*Unknown*](./enums/adgroupadserviceapprovalstatus.md#unknown)
-
-**`memberof`** AdGroupAd
-
-___
-
-### bid
-
-• `Optional` **bid**: ``null`` \| [*AdGroupAdServiceBid*](adgroupadservicebid.md)
 
 **`memberof`** AdGroupAd
 

@@ -1,7 +1,7 @@
 # Budget Orders
 
 ### Set budget order
-```$xslt
+```.js
 function setBudgetOrder(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -38,7 +38,7 @@ function setBudgetOrder(){
 ```
 
 ### Get budget order
-```$xslt
+```.js
 function getBudgetOrder(){
  
     const accountId = AdsUtilities.getCurrentAccountId();

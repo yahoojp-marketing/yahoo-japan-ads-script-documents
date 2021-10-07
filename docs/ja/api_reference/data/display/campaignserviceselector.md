@@ -8,10 +8,11 @@
 ### Properties
 
 - [accountId](campaignserviceselector.md#accountid)
-- [campaignGoalFilterType](campaignserviceselector.md#campaigngoalfiltertype)
+- [budgetAmountRange](campaignserviceselector.md#budgetamountrange)
 - [campaignIds](campaignserviceselector.md#campaignids)
-- [campaignType](campaignserviceselector.md#campaigntype)
 - [containsLabelIdFlg](campaignserviceselector.md#containslabelidflg)
+- [conversionGroupIds](campaignserviceselector.md#conversiongroupids)
+- [conversionTrackerIds](campaignserviceselector.md#conversiontrackerids)
 - [createdDateRange](campaignserviceselector.md#createddaterange)
 - [feedIds](campaignserviceselector.md#feedids)
 - [labelIds](campaignserviceselector.md#labelids)
@@ -31,9 +32,9 @@
 
 ___
 
-### campaignGoalFilterType
+### budgetAmountRange
 
-• `Optional` **campaignGoalFilterType**: ``null`` \| [*All*](./enums/campaignservicegoalfiltertype.md#all) \| [*NonGoal*](./enums/campaignservicegoalfiltertype.md#nongoal) \| [*Goal*](./enums/campaignservicegoalfiltertype.md#goal) \| [*Unknown*](./enums/campaignservicegoalfiltertype.md#unknown)
+• `Optional` **budgetAmountRange**: ``null`` \| [*CampaignServiceBudgetAmountRange*](campaignservicebudgetamountrange.md)
 
 **`memberof`** CampaignServiceSelector
 
@@ -49,19 +50,31 @@ ___
 
 ___
 
-### campaignType
-
-• `Optional` **campaignType**: ``null`` \| [*Standard*](./enums/campaignservicetype.md#standard) \| [*App*](./enums/campaignservicetype.md#app) \| [*Unknown*](./enums/campaignservicetype.md#unknown)
-
-**`memberof`** CampaignServiceSelector
-
-___
-
 ### containsLabelIdFlg
 
 • `Optional` **containsLabelIdFlg**: ``null`` \| *boolean*
 
 <div lang=\"ja\">ラベルID取得フラグ</div> 
+
+**`memberof`** CampaignServiceSelector
+
+___
+
+### conversionGroupIds
+
+• `Optional` **conversionGroupIds**: ``null`` \| *number*[]
+
+<div lang=\"ja\">検索条件 : コンバージョングループID</div> 
+
+**`memberof`** CampaignServiceSelector
+
+___
+
+### conversionTrackerIds
+
+• `Optional` **conversionTrackerIds**: ``null`` \| *number*[]
+
+<div lang=\"ja\">検索条件 : コンバージョントラッカーID</div> 
 
 **`memberof`** CampaignServiceSelector
 

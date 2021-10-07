@@ -1,7 +1,7 @@
 # AdGroupCriterionServiceAdditionalAdvancedUrls
 
 
-<div lang=\"ja\">AdGroupCriterionServiceAdditionalAdvancedUrlsオブジェクトは、追加する最終リンク先URULのリストを保持します。<br> ADDおよびSET時、このフィールドは省略可能となります。</div> 
+<div lang=\"ja\">AdGroupCriterionServiceAdditionalAdvancedUrlsオブジェクトは、追加する最終リンク先URULのリストを保持します。<br> ※こちらのフィールドは、現在利用できません。<br> ADDおよびSET時、このフィールドは省略可能となります。</div> 
 
 ## Table of contents
 

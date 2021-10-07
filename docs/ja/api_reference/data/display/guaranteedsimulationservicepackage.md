@@ -11,7 +11,6 @@
 - [adDeliveryDurationEndDate](guaranteedsimulationservicepackage.md#addeliverydurationenddate)
 - [adDeliveryDurationStartDate](guaranteedsimulationservicepackage.md#addeliverydurationstartdate)
 - [adRequirements](guaranteedsimulationservicepackage.md#adrequirements)
-- [adTypePermission](guaranteedsimulationservicepackage.md#adtypepermission)
 - [buyingTerm](guaranteedsimulationservicepackage.md#buyingterm)
 - [instreamDurationType](guaranteedsimulationservicepackage.md#instreamdurationtype)
 - [packageHistoryId](guaranteedsimulationservicepackage.md#packagehistoryid)
@@ -74,14 +73,6 @@ ___
 ### adRequirements
 
 • `Optional` **adRequirements**: ``null`` \| [*GuaranteedSimulationServiceAdRequirement*](guaranteedsimulationserviceadrequirement.md)[]
-
-**`memberof`** GuaranteedSimulationServicePackage
-
-___
-
-### adTypePermission
-
-• `Optional` **adTypePermission**: ``null`` \| [*Forbidden*](./enums/guaranteedsimulationservicepackagepermissiontype.md#forbidden) \| [*PermittedNonTargetEnable*](./enums/guaranteedsimulationservicepackagepermissiontype.md#permittednontargetenable) \| [*PermittedNonTargetDisable*](./enums/guaranteedsimulationservicepackagepermissiontype.md#permittednontargetdisable) \| [*Fixed*](./enums/guaranteedsimulationservicepackagepermissiontype.md#fixed) \| [*Unknown*](./enums/guaranteedsimulationservicepackagepermissiontype.md#unknown)
 
 **`memberof`** GuaranteedSimulationServicePackage
 

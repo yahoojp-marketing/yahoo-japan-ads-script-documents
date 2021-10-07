@@ -10,6 +10,8 @@
 - [accountId](guaranteedcampaignserviceselector.md#accountid)
 - [campaignIds](guaranteedcampaignserviceselector.md#campaignids)
 - [containsLabelIdFlg](guaranteedcampaignserviceselector.md#containslabelidflg)
+- [conversionGroupIds](guaranteedcampaignserviceselector.md#conversiongroupids)
+- [conversionTrackerIds](guaranteedcampaignserviceselector.md#conversiontrackerids)
 - [labelIds](guaranteedcampaignserviceselector.md#labelids)
 - [numberResults](guaranteedcampaignserviceselector.md#numberresults)
 - [startIndex](guaranteedcampaignserviceselector.md#startindex)
@@ -41,6 +43,26 @@ ___
 • `Optional` **containsLabelIdFlg**: ``null`` \| *boolean*
 
 <div lang=\"ja\">ラベルID取得フラグ</div> 
+
+**`memberof`** GuaranteedCampaignServiceSelector
+
+___
+
+### conversionGroupIds
+
+• `Optional` **conversionGroupIds**: ``null`` \| *number*[]
+
+<div lang=\"ja\">検索条件 : コンバージョングループID</div> 
+
+**`memberof`** GuaranteedCampaignServiceSelector
+
+___
+
+### conversionTrackerIds
+
+• `Optional` **conversionTrackerIds**: ``null`` \| *number*[]
+
+<div lang=\"ja\">検索条件 : コンバージョントラッカーID</div>   title: GuaranteedCampaignServiceSelector
 
 **`memberof`** GuaranteedCampaignServiceSelector
 

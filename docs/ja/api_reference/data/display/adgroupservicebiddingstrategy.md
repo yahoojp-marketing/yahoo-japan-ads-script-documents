@@ -17,7 +17,7 @@
 
 ### campaignBiddingStrategyType
 
-• `Optional` **campaignBiddingStrategyType**: ``null`` \| [*Auto*](./enums/adgroupservicecampaignbiddingstrategytype.md#auto) \| [*MaxVcpm*](./enums/adgroupservicecampaignbiddingstrategytype.md#maxvcpm) \| [*MaxCpc*](./enums/adgroupservicecampaignbiddingstrategytype.md#maxcpc) \| [*MaxCpv*](./enums/adgroupservicecampaignbiddingstrategytype.md#maxcpv) \| [*TargetCpa*](./enums/adgroupservicecampaignbiddingstrategytype.md#targetcpa) \| [*None*](./enums/adgroupservicecampaignbiddingstrategytype.md#none) \| [*Unknown*](./enums/adgroupservicecampaignbiddingstrategytype.md#unknown)
+• `Optional` **campaignBiddingStrategyType**: ``null`` \| [*Auto*](./enums/adgroupservicecampaignbiddingstrategytype.md#auto) \| [*MaximizeConversions*](./enums/adgroupservicecampaignbiddingstrategytype.md#maximizeconversions) \| [*MaximizeClicks*](./enums/adgroupservicecampaignbiddingstrategytype.md#maximizeclicks) \| [*MaximizeView*](./enums/adgroupservicecampaignbiddingstrategytype.md#maximizeview) \| [*MaximizeVieableimpressions*](./enums/adgroupservicecampaignbiddingstrategytype.md#maximizevieableimpressions) \| [*MaxVcpm*](./enums/adgroupservicecampaignbiddingstrategytype.md#maxvcpm) \| [*MaxCpc*](./enums/adgroupservicecampaignbiddingstrategytype.md#maxcpc) \| [*MaxCpv*](./enums/adgroupservicecampaignbiddingstrategytype.md#maxcpv) \| [*TargetCpa*](./enums/adgroupservicecampaignbiddingstrategytype.md#targetcpa) \| [*None*](./enums/adgroupservicecampaignbiddingstrategytype.md#none) \| [*Unknown*](./enums/adgroupservicecampaignbiddingstrategytype.md#unknown)
 
 **`memberof`** AdGroupServiceBiddingStrategy
 

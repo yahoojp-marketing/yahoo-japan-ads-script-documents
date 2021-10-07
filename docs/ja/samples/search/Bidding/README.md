@@ -1,7 +1,7 @@
 # Bidding
 
 ### Get bidding strategies
-```$xslt
+```.js
 function getBiddingStrategies(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -25,7 +25,7 @@ function getBiddingStrategies(){
 ```
 
 ### Set campaign bidding strategy
-```$xslt
+```.js
 function setCampaignBiddingStrategy(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

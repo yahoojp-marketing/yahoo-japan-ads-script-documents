@@ -11,7 +11,6 @@
 - [adGroupIds](adgroupadserviceselector.md#adgroupids)
 - [adIds](adgroupadserviceselector.md#adids)
 - [approvalStatuses](adgroupadserviceselector.md#approvalstatuses)
-- [campaignGoalFilterType](adgroupadserviceselector.md#campaigngoalfiltertype)
 - [campaignIds](adgroupadserviceselector.md#campaignids)
 - [containsLabelIdFlg](adgroupadserviceselector.md#containslabelidflg)
 - [createdDateRange](adgroupadserviceselector.md#createddaterange)
@@ -56,14 +55,6 @@ ___
 ### approvalStatuses
 
 • `Optional` **approvalStatuses**: ``null`` \| [*AdGroupAdServiceApprovalStatus*](./enums/adgroupadserviceapprovalstatus.md)[]
-
-**`memberof`** AdGroupAdServiceSelector
-
-___
-
-### campaignGoalFilterType
-
-• `Optional` **campaignGoalFilterType**: ``null`` \| [*All*](./enums/adgroupadservicecampaigngoalfiltertype.md#all) \| [*NonGoal*](./enums/adgroupadservicecampaigngoalfiltertype.md#nongoal) \| [*Goal*](./enums/adgroupadservicecampaigngoalfiltertype.md#goal) \| [*Unknown*](./enums/adgroupadservicecampaigngoalfiltertype.md#unknown)
 
 **`memberof`** AdGroupAdServiceSelector
 

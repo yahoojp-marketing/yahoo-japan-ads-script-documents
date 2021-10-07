@@ -1,7 +1,7 @@
 # Ad Groups
 
 ### Add an ad group
-```$xslt
+```.js
 function addAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -29,7 +29,7 @@ function addAdGroup(){
 ```
 
 ### Pause an ad group
-```$xslt
+```.js
 function pauseAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -62,7 +62,7 @@ function pauseAdGroup(){
 ```
 
 ### Set ad group bid
-```$xslt
+```.js
 
 function setAdGroupBid(){
      
@@ -99,7 +99,7 @@ function setAdGroupBid(){
 ```
 
 ### Get all ad group
-```$xslt
+```.js
 
 function getAllAdGroup(){
      
@@ -117,7 +117,7 @@ function getAllAdGroup(){
 ```
 
 ### Get all ad group by id
-```$xslt
+```.js
 function getAllAdGroupById(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

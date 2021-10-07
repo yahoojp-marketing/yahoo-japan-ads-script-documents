@@ -96,9 +96,9 @@ ___
 
 ### uploadUserList
 
-▸ **uploadUserList**(`accountId`: *number*, `retargetingTagId`: *string*, `targetListId`: *number*, `uploadType`: [*RetargetingListServiceUploadUserListUploadType*](../../data/display/enums/retargetinglistserviceuploaduserlistuploadtype.md), `compressType`: [*RetargetingListServiceUploadUserListCompressType*](../../data/display/enums/retargetinglistserviceuploaduserlistcompresstype.md), `customUserId?`: *string*, `body?`: *any*): [*RetargetingListServiceUploadUserListResponse*](../../data/display/retargetinglistserviceuploaduserlistresponse.md)
+▸ **uploadUserList**(`accountId`: *number*, `retargetingTagId`: *string*, `targetListId`: *number*, `uploadType`: [*RetargetingListServiceUploadUserListUploadType*](../../data/display/enums/retargetinglistserviceuploaduserlistuploadtype.md), `compressType`: [*RetargetingListServiceUploadUserListCompressType*](../../data/display/enums/retargetinglistserviceuploaduserlistcompresstype.md), `customUidKey?`: *string*, `customEntityId?`: *string*, `body?`: *any*): [*RetargetingListServiceUploadUserListResponse*](../../data/display/retargetinglistserviceuploaduserlistresponse.md)
 
-<div lang=\"ja\">   カスタムリストのユーザリストファイルをアップロードします。<br/>   アップロードリクエストでは以下を指定します。   <ul>     <li>・Content-Type: application/octet-stream（非圧縮形式の場合はtext/plain指定も可能）</li>     <li>・Content-Length: アップロード対象のファイルのバイト数</li>     <li>・Request body: アップロードするユーザーリストのファイル本体</li>   </ul>   Transfer-encoding: chunkedを指定してのアップロードには対応していません。<br/>   また、アップロードするファイルの制限は下記の通りです。   <ul>     <li>・UTF8、BOMなし、正規化形式</li>     <li>・ユーザーIDごとに改行</li>     <li>・改行コードLF</li>     <li>・ファイルサイズ上限1GB(1,073,741,824 byte)</li>   </ul> </div> 
+<div lang=\"ja\">   カスタムリストのユーザリストファイルをアップロードします。<br/>   アップロードリクエストでは以下を指定します。<br/>   テストアカウントでは利用頂けない機能です。   <ul>     <li>・Content-Type: application/octet-stream（非圧縮形式の場合はtext/plain指定も可能）</li>     <li>・Content-Length: アップロード対象のファイルのバイト数</li>     <li>・Request body: アップロードするユーザーリストのファイル本体</li>   </ul>   Transfer-encoding: chunkedを指定してのアップロードには対応していません。<br/>   また、アップロードするファイルの制限は下記の通りです。   <ul>     <li>・UTF8、BOMなし、正規化形式</li>     <li>・ユーザーIDごとに改行</li>     <li>・改行コードLF</li>     <li>・ファイルサイズ上限1GB(1,073,741,824 byte)</li>   </ul> </div> 
 
 #### Parameters
 
@@ -109,7 +109,8 @@ ___
 | `targetListId` | *number* |
 | `uploadType` | [*RetargetingListServiceUploadUserListUploadType*](../../data/display/enums/retargetinglistserviceuploaduserlistuploadtype.md) |
 | `compressType` | [*RetargetingListServiceUploadUserListCompressType*](../../data/display/enums/retargetinglistserviceuploaduserlistcompresstype.md) |
-| `customUserId?` | *string* |
+| `customUidKey?` | *string* |
+| `customEntityId?` | *string* |
 | `body?` | *any* |
 
 **Returns:** [*RetargetingListServiceUploadUserListResponse*](../../data/display/retargetinglistserviceuploaduserlistresponse.md)

@@ -1,7 +1,7 @@
 # Enumeration: ReportDefinitionServiceReportDateRangeType
 
 
-<div lang=\"ja\">ReportDefinitionServiceReportDateRangeTypeは、レポートの集計対象期間を表します。<br> ADD時、このフィールドは必須となります。</div>  <dl class=term>   <dt class=\"term__item\">TODAY</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日です。</span></dd>   <dt class=\"term__item\">YESTERDAY</dt>   <dd class=\"term__desc\"><span lang=\"ja\">昨日です。</span></dd>   <dt class=\"term__item\">LAST_7_DAYS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を除く、過去7日間です。</span></dd>   <dt class=\"term__item\">LAST_WEEK</dt>   <dd class=\"term__desc\"><span lang=\"ja\">先週の月曜日から日曜日です。</span></dd>   <dt class=\"term__item\">LAST_14_DAYS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を除く、過去14日間です。</span></dd>   <dt class=\"term__item\">LAST_30_DAYS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を除く、過去30日間です。</span></dd>   <dt class=\"term__item\">LAST_BUSINESS_WEEK</dt>   <dd class=\"term__desc\"><span lang=\"ja\">先週の月曜日から5営業日です。</span></dd>   <dt class=\"term__item\">THIS_MONTH</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を含む、当月です。</span></dd>   <dt class=\"term__item\">LAST_MONTH</dt>   <dd class=\"term__desc\"><span lang=\"ja\">前月です。</span></dd>   <dt class=\"term__item\">ALL_TIME</dt>   <dd class=\"term__desc\"><span lang=\"ja\">取得可能な全期間です。</span></dd>   <dt class=\"term__item\">CUSTOM_DATE</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ユーザーにより指定される期間です。<br>こちらには集計対象期間の指定が必要です。</span><span lang=\"en\">Reports are generated for specified date range.<br>Specific date must be input through DateRange.</span></dd>   <dt class=\"term__item\">UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span></dd> </dl>
+<div lang=\"ja\">ReportDefinitionServiceReportDateRangeTypeは、レポートの集計対象期間を表します。<br> ADD時、reportTypeがBID_MODIFIER以外の場合、このフィールドは必須となります。<br> ※reportTypeがBID_MODIFIERの場合、このフィールドは、レスポンスの際にNO_RANGEが返却されますが、リクエストの際には指定できません。</div>  <dl class=term>   <dt class=\"term__item\">TODAY</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日です。</span></dd>   <dt class=\"term__item\">YESTERDAY</dt>   <dd class=\"term__desc\"><span lang=\"ja\">昨日です。</span></dd>   <dt class=\"term__item\">LAST_7_DAYS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を除く、過去7日間です。</span></dd>   <dt class=\"term__item\">LAST_WEEK</dt>   <dd class=\"term__desc\"><span lang=\"ja\">先週の月曜日から日曜日です。</span></dd>   <dt class=\"term__item\">LAST_14_DAYS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を除く、過去14日間です。</span></dd>   <dt class=\"term__item\">LAST_30_DAYS</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を除く、過去30日間です。</span></dd>   <dt class=\"term__item\">LAST_BUSINESS_WEEK</dt>   <dd class=\"term__desc\"><span lang=\"ja\">先週の月曜日から5営業日です。</span></dd>   <dt class=\"term__item\">THIS_MONTH</dt>   <dd class=\"term__desc\"><span lang=\"ja\">本日を含む、当月です。</span></dd>   <dt class=\"term__item\">LAST_MONTH</dt>   <dd class=\"term__desc\"><span lang=\"ja\">前月です。</span></dd>   <dt class=\"term__item\">ALL_TIME</dt>   <dd class=\"term__desc\"><span lang=\"ja\">取得可能な全期間です。</span></dd>   <dt class=\"term__item\">CUSTOM_DATE</dt>   <dd class=\"term__desc\"><span lang=\"ja\">ユーザーにより指定される期間です。<br>こちらには集計対象期間の指定が必要です。</span><span lang=\"en\">Reports are generated for specified date range.<br>Specific date must be input through DateRange.</span></dd>   <dt class=\"term__item\">NO_RANGE</dt>   <dd class=\"term__desc\"><span lang=\"ja\">期間指定なしです。</span></dd>   <dt class=\"term__item\">UNKNOWN</dt>   <dd class=\"term__desc\"><span lang=\"ja\">未知の値です。</span></dd> </dl>
 
 ## Table of contents
 
@@ -15,6 +15,7 @@
 - [LastBusinessWeek](reportdefinitionservicereportdaterangetype.md#lastbusinessweek)
 - [LastMonth](reportdefinitionservicereportdaterangetype.md#lastmonth)
 - [LastWeek](reportdefinitionservicereportdaterangetype.md#lastweek)
+- [NoRange](reportdefinitionservicereportdaterangetype.md#norange)
 - [ThisMonth](reportdefinitionservicereportdaterangetype.md#thismonth)
 - [Today](reportdefinitionservicereportdaterangetype.md#today)
 - [Unknown](reportdefinitionservicereportdaterangetype.md#unknown)
@@ -67,6 +68,12 @@ ___
 ### LastWeek
 
 • **LastWeek**: = "LAST\_WEEK"
+
+___
+
+### NoRange
+
+• **NoRange**: = "NO\_RANGE"
 
 ___
 

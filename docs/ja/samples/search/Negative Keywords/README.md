@@ -1,7 +1,7 @@
 # Negative Keywords
 
 ### Add negative keyword to a campaign
-```$xslt
+```.js
 function addNegativeKeywordToCampaign(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -48,7 +48,7 @@ function addNegativeKeywordToCampaign(){
 ```
 
 ### Add a negative keyword to an ad group
-```$xslt
+```.js
 function addNegativeKeywordToAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -83,7 +83,7 @@ function addNegativeKeywordToAdGroup(){
 ```
 
 ### Get negative keywords in a campaign
-```$xslt
+```.js
 function getNegativeKeywordsInCampaign(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -106,7 +106,7 @@ function getNegativeKeywordsInCampaign(){
 ```
 
 ### Get negative keywords in an ad group
-```$xslt
+```.js
 
 function getNegativeKeywordsInAdGroup(){
  

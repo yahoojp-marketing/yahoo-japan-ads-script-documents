@@ -1,7 +1,7 @@
 # Negative Keyword Lists
 
 ### Get all negative keyword lists
-```$xslt
+```.js
 function getAllNegativeKeywordLists(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -23,7 +23,7 @@ function getAllNegativeKeywordLists(){
 ```
 
 ### Add negative keyword list
-```$xslt
+```.js
 function addNegativeKeywordList(){
      
     //const accountId = AdsUtilities.getCurrentAccountId();
@@ -49,7 +49,7 @@ function addNegativeKeywordList(){
 ```
 
 ### Set negative keyword
-```$xslt
+```.js
 function setNegativeKeyword(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -85,7 +85,7 @@ function setNegativeKeyword(){
 ```
 
 ### Apply a negative keyword list to a campaign
-```$xslt
+```.js
 function applyNegativeKeywordListToCampaign(){
  
     const accountId = AdsUtilities.getCurrentAccountId();

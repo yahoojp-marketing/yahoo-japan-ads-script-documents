@@ -8,7 +8,6 @@
 ### Properties
 
 - [amount](campaignservicebudget.md#amount)
-- [budgetDeliveryMethod](campaignservicebudget.md#budgetdeliverymethod)
 
 ## Properties
 
@@ -16,14 +15,6 @@
 
 • `Optional` **amount**: ``null`` \| *number*
 
-<div lang=\"ja\"> キャンペーンの一日あたりの予算（一日単位の利用金額）です。<br> このフィールドは、ADDおよびSET時に省略可能となり、REMOVE時は無視されます。<br> budgetDeliveryMethodがSTANDARDの場合はADDおよびSET時に必須です。<br> ※目的ありの場合、ADD時に必須となります。 </div> 
-
-**`memberof`** CampaignServiceBudget
-
-___
-
-### budgetDeliveryMethod
-
-• `Optional` **budgetDeliveryMethod**: ``null`` \| [*Standard*](./enums/campaignservicebudgetdeliverymethod.md#standard) \| [*Accelerated*](./enums/campaignservicebudgetdeliverymethod.md#accelerated) \| [*Unknown*](./enums/campaignservicebudgetdeliverymethod.md#unknown)
+<div lang=\"ja\"> キャンペーンの一日あたりの予算（一日単位の利用金額）です。<br> ADD時、このフィールドは必須となります。 </div> 
 
 **`memberof`** CampaignServiceBudget

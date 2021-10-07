@@ -1,7 +1,7 @@
 # Ads
 
 ### Add an expanded text ad
-```$xslt
+```.js
 function addExpandedTextAd(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -38,7 +38,7 @@ function addExpandedTextAd(){
 ```
 
 ### Add a responsive search ad
-```$xslt
+```.js
 function addResponsiveSearchAd(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -103,7 +103,7 @@ function addResponsiveSearchAd(){
 ```
 
 ### Pause ads in an ad group
-```$xslt
+```.js
 function pauseAdsInAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -143,7 +143,7 @@ function pauseAdsInAdGroup(){
 ```
 
 ### Get all ads
-```$xslt
+```.js
 
 function getAllAds(){
      
@@ -161,7 +161,7 @@ function getAllAds(){
 ```
 
 ### Get all ads by id
-```$xslt
+```.js
 
 function getAllAdsById(){
      
@@ -182,7 +182,7 @@ function getAllAdsById(){
 ```
 
 ### Get expanded text ads in an ad group
-```$xslt
+```.js
 function getExpandedTextAdsInAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -211,7 +211,7 @@ function getExpandedTextAdsInAdGroup(){
 ```
 
 ### Get responsive search ad in an ad group
-```$xslt
+```.js
 function getResponsiveSearchAdInAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

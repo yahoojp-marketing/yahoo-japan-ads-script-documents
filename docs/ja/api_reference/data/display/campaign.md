@@ -8,10 +8,8 @@
 ### Properties
 
 - [accountId](campaign.md#accountid)
-- [adProductType](campaign.md#adproducttype)
 - [appId](campaign.md#appid)
 - [appName](campaign.md#appname)
-- [biddingStrategy](campaign.md#biddingstrategy)
 - [budget](campaign.md#budget)
 - [campaignBiddingStrategy](campaign.md#campaignbiddingstrategy)
 - [campaignDeliveryType](campaign.md#campaigndeliverytype)
@@ -19,15 +17,17 @@
 - [campaignId](campaign.md#campaignid)
 - [campaignName](campaign.md#campaignname)
 - [conversionOptimizer](campaign.md#conversionoptimizer)
+- [conversionTracker](campaign.md#conversiontracker)
 - [createdDate](campaign.md#createddate)
+- [customParameters](campaign.md#customparameters)
 - [deviceOsType](campaign.md#deviceostype)
 - [endDate](campaign.md#enddate)
 - [feedId](campaign.md#feedid)
-- [frequencyCap](campaign.md#frequencycap)
+- [isRemoveTrackingUrl](campaign.md#isremovetrackingurl)
 - [labels](campaign.md#labels)
 - [servingStatus](campaign.md#servingstatus)
 - [startDate](campaign.md#startdate)
-- [type](campaign.md#type)
+- [trackingUrl](campaign.md#trackingurl)
 - [userStatus](campaign.md#userstatus)
 - [vendorName](campaign.md#vendorname)
 - [viewableFrequencyCap](campaign.md#viewablefrequencycap)
@@ -39,16 +39,6 @@
 • `Optional` **accountId**: ``null`` \| *number*
 
 <div lang=\"ja\"> アカウントIDです。<br> このフィールドは、リクエストの場合は必須です。 </div> 
-
-**`memberof`** Campaign
-
-___
-
-### adProductType
-
-• `Optional` **adProductType**: ``null`` \| *string*
-
-<div lang=\"ja\"> 配信方法です。<br> ADD時、このフィールドは指定できません。<br> REMOVE時、このフィールドは無視されます。 </div> 
 
 **`memberof`** Campaign
 
@@ -69,14 +59,6 @@ ___
 • `Optional` **appName**: ``null`` \| *string*
 
 <div lang=\"ja\"> アプリの名称です。<br> このフィールドは、ADD時に省略可能となり、SETおよびREMOVE時は無視されます。<br> ※campaignGoalが「APP_PROMOTION」の場合、ADD時に必須となります。 </div> 
-
-**`memberof`** Campaign
-
-___
-
-### biddingStrategy
-
-• `Optional` **biddingStrategy**: ``null`` \| [*CampaignServiceBiddingStrategy*](campaignservicebiddingstrategy.md)
 
 **`memberof`** Campaign
 
@@ -146,11 +128,27 @@ ___
 
 ___
 
+### conversionTracker
+
+• `Optional` **conversionTracker**: ``null`` \| [*CampaignServiceConversionTracker*](campaignserviceconversiontracker.md)
+
+**`memberof`** Campaign
+
+___
+
 ### createdDate
 
 • `Optional` **createdDate**: ``null`` \| *string*
 
 <div lang=\"ja\">キャンペーンが作成された日時です。<br>※フォーマット：yyyyMMdd</div> 
+
+**`memberof`** Campaign
+
+___
+
+### customParameters
+
+• `Optional` **customParameters**: ``null`` \| [*CampaignServiceCustomParameters*](campaignservicecustomparameters.md)
 
 **`memberof`** Campaign
 
@@ -184,9 +182,9 @@ ___
 
 ___
 
-### frequencyCap
+### isRemoveTrackingUrl
 
-• `Optional` **frequencyCap**: ``null`` \| [*CampaignServiceFrequencyCap*](campaignservicefrequencycap.md)
+• `Optional` **isRemoveTrackingUrl**: ``null`` \| [*True*](./enums/campaignserviceisremoveflg.md#true) \| [*False*](./enums/campaignserviceisremoveflg.md#false) \| [*Unknown*](./enums/campaignserviceisremoveflg.md#unknown)
 
 **`memberof`** Campaign
 
@@ -218,9 +216,11 @@ ___
 
 ___
 
-### type
+### trackingUrl
 
-• `Optional` **type**: ``null`` \| [*Standard*](./enums/campaignservicetype.md#standard) \| [*App*](./enums/campaignservicetype.md#app) \| [*Unknown*](./enums/campaignservicetype.md#unknown)
+• `Optional` **trackingUrl**: ``null`` \| *string*
+
+<div lang=\"ja\">トラッキングURLです。<br> ADD時およびSET時、このフィールドは省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。<br>※現在利用できません</div> 
 
 **`memberof`** Campaign
 

@@ -46,7 +46,7 @@ ___
 
 • `Optional` **advancedMobileUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">カスタムURL（スマートフォン）です。<br> ADDおよびSET時、このフィールドは省略可能となります。<br> ※空で設定すると、既存のカスタムURL（スマートフォン）は削除されます。</div> 
+<div lang=\"ja\">スマートフォン向けURLです。<br> ADDおよびSET時、このフィールドは省略可能となります。<br> ※空で設定すると、既存のスマートフォン向けURLは削除されます。</div> 
 
 **`memberof`** AdGroupCriterionServiceBiddableAdGroupCriterion
 
@@ -56,7 +56,7 @@ ___
 
 • `Optional` **advancedUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">移行後のカスタムURLです。<br> ADDおよびSET時、このフィールドは省略可能となります。※ADD時、移行してtracking Urlを指定している場合は必須となります。<br> ※空で設定すると、既存の移行後のカスタムURLは削除されます。</div> 
+<div lang=\"ja\">最終リンク先URLです。<br> ADDおよびSET時、このフィールドは省略可能となります。※ADD時、移行してtracking Urlを指定している場合は必須となります。<br> ※空で設定すると、既存の最終リンク先URLは削除されます。</div> 
 
 **`memberof`** AdGroupCriterionServiceBiddableAdGroupCriterion
 
@@ -110,7 +110,7 @@ ___
 
 • `Optional` **reviewAdvancedMobileUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">配信審査中のカスタムURL（スマートフォン）です。</div> 
+<div lang=\"ja\">配信審査中のスマートフォン向けURLです。</div> 
 
 **`memberof`** AdGroupCriterionServiceBiddableAdGroupCriterion
 
@@ -120,7 +120,7 @@ ___
 
 • `Optional` **reviewAdvancedUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">移行後の配信審査中のカスタムURLです。</div> 
+<div lang=\"ja\">配信審査中の最終リンク先URLです。</div> 
 
 **`memberof`** AdGroupCriterionServiceBiddableAdGroupCriterion
 

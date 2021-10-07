@@ -1,7 +1,7 @@
 # Account
 
 ### Get details on the current account
-```$xslt
+```.js
 function getDetailsOnCurrentAccount(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -17,7 +17,7 @@ function getDetailsOnCurrentAccount(){
 ```
 
 ### Pause a account
-```$xslt
+```.js
 function pauseAccount(){
  
     const accountId = AdsUtilities.getCurrentAccountId();

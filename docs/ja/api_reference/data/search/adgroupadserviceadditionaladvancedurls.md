@@ -1,7 +1,7 @@
 # AdGroupAdServiceAdditionalAdvancedUrls
 
 
-<div lang=\"ja\">AdGroupAdServiceAdditionalAdvancedUrlsは、2件目以降の最終リンク先URLを保持するオブジェクトです。<br> ADD時、このフィールドは省略可能となります。※adTypeがDYNAMIC_SEARCH_LINKED_ADの場合は無視されます。</div> 
+<div lang=\"ja\">AdGroupAdServiceAdditionalAdvancedUrlsは、2件目以降の最終リンク先URLを保持するオブジェクトです。<br> ※こちらのフィールドは、現在利用できません。<br> ADD時、このフィールドは省略可能となります。※adTypeがDYNAMIC_SEARCH_LINKED_ADの場合は無視されます。</div> 
 
 ## Table of contents
 

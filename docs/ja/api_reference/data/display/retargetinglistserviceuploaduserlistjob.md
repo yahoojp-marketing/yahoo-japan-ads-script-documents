@@ -77,6 +77,6 @@ ___
 
 ### uploadType
 
-• `Optional` **uploadType**: ``null`` \| [*Idfa*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#idfa) \| [*Aaid*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#aaid) \| [*MailAddress*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#mailaddress) \| [*Userid*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#userid) \| [*Unknown*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#unknown)
+• `Optional` **uploadType**: ``null`` \| [*Idfa*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#idfa) \| [*Aaid*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#aaid) \| [*MailAddress*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#mailaddress) \| [*CustomUidKey*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#customuidkey) \| [*Unknown*](./enums/retargetinglistserviceuploaduserlistuploadtype.md#unknown)
 
 **`memberof`** RetargetingListServiceUploadUserListJob

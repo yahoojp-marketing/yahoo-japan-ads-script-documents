@@ -16,7 +16,9 @@
 - [averageDurationVideoViewed](stats.md#averagedurationvideoviewed)
 - [averageRateVideoViewed](stats.md#averageratevideoviewed)
 - [avgCpc](stats.md#avgcpc)
+- [avgCpm](stats.md#avgcpm)
 - [avgDeliverRank](stats.md#avgdeliverrank)
+- [avgVcpm](stats.md#avgvcpm)
 - [budgetImpressionShareLostRate](stats.md#budgetimpressionsharelostrate)
 - [clickCnt](stats.md#clickcnt)
 - [clickRate](stats.md#clickrate)
@@ -155,11 +157,31 @@ ___
 
 ___
 
+### avgCpm
+
+• `Optional` **avgCpm**: ``null`` \| *number*
+
+<div lang=\"ja\">平均CPM</div> 
+
+**`memberof`** Stats
+
+___
+
 ### avgDeliverRank
 
 • `Optional` **avgDeliverRank**: ``null`` \| *number*
 
 <div lang=\"ja\">平均掲載順位（配信された時のeCPM順位の平均）</div> 
+
+**`memberof`** Stats
+
+___
+
+### avgVcpm
+
+• `Optional` **avgVcpm**: ``null`` \| *number*
+
+<div lang=\"ja\">平均vCPM</div> 
 
 **`memberof`** Stats
 

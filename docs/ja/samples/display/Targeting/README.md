@@ -1,7 +1,7 @@
 # Targeting
 
 ### Set location and bid modifiers
-```$xslt
+```.js
 function setLocationAndBidModifiers(){
  
     let targetId;
@@ -50,7 +50,7 @@ function setLocationAndBidModifiers(){
 ```
 
 ### Set device and bid modifiers
-```$xslt
+```.js
 function setDeviceAndBidModifiers(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -108,7 +108,7 @@ function setDeviceAndBidModifiers(){
 ```
 
 ### Set schedule and bid modifiers
-```$xslt
+```.js
 function setScheduleAndBidModifiers(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -161,7 +161,7 @@ function setScheduleAndBidModifiers(){
 ```
 
 ### Set age and bid modifiers
-```$xslt
+```.js
 function setAgeAndBidModifiers(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

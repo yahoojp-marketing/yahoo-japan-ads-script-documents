@@ -1,7 +1,7 @@
 # Report
 
 ### Create an account report
-```$xslt
+```.js
 function createAccountReport(){
   
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -28,7 +28,7 @@ function createAccountReport(){
 ```
 
 ### Create an ad report
-```$xslt
+```.js
 function createAdReport(){
   
     const accountId = AdsUtilities.getCurrentAccountId();

@@ -10,8 +10,11 @@
 - [description](adgroupadservicecarousel.md#description)
 - [disapprovalReasonCodes](adgroupadservicecarousel.md#disapprovalreasoncodes)
 - [displayOrder](adgroupadservicecarousel.md#displayorder)
+- [finalUrl](adgroupadservicecarousel.md#finalurl)
 - [headline](adgroupadservicecarousel.md#headline)
+- [isRemoveSmartphoneFinalUrl](adgroupadservicecarousel.md#isremovesmartphonefinalurl)
 - [mediaId](adgroupadservicecarousel.md#mediaid)
+- [smartphoneFinalUrl](adgroupadservicecarousel.md#smartphonefinalurl)
 - [url](adgroupadservicecarousel.md#url)
 
 ## Properties
@@ -20,7 +23,7 @@
 
 • `Optional` **description**: ``null`` \| *string*
 
-<div lang=\"ja\"> 広告の説明文です。<br> このフィールドは、SET時は必須となり、ADD時は省略可能となります。 </div> 
+<div lang=\"ja\"> 広告の説明文です。<br> このフィールドは、ADD時およびSET時に必須です。 </div> 
 
 **`memberof`** AdGroupAdServiceCarousel
 
@@ -46,6 +49,16 @@ ___
 
 ___
 
+### finalUrl
+
+• `Optional` **finalUrl**: ``null`` \| *string*
+
+<div lang=\"ja\">最終リンク先URLです。<br> ADD時、finalUrlフィールドとurlフィールドは同時に設定することはできず、どちらか片方の設定が必須となります。<br> finalUrlフィールドを設定する場合、smartphoneFinalUrl、trackingUrl、customParametersは任意になります。<br> SET時は省略可能となります。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 <br>※現在利用できません </div> 
+
+**`memberof`** AdGroupAdServiceCarousel
+
+___
+
 ### headline
 
 • `Optional` **headline**: ``null`` \| *string*
@@ -56,11 +69,29 @@ ___
 
 ___
 
+### isRemoveSmartphoneFinalUrl
+
+• `Optional` **isRemoveSmartphoneFinalUrl**: ``null`` \| [*True*](./enums/adgroupadserviceisremoveflg.md#true) \| [*False*](./enums/adgroupadserviceisremoveflg.md#false) \| [*Unknown*](./enums/adgroupadserviceisremoveflg.md#unknown)
+
+**`memberof`** AdGroupAdServiceCarousel
+
+___
+
 ### mediaId
 
 • `Optional` **mediaId**: ``null`` \| *number*
 
-<div lang=\"ja\"> メディアIDです。<br> このフィールドは、ADD時およびSET時に指定不可です。 </div> 
+<div lang=\"ja\"> メディアIDです。<br> このフィールドは、ADD時およびSET時に必須です。 </div> 
+
+**`memberof`** AdGroupAdServiceCarousel
+
+___
+
+### smartphoneFinalUrl
+
+• `Optional` **smartphoneFinalUrl**: ``null`` \| *string*
+
+<div lang=\"ja\">スマートフォン向けURLです。<br> finalUrlを指定するときのみ、任意で指定できます。<br> キャンペーン目的「アプリ訴求」の場合は、ADD、SETのどちらも指定できません。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 <br>※現在利用できません </div> 
 
 **`memberof`** AdGroupAdServiceCarousel
 
@@ -70,6 +101,6 @@ ___
 
 • `Optional` **url**: ``null`` \| *string*
 
-<div lang=\"ja\"> リンク先URLです。<br> このフィールドは、ADD時およびSET時に必須です。 </div> 
+<div lang=\"ja\"> リンク先URLです。<br> ADD時、urlフィールドとfinalUrlフィールドは同時に設定することはできず、どちらか片方の設定が必須となります。<br> SET時は省略可能となります。<br> SET時にfinalUrlを指定する場合、このフィールドの値はクリアされます。 </div> 
 
 **`memberof`** AdGroupAdServiceCarousel

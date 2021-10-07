@@ -55,7 +55,7 @@ ___
 
 • `Optional` **advancedMobileUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">最終リンク先URL（スマートフォン）です。<br> ADD時、このフィールドは省略可能となります。※adTypeがDYNAMIC_SEARCH_LINKED_ADの場合は無視されます。</div> 
+<div lang=\"ja\">スマートフォン向けURLです。<br> ADD時、このフィールドは省略可能となります。※adTypeがDYNAMIC_SEARCH_LINKED_ADの場合は無視されます。</div> 
 
 **`memberof`** AdGroupAdServiceAd
 

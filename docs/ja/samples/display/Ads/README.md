@@ -1,7 +1,7 @@
 # Ads
 
 ### Add an text ad
-```$xslt
+```.js
 function addTextAd(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -44,7 +44,7 @@ function addTextAd(){
 ```
 
 ### Add a image ad
-```$xslt
+```.js
 function addImageAd(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -86,7 +86,7 @@ function addImageAd(){
 ```
 
 ### Pause ads in an ad group
-```$xslt
+```.js
 function pauseAdsInAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -126,7 +126,7 @@ function pauseAdsInAdGroup(){
 ```
 
 ### Get all ads
-```$xslt
+```.js
 function getAllAds(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -152,7 +152,7 @@ function getAllAds(){
 ```
 
 ### Get all ads by id
-```$xslt
+```.js
 function getAllAdsById(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -181,7 +181,7 @@ function getAllAdsById(){
 ```
 
 ### Get text ad in an ad group
-```$xslt
+```.js
 function getTextAdInAdGroup(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -215,7 +215,7 @@ function getTextAdInAdGroup(){
 ```
 
 ### Get image ad in an ad group
-```$xslt
+```.js
 function getImageAdInAdGroup(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

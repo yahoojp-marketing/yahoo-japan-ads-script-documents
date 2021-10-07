@@ -17,7 +17,7 @@
 
 • `Optional` **bidCeiling**: ``null`` \| *number*
 
-<div lang=\"ja\">入札価格の上限です。<br> このフィールドは省略可能となります。その際、デフォルト設定値は0となります。<br> ※「0」が設定された場合、上限設定はありません。</div> 
+<div lang=\"ja\">入札価格の上限です。<br> このフィールドの追加と編集は廃止され、現在設定できません。</div> 
 
 **`memberof`** CampaignServiceTargetCpaBiddingScheme
 
@@ -27,7 +27,7 @@ ___
 
 • `Optional` **bidFloor**: ``null`` \| *number*
 
-<div lang=\"ja\">入札価格の下限です。<br> このフィールドは省略可能となります。その際、デフォルト設定値は0となります。<br> ※ 設定を解除する場合は「0」を指定します。</div> 
+<div lang=\"ja\">入札価格の下限です。<br> このフィールドの追加と編集は廃止され、現在設定できません。</div> 
 
 **`memberof`** CampaignServiceTargetCpaBiddingScheme
 
@@ -37,6 +37,6 @@ ___
 
 • `Optional` **targetCpa**: ``null`` \| *number*
 
-<div lang=\"ja\">コンバージョン単価の目標値です。<br> ADD時およびSET時、このフィールドは必須となります。<br> ※制限値：0 ～ 99999999<br>※日本円のみの設定です。</div> 
+<div lang=\"ja\">コンバージョン単価の目標値です。<br> ADD時およびSET時、このフィールドは必須となります。<br> ※制限値：1 ～ 800000<br>※日本円のみの設定です。</div> 
 
 **`memberof`** CampaignServiceTargetCpaBiddingScheme

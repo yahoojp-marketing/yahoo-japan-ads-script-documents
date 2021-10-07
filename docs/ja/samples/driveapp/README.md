@@ -1,7 +1,7 @@
 # DriveApp
 
 ### Create a new folder
-```$xslt
+```.js
 function createNewFolder(){
    
   var name = "newFolderName";
@@ -12,7 +12,7 @@ function createNewFolder(){
 ```
 
 ### Create a new file in a folder
-```$xslt
+```.js
 function createNewFileInFolder(){
  
   const folderId = "1234ABCD";
@@ -24,7 +24,7 @@ function createNewFileInFolder(){
 ```
 
 ### List of files in a folder
-```$xslt
+```.js
 function listOfFilesInFolder(){
  
   const folderId = "1234ABCD";

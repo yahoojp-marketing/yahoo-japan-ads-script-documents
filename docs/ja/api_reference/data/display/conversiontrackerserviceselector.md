@@ -15,6 +15,7 @@
 - [conversionTrackerTypes](conversiontrackerserviceselector.md#conversiontrackertypes)
 - [countingType](conversiontrackerserviceselector.md#countingtype)
 - [excludeFromBidding](conversiontrackerserviceselector.md#excludefrombidding)
+- [excludePreviousConversion](conversiontrackerserviceselector.md#excludepreviousconversion)
 - [numberResults](conversiontrackerserviceselector.md#numberresults)
 - [startIndex](conversiontrackerserviceselector.md#startindex)
 - [statsPeriod](conversiontrackerserviceselector.md#statsperiod)
@@ -88,6 +89,14 @@ ___
 ### excludeFromBidding
 
 • `Optional` **excludeFromBidding**: ``null`` \| [*False*](./enums/conversiontrackerserviceexcludefrombidding.md#false) \| [*True*](./enums/conversiontrackerserviceexcludefrombidding.md#true) \| [*Unknown*](./enums/conversiontrackerserviceexcludefrombidding.md#unknown)
+
+**`memberof`** ConversionTrackerServiceSelector
+
+___
+
+### excludePreviousConversion
+
+• `Optional` **excludePreviousConversion**: ``null`` \| [*True*](./enums/conversiontrackerserviceexcludepreviousconversion.md#true) \| [*False*](./enums/conversiontrackerserviceexcludepreviousconversion.md#false) \| [*Unknown*](./enums/conversiontrackerserviceexcludepreviousconversion.md#unknown)
 
 **`memberof`** ConversionTrackerServiceSelector
 

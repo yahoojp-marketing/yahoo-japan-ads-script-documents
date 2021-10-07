@@ -12,6 +12,7 @@
 - [date](guaranteedinventoryserviceunavailablereason.md#date)
 - [devices](guaranteedinventoryserviceunavailablereason.md#devices)
 - [genders](guaranteedinventoryserviceunavailablereason.md#genders)
+- [hours](guaranteedinventoryserviceunavailablereason.md#hours)
 
 ## Properties
 
@@ -54,5 +55,15 @@ ___
 ### genders
 
 • `Optional` **genders**: ``null`` \| [*GuaranteedInventoryServiceGender*](./enums/guaranteedinventoryservicegender.md)[]
+
+**`memberof`** GuaranteedInventoryServiceUnavailableReason
+
+___
+
+### hours
+
+• `Optional` **hours**: ``null`` \| *number*[]
+
+<div lang=\"ja\"> 予約ができない時間帯のリストです。 </div> 
 
 **`memberof`** GuaranteedInventoryServiceUnavailableReason

@@ -1,7 +1,7 @@
 # ReportDefinition
 
 
-<div lang=\"ja\">ReportDefinitionオブジェクトは、レポートの情報を表します。</div> </td>     <td>-</td>   </tr>   <tr>     <td>reportCompressType</td>     <td>-</td>     <td>Optional</td>     <td>-</td>   </tr>   <tr>     <td>reportDateRangeType</td>     <td>-</td>     <td>Requirement</td>     <td>-</td>   </tr>   <tr>     <td>reportDownloadFormat</td>     <td>-</td>     <td>Optional</td>     <td>-</td>   </tr>   <tr>     <td>reportLanguage</td>     <td>-</td>     <td>Optional</td>     <td>-</td>   </tr>   <tr>     <td>reportDownloadEncode</td>     <td>-</td>     <td>Optional</td>     <td>-</td>   </tr>   <tr>     <td>reportIncludeZeroImpressions</td>     <td>-</td>     <td>Optional</td>     <td>-</td>   </tr> </table></details>
+<div lang=\"ja\">ReportDefinitionオブジェクトは、レポートの情報を表します。</div> 
 
 ## Table of contents
 
@@ -14,15 +14,17 @@
 - [filters](reportdefinition.md#filters)
 - [reportCompressType](reportdefinition.md#reportcompresstype)
 - [reportDateRangeType](reportdefinition.md#reportdaterangetype)
+- [reportDecimalPartDisplayType](reportdefinition.md#reportdecimalpartdisplaytype)
 - [reportDownloadEncode](reportdefinition.md#reportdownloadencode)
 - [reportDownloadFormat](reportdefinition.md#reportdownloadformat)
 - [reportIncludeDeleted](reportdefinition.md#reportincludedeleted)
-- [reportIncludeZeroImpressions](reportdefinition.md#reportincludezeroimpressions)
 - [reportJobErrorDetail](reportdefinition.md#reportjoberrordetail)
 - [reportJobId](reportdefinition.md#reportjobid)
 - [reportJobStatus](reportdefinition.md#reportjobstatus)
 - [reportLanguage](reportdefinition.md#reportlanguage)
 - [reportName](reportdefinition.md#reportname)
+- [reportSkipColumnHeader](reportdefinition.md#reportskipcolumnheader)
+- [reportSkipReportSummary](reportdefinition.md#reportskipreportsummary)
 - [reportType](reportdefinition.md#reporttype)
 - [requestTime](reportdefinition.md#requesttime)
 - [sortFields](reportdefinition.md#sortfields)
@@ -85,7 +87,15 @@ ___
 
 ### reportDateRangeType
 
-• `Optional` **reportDateRangeType**: ``null`` \| [*Today*](./enums/reportdefinitionservicereportdaterangetype.md#today) \| [*Yesterday*](./enums/reportdefinitionservicereportdaterangetype.md#yesterday) \| [*Last7Days*](./enums/reportdefinitionservicereportdaterangetype.md#last7days) \| [*LastWeek*](./enums/reportdefinitionservicereportdaterangetype.md#lastweek) \| [*Last14Days*](./enums/reportdefinitionservicereportdaterangetype.md#last14days) \| [*Last30Days*](./enums/reportdefinitionservicereportdaterangetype.md#last30days) \| [*LastBusinessWeek*](./enums/reportdefinitionservicereportdaterangetype.md#lastbusinessweek) \| [*ThisMonth*](./enums/reportdefinitionservicereportdaterangetype.md#thismonth) \| [*LastMonth*](./enums/reportdefinitionservicereportdaterangetype.md#lastmonth) \| [*AllTime*](./enums/reportdefinitionservicereportdaterangetype.md#alltime) \| [*CustomDate*](./enums/reportdefinitionservicereportdaterangetype.md#customdate) \| [*Unknown*](./enums/reportdefinitionservicereportdaterangetype.md#unknown)
+• `Optional` **reportDateRangeType**: ``null`` \| [*Today*](./enums/reportdefinitionservicereportdaterangetype.md#today) \| [*Yesterday*](./enums/reportdefinitionservicereportdaterangetype.md#yesterday) \| [*Last7Days*](./enums/reportdefinitionservicereportdaterangetype.md#last7days) \| [*LastWeek*](./enums/reportdefinitionservicereportdaterangetype.md#lastweek) \| [*Last14Days*](./enums/reportdefinitionservicereportdaterangetype.md#last14days) \| [*Last30Days*](./enums/reportdefinitionservicereportdaterangetype.md#last30days) \| [*LastBusinessWeek*](./enums/reportdefinitionservicereportdaterangetype.md#lastbusinessweek) \| [*ThisMonth*](./enums/reportdefinitionservicereportdaterangetype.md#thismonth) \| [*LastMonth*](./enums/reportdefinitionservicereportdaterangetype.md#lastmonth) \| [*AllTime*](./enums/reportdefinitionservicereportdaterangetype.md#alltime) \| [*CustomDate*](./enums/reportdefinitionservicereportdaterangetype.md#customdate) \| [*NoRange*](./enums/reportdefinitionservicereportdaterangetype.md#norange) \| [*Unknown*](./enums/reportdefinitionservicereportdaterangetype.md#unknown)
+
+**`memberof`** ReportDefinition
+
+___
+
+### reportDecimalPartDisplayType
+
+• `Optional` **reportDecimalPartDisplayType**: ``null`` \| [*FullDisplay*](./enums/reportdefinitionservicereportdecimalpartdisplaytype.md#fulldisplay) \| [*SimpleDisplay*](./enums/reportdefinitionservicereportdecimalpartdisplaytype.md#simpledisplay) \| [*Unknown*](./enums/reportdefinitionservicereportdecimalpartdisplaytype.md#unknown)
 
 **`memberof`** ReportDefinition
 
@@ -110,14 +120,6 @@ ___
 ### reportIncludeDeleted
 
 • `Optional` **reportIncludeDeleted**: ``null`` \| [*True*](./enums/reportdefinitionservicereportincludedeleted.md#true) \| [*False*](./enums/reportdefinitionservicereportincludedeleted.md#false) \| [*Unknown*](./enums/reportdefinitionservicereportincludedeleted.md#unknown)
-
-**`memberof`** ReportDefinition
-
-___
-
-### reportIncludeZeroImpressions
-
-• `Optional` **reportIncludeZeroImpressions**: ``null`` \| [*True*](./enums/reportdefinitionservicereportincludezeroimpressions.md#true) \| [*False*](./enums/reportdefinitionservicereportincludezeroimpressions.md#false) \| [*Unknown*](./enums/reportdefinitionservicereportincludezeroimpressions.md#unknown)
 
 **`memberof`** ReportDefinition
 
@@ -169,9 +171,25 @@ ___
 
 ___
 
+### reportSkipColumnHeader
+
+• `Optional` **reportSkipColumnHeader**: ``null`` \| [*True*](./enums/reportdefinitionservicereportskipcolumnheader.md#true) \| [*False*](./enums/reportdefinitionservicereportskipcolumnheader.md#false) \| [*Unknown*](./enums/reportdefinitionservicereportskipcolumnheader.md#unknown)
+
+**`memberof`** ReportDefinition
+
+___
+
+### reportSkipReportSummary
+
+• `Optional` **reportSkipReportSummary**: ``null`` \| [*True*](./enums/reportdefinitionservicereportskipreportsummary.md#true) \| [*False*](./enums/reportdefinitionservicereportskipreportsummary.md#false) \| [*Unknown*](./enums/reportdefinitionservicereportskipreportsummary.md#unknown)
+
+**`memberof`** ReportDefinition
+
+___
+
 ### reportType
 
-• `Optional` **reportType**: ``null`` \| [*Account*](./enums/reportdefinitionservicereporttype.md#account) \| [*Campaign*](./enums/reportdefinitionservicereporttype.md#campaign) \| [*Adgroup*](./enums/reportdefinitionservicereporttype.md#adgroup) \| [*Ad*](./enums/reportdefinitionservicereporttype.md#ad) \| [*Keywords*](./enums/reportdefinitionservicereporttype.md#keywords) \| [*SearchQuery*](./enums/reportdefinitionservicereporttype.md#searchquery) \| [*Geo*](./enums/reportdefinitionservicereporttype.md#geo) \| [*FeedItem*](./enums/reportdefinitionservicereporttype.md#feeditem) \| [*GeoTarget*](./enums/reportdefinitionservicereporttype.md#geotarget) \| [*ScheduleTarget*](./enums/reportdefinitionservicereporttype.md#scheduletarget) \| [*BidStrategy*](./enums/reportdefinitionservicereporttype.md#bidstrategy) \| [*AdCustomizers*](./enums/reportdefinitionservicereporttype.md#adcustomizers) \| [*TargetList*](./enums/reportdefinitionservicereporttype.md#targetlist) \| [*LandingPageUrl*](./enums/reportdefinitionservicereporttype.md#landingpageurl) \| [*KeywordlessQuery*](./enums/reportdefinitionservicereporttype.md#keywordlessquery) \| [*WebpageCriterion*](./enums/reportdefinitionservicereporttype.md#webpagecriterion) \| [*Unknown*](./enums/reportdefinitionservicereporttype.md#unknown)
+• `Optional` **reportType**: ``null`` \| [*Account*](./enums/reportdefinitionservicereporttype.md#account) \| [*Campaign*](./enums/reportdefinitionservicereporttype.md#campaign) \| [*Adgroup*](./enums/reportdefinitionservicereporttype.md#adgroup) \| [*Ad*](./enums/reportdefinitionservicereporttype.md#ad) \| [*Keywords*](./enums/reportdefinitionservicereporttype.md#keywords) \| [*SearchQuery*](./enums/reportdefinitionservicereporttype.md#searchquery) \| [*Geo*](./enums/reportdefinitionservicereporttype.md#geo) \| [*FeedItem*](./enums/reportdefinitionservicereporttype.md#feeditem) \| [*GeoTarget*](./enums/reportdefinitionservicereporttype.md#geotarget) \| [*ScheduleTarget*](./enums/reportdefinitionservicereporttype.md#scheduletarget) \| [*BidStrategy*](./enums/reportdefinitionservicereporttype.md#bidstrategy) \| [*CampaignTargetList*](./enums/reportdefinitionservicereporttype.md#campaigntargetlist) \| [*AdgroupTargetList*](./enums/reportdefinitionservicereporttype.md#adgrouptargetlist) \| [*LandingPageUrl*](./enums/reportdefinitionservicereporttype.md#landingpageurl) \| [*KeywordlessQuery*](./enums/reportdefinitionservicereporttype.md#keywordlessquery) \| [*WebpageCriterion*](./enums/reportdefinitionservicereporttype.md#webpagecriterion) \| [*BidModifier*](./enums/reportdefinitionservicereporttype.md#bidmodifier) \| [*CampaignAsset*](./enums/reportdefinitionservicereporttype.md#campaignasset) \| [*AdgroupAsset*](./enums/reportdefinitionservicereporttype.md#adgroupasset) \| [*Unknown*](./enums/reportdefinitionservicereporttype.md#unknown)
 
 **`memberof`** ReportDefinition
 

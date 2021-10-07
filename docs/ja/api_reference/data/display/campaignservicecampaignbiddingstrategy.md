@@ -17,7 +17,7 @@
 
 ### campaignBiddingStrategyType
 
-• `Optional` **campaignBiddingStrategyType**: ``null`` \| [*Auto*](./enums/campaignservicecampaignbiddingstrategytype.md#auto) \| [*MaxVcpm*](./enums/campaignservicecampaignbiddingstrategytype.md#maxvcpm) \| [*MaxCpc*](./enums/campaignservicecampaignbiddingstrategytype.md#maxcpc) \| [*MaxCpv*](./enums/campaignservicecampaignbiddingstrategytype.md#maxcpv) \| [*TargetCpa*](./enums/campaignservicecampaignbiddingstrategytype.md#targetcpa) \| [*None*](./enums/campaignservicecampaignbiddingstrategytype.md#none) \| [*Unknown*](./enums/campaignservicecampaignbiddingstrategytype.md#unknown)
+• `Optional` **campaignBiddingStrategyType**: ``null`` \| [*Auto*](./enums/campaignservicecampaignbiddingstrategytype.md#auto) \| [*MaximizeConversions*](./enums/campaignservicecampaignbiddingstrategytype.md#maximizeconversions) \| [*MaximizeClicks*](./enums/campaignservicecampaignbiddingstrategytype.md#maximizeclicks) \| [*MaximizeView*](./enums/campaignservicecampaignbiddingstrategytype.md#maximizeview) \| [*MaximizeVieableimpressions*](./enums/campaignservicecampaignbiddingstrategytype.md#maximizevieableimpressions) \| [*MaxVcpm*](./enums/campaignservicecampaignbiddingstrategytype.md#maxvcpm) \| [*MaxCpc*](./enums/campaignservicecampaignbiddingstrategytype.md#maxcpc) \| [*MaxCpv*](./enums/campaignservicecampaignbiddingstrategytype.md#maxcpv) \| [*TargetCpa*](./enums/campaignservicecampaignbiddingstrategytype.md#targetcpa) \| [*None*](./enums/campaignservicecampaignbiddingstrategytype.md#none) \| [*Unknown*](./enums/campaignservicecampaignbiddingstrategytype.md#unknown)
 
 **`memberof`** CampaignServiceCampaignBiddingStrategy
 

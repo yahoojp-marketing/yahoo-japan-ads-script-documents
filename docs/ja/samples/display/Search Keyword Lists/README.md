@@ -1,7 +1,7 @@
 # Search Keyword Lists
 
 ### Add list and keyword
-```$xslt
+```.js
 function addListAndKeyword(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -44,7 +44,7 @@ function addListAndKeyword(){
 ```
 
 ### Set keyword
-```$xslt
+```.js
 function setKeyword(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -95,7 +95,7 @@ function setKeyword(){
 ```
 
 ### Get list and keyword
-```$xslt
+```.js
 function getListAndKeyword(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -121,7 +121,7 @@ function getListAndKeyword(){
 ```
 
 ### Apply a list to an ad group
-```$xslt
+```.js
 function applyListToAdGroupSerchKeywordList(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

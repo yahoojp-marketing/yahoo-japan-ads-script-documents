@@ -1,7 +1,7 @@
 # Keywords
 
 ### Add a keywords
-```$xslt
+```.js
 function addKeywords(){
      
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -53,7 +53,7 @@ function addKeywords(){
 ```
 
 ### Pause keyword in an ad group
-```$xslt
+```.js
 function pauseKeywordInAdGroup(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -94,7 +94,7 @@ function pauseKeywordInAdGroup(){
 ```
 
 ### Get all keywords in an ad group
-```$xslt
+```.js
 function getAllKeywordsInAdGroup(){
  
     const accountId = AdsUtilities.getCurrentAccountId();

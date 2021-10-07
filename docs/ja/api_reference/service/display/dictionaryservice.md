@@ -10,7 +10,6 @@
 - [getDisapprovalReason](dictionaryservice.md#getdisapprovalreason)
 - [getFeedItemGoogleProductCategory](dictionaryservice.md#getfeeditemgoogleproductcategory)
 - [getGeographicLocation](dictionaryservice.md#getgeographiclocation)
-- [getInterestCategory](dictionaryservice.md#getinterestcategory)
 - [getMediaAdFormat](dictionaryservice.md#getmediaadformat)
 - [getOsVersion](dictionaryservice.md#getosversion)
 - [getSiteCategory](dictionaryservice.md#getsitecategory)
@@ -96,22 +95,6 @@ ___
 | `dictionaryServiceGeographicLocationSelector?` | [*DictionaryServiceGeographicLocationSelector*](../../data/display/dictionaryservicegeographiclocationselector.md) |
 
 **Returns:** [*DictionaryServiceGetGeographicLocationResponse*](../../data/display/dictionaryservicegetgeographiclocationresponse.md)
-
-___
-
-### getInterestCategory
-
-▸ **getInterestCategory**(`dictionaryServiceCategorySelector?`: [*DictionaryServiceCategorySelector*](../../data/display/dictionaryservicecategoryselector.md)): [*DictionaryServiceGetInterestCategoryResponse*](../../data/display/dictionaryservicegetinterestcategoryresponse.md)
-
-<div lang=\"ja\">インタレストカテゴリーリストを取得します。</div> 
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `dictionaryServiceCategorySelector?` | [*DictionaryServiceCategorySelector*](../../data/display/dictionaryservicecategoryselector.md) |
-
-**Returns:** [*DictionaryServiceGetInterestCategoryResponse*](../../data/display/dictionaryservicegetinterestcategoryresponse.md)
 
 ___
 

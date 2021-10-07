@@ -10,6 +10,7 @@
 - [accountId](guaranteedreservation.md#accountid)
 - [adGroupName](guaranteedreservation.md#adgroupname)
 - [campaignName](guaranteedreservation.md#campaignname)
+- [conversionTracker](guaranteedreservation.md#conversiontracker)
 - [guaranteedSimulationId](guaranteedreservation.md#guaranteedsimulationid)
 - [lifetimeBudget](guaranteedreservation.md#lifetimebudget)
 - [notificationEmailAddress](guaranteedreservation.md#notificationemailaddress)
@@ -41,6 +42,14 @@ ___
 • `Optional` **campaignName**: ``null`` \| *string*
 
 <div lang=\"ja\"> キャンペーン名です。<br> このフィールドは、リクエストの場合は必須です。 </div> 
+
+**`memberof`** GuaranteedReservation
+
+___
+
+### conversionTracker
+
+• `Optional` **conversionTracker**: ``null`` \| [*GuaranteedReservationServiceConversionTracker*](guaranteedreservationserviceconversiontracker.md)
 
 **`memberof`** GuaranteedReservation
 

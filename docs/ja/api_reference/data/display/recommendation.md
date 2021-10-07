@@ -11,7 +11,6 @@
 - [campaignsForAddingAds](recommendation.md#campaignsforaddingads)
 - [dailyBudgetOver](recommendation.md#dailybudgetover)
 - [impsShareBudgetLossOver](recommendation.md#impssharebudgetlossover)
-- [migrateToYda](recommendation.md#migratetoyda)
 - [searchKeywordIdea](recommendation.md#searchkeywordidea)
 - [type](recommendation.md#type)
 
@@ -49,14 +48,6 @@ ___
 
 ___
 
-### migrateToYda
-
-• `Optional` **migrateToYda**: ``null`` \| [*RecommendationServiceMigrateToYda*](recommendationservicemigratetoyda.md)
-
-**`memberof`** Recommendation
-
-___
-
 ### searchKeywordIdea
 
 • `Optional` **searchKeywordIdea**: ``null`` \| [*RecommendationServiceSearchKeywordIdea*](recommendationservicesearchkeywordidea.md)
@@ -67,6 +58,6 @@ ___
 
 ### type
 
-• `Optional` **type**: ``null`` \| [*DailyBudgetOver*](./enums/recommendationservicetype.md#dailybudgetover) \| [*ImpressionShareBudgetLossOver*](./enums/recommendationservicetype.md#impressionsharebudgetlossover) \| [*BidStrategyToTargetCpa*](./enums/recommendationservicetype.md#bidstrategytotargetcpa) \| [*MigrateToYda*](./enums/recommendationservicetype.md#migratetoyda) \| [*SearchKeywordListIdea*](./enums/recommendationservicetype.md#searchkeywordlistidea) \| [*CampaignsForAddingAds*](./enums/recommendationservicetype.md#campaignsforaddingads) \| [*Unknown*](./enums/recommendationservicetype.md#unknown)
+• `Optional` **type**: ``null`` \| [*DailyBudgetOver*](./enums/recommendationservicetype.md#dailybudgetover) \| [*ImpressionShareBudgetLossOver*](./enums/recommendationservicetype.md#impressionsharebudgetlossover) \| [*BidStrategyToTargetCpa*](./enums/recommendationservicetype.md#bidstrategytotargetcpa) \| [*SearchKeywordListIdea*](./enums/recommendationservicetype.md#searchkeywordlistidea) \| [*CampaignsForAddingAds*](./enums/recommendationservicetype.md#campaignsforaddingads) \| [*Unknown*](./enums/recommendationservicetype.md#unknown)
 
 **`memberof`** Recommendation

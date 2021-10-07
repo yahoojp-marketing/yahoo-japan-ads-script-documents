@@ -2,7 +2,7 @@
 
 
 ## Get all accounts
-```$xslt
+```.js
 function getAllMccAccounts(){
    
   const managerAccountId = AdsUtilities.getCurrentAccountId();
@@ -21,7 +21,7 @@ function getAllMccAccounts(){
 ```
 
 ## Pause a account
-```$xslt
+```.js
 function pauseAnAccounts(){
   
   const managerAccountId = AdsUtilities.getCurrentAccountId();

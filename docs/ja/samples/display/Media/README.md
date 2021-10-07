@@ -1,7 +1,7 @@
 # Media
 
 ### Get all images
-```$xslt
+```.js
 function getAllImages(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -25,7 +25,7 @@ function getAllImages(){
 ```
 
 ### Add a image from Google Drive
-```$xslt
+```.js
 function addImageFromGoogleDrive(){
   const accountId = AdsUtilities.getCurrentAccountId();
   
@@ -60,7 +60,7 @@ function addImageFromGoogleDrive(){
 ```
 
 ### Pause a image
-```$xslt
+```.js
 function pauseImage(){
      
     const accountId = AdsUtilities.getCurrentAccountId();

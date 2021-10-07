@@ -1,7 +1,7 @@
 # AdGroupAdServiceAdditionalAdvancedMobileUrls
 
 
-<div lang=\"ja\">AdGroupAdServiceAdditionalAdvancedMobileUrlsは、2件目以降の最終リンク先URL（スマートフォン）を保持するオブジェクトです。<br> ADD時、このフィールドは省略可能となります。※adTypeがDYNAMIC_SEARCH_LINKED_ADの場合は無視されます。</div> 
+<div lang=\"ja\">AdGroupAdServiceAdditionalAdvancedMobileUrlsは、2件目以降の最終リンク先URL（スマートフォン）を保持するオブジェクトです。<br> ※こちらのフィールドは、現在利用できません。<br> ADD時、このフィールドは省略可能となります。※adTypeがDYNAMIC_SEARCH_LINKED_ADの場合は無視されます。</div> 
 
 ## Table of contents
 
@@ -16,7 +16,7 @@
 
 • `Optional` **advancedMobileUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">最終リンク先URL（スマートフォン）です。<br> ADD時、このフィールドは必須となります。</div> 
+<div lang=\"ja\">スマートフォン向けURLです。<br> ADD時、このフィールドは必須となります。</div> 
 
 **`memberof`** AdGroupAdServiceAdditionalAdvancedMobileUrls
 

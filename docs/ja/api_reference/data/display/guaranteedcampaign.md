@@ -16,6 +16,7 @@
 - [campaignGoal](guaranteedcampaign.md#campaigngoal)
 - [campaignId](guaranteedcampaign.md#campaignid)
 - [campaignName](guaranteedcampaign.md#campaignname)
+- [conversionTracker](guaranteedcampaign.md#conversiontracker)
 - [endDate](guaranteedcampaign.md#enddate)
 - [guaranteedSimulationId](guaranteedcampaign.md#guaranteedsimulationid)
 - [labels](guaranteedcampaign.md#labels)
@@ -105,6 +106,14 @@ ___
 • `Optional` **campaignName**: ``null`` \| *string*
 
 <div lang=\"ja\"> キャンペーン名です。 </div> 
+
+**`memberof`** GuaranteedCampaign
+
+___
+
+### conversionTracker
+
+• `Optional` **conversionTracker**: ``null`` \| [*GuaranteedCampaignServiceConversionTracker*](guaranteedcampaignserviceconversiontracker.md)
 
 **`memberof`** GuaranteedCampaign
 

@@ -15,6 +15,7 @@
 - [campaignGoal](guaranteedsimulation.md#campaigngoal)
 - [endDate](guaranteedsimulation.md#enddate)
 - [guaranteedSimulationId](guaranteedsimulation.md#guaranteedsimulationid)
+- [inventoryResult](guaranteedsimulation.md#inventoryresult)
 - [lifetimeBudget](guaranteedsimulation.md#lifetimebudget)
 - [lowerBudgetLimit](guaranteedsimulation.md#lowerbudgetlimit)
 - [maxReach](guaranteedsimulation.md#maxreach)
@@ -104,6 +105,14 @@ ___
 • `Optional` **guaranteedSimulationId**: ``null`` \| *number*
 
 <div lang=\"ja\"> シミュレーションIDです。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> 
+
+**`memberof`** GuaranteedSimulation
+
+___
+
+### inventoryResult
+
+• `Optional` **inventoryResult**: ``null`` \| [*GuaranteedSimulationServiceInventoryResult*](guaranteedsimulationserviceinventoryresult.md)[]
 
 **`memberof`** GuaranteedSimulation
 

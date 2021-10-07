@@ -2,7 +2,7 @@
 
 
 ## Upload processing of offline conversion data
-```$xslt
+```.js
 function uploadProcessingOfOfflineConversionData(){
 
   const accountId = AdsUtilities.getCurrentAccountId();
