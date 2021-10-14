@@ -1,6 +1,6 @@
-# Target List
+# ターゲットリスト / Target List
 
-### Get All target list
+### ターゲットリスト情報を取得する / Get All target list
 ```.js
 function getAllTargetList(){
      
@@ -19,7 +19,7 @@ function getAllTargetList(){
 }
 ```
 
-### Apply a target list to a campaign
+### キャンペーンにターゲットリスト情報を付与する / Apply a target list to a campaign
 ```.js
 function applyTargetListToCampaign(){
      
@@ -51,7 +51,7 @@ function applyTargetListToCampaign(){
 }
 ```
 
-### Apply a target list to an ad group
+### 広告グループにターゲットリスト情報を付与する / Apply a target list to an ad group
 ```.js
 function applyTargetListToAdGroup(){
  

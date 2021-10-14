@@ -12,14 +12,16 @@
 
 制限事項は[制限事項](./docs/ja/limitations.md )をご参照ください
 
-## サンプル
+## サンプルプログラム
 
 ヤフー広告 スクリプトのサンプルです
 目的に合わせてご参照ください。
 
-* [検索広告](./docs/ja/samples/search)
 * [ディスプレイ広告](./docs/ja/samples/display)
-* [Spreadsheet](./docs/ja/samples/spreadsheet)
+* [検索広告](./docs/ja/samples/search)
+* [メール](./docs/ja/samples/mail)
+* [Googleドライブ](./docs/ja/samples/driveapp)
+* [Googleスプレッドシート](./docs/ja/samples/spreadsheet)
 * [Slack](./docs/ja/samples/slack)
 
 ## リファレンス

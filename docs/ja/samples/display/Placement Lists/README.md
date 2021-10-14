@@ -1,6 +1,6 @@
-# Placement Lists
+# プレイスメントリスト / Placement Lists
 
-### Add list and url
+### プレイスメントリストとURLの新規追加をする / Add list and url
 ```.js
 function addListAndUrl(){
      
@@ -33,7 +33,7 @@ function addListAndUrl(){
 }
 ```
 
-### Set url
+### プレイスメントURLの更新をする / Set url
 ```.js
 function setUrl(){
      
@@ -76,7 +76,7 @@ function setUrl(){
 }
 ```
 
-### Get list and url
+### プレイスメントリストとURLの情報を取得する / Get list and url
 ```.js
 function getListAndUrl(){
      
@@ -100,7 +100,7 @@ function getListAndUrl(){
 }
 ```
 
-### Apply a list to an ad group
+### 広告グループにプレイスメントリストを付与する / Apply a list to an ad group
 ````.js
 function applyListToAdGroup(){
      

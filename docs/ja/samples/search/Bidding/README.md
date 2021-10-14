@@ -1,6 +1,6 @@
-# Bidding
+# 自動入札 / Bidding
 
-### Get bidding strategies
+### 自動入札情報を取得する / Get bidding strategies
 ```.js
 function getBiddingStrategies(){
      
@@ -24,7 +24,7 @@ function getBiddingStrategies(){
 }
 ```
 
-### Set campaign bidding strategy
+### 指定したキャンペーン配下の自動入札情報を更新する / Set campaign bidding strategy
 ```.js
 function setCampaignBiddingStrategy(){
      

@@ -1,6 +1,6 @@
-# Report
+# レポート / Report
 
-### Create an account report
+### アカウントレポートを作成する / Create an account report
 ```.js
 function createAccountReport(){
   
@@ -16,7 +16,7 @@ function createAccountReport(){
  
     var report = reports.reports[0].rows;
           
-    for (let i = 1; i < report.length; i++){
+    for (let i = 0; i < report.length; i++){
         Logger.log('ACCOUNT_ID-> ' + report[i][0]
             + ', ACCOUNT_NAME-> ' + report[i][1]
             + ', IMPS-> ' + report[i][2]
@@ -27,7 +27,7 @@ function createAccountReport(){
 }
 ```
 
-### Create an ad report
+### 広告レポートを作成する / Create an ad report
 ```.js
 function createAdReport(){
   
@@ -43,7 +43,7 @@ function createAdReport(){
  
     var report = reports.reports[0].rows;
           
-    for (let i = 1; i < report.length; i++){
+    for (let i = 0; i < report.length; i++){
         Logger.log('AD_ID-> ' + report[i][0]
             + ', AD_NAME-> ' + report[i][1]
             + ', IMPS-> ' + report[i][2]

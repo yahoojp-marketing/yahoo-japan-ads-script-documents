@@ -1,6 +1,6 @@
-# Search Keyword Lists
+# サーチキーワードリスト / Search Keyword Lists
 
-### Add list and keyword
+### サーチキーワードリストとキーワードを新規追加をする / Add list and keyword
 ```.js
 function addListAndKeyword(){
      
@@ -43,7 +43,7 @@ function addListAndKeyword(){
 }
 ```
 
-### Set keyword
+### キーワードの更新をする / Set keyword
 ```.js
 function setKeyword(){
      
@@ -94,7 +94,7 @@ function setKeyword(){
 }
 ```
 
-### Get list and keyword
+### サーチキーワードリストとキーワード情報の取得をする / Get list and keyword
 ```.js
 function getListAndKeyword(){
      
@@ -120,7 +120,7 @@ function getListAndKeyword(){
 }
 ```
 
-### Apply a list to an ad group
+### 広告グループにサーチキーワードリストを付与する / Apply a list to an ad group
 ```.js
 function applyListToAdGroupSerchKeywordList(){
      

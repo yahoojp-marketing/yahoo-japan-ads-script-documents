@@ -1,6 +1,6 @@
-# Labels
+# ラベル / Labels
 
-### Get all labels
+### 全てのラベル情報の取得をする / Get all labels
 ```.js
 function getAllLabels(){
      
@@ -20,7 +20,7 @@ function getAllLabels(){
 }
 ```
 
-### Add a label
+### ラベルの新規追加をする / Add a label
 ```.js
 function addLabel(){
      
@@ -47,7 +47,7 @@ function addLabel(){
 }
 ```
 
-### Apply a label to a campaign
+### キャンペーンにラベルを付与する / Apply a label to a campaign
 ```.js
 
 function applyLabelToCampaign(){
@@ -73,7 +73,7 @@ function applyLabelToCampaign(){
 }
 ```
 
-### Apply a label to an ad group
+### 広告グループにラベルを付与する / Apply a label to an ad group
 ```.js
 function applyLabelToAdGroup(){
      
@@ -100,7 +100,7 @@ function applyLabelToAdGroup(){
 }
 ```
 
-### Apply a label to an ad
+### 広告にラベルを付与する / Apply a label to an ad
 ```.js
 function applyLabelToAd(){
      

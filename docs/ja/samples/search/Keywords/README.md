@@ -1,6 +1,6 @@
-# Keywords
+# キーワード / Keywords
 
-### Add a keywords
+### キーワードを新規追加する / Add a keywords
 ```.js
 function addKeywords(){
      
@@ -52,7 +52,7 @@ function addKeywords(){
 }
 ```
 
-### Pause keyword in an ad group
+### 広告グループ配下のキーワードを配信停止にする / Pause keyword in an ad group
 ```.js
 function pauseKeywordInAdGroup(){
  
@@ -93,7 +93,7 @@ function pauseKeywordInAdGroup(){
 }
 ```
 
-### Get all keywords in an ad group
+### 指定した広告グループ配下の全てのキーワード情報を取得する / Get all keywords in an ad group
 ```.js
 function getAllKeywordsInAdGroup(){
  

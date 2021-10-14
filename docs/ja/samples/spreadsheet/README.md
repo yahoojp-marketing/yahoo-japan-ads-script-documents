@@ -1,6 +1,6 @@
-# Spreadsheet
+# Googleスプレッドシート / Spreadsheet
 
-### Append rows to a spreadsheet
+### スプレッドシートに行を追加する / Append rows to a spreadsheet
 ```.js
 function appendRowsToSpreadsheet(){
  
@@ -14,7 +14,7 @@ function appendRowsToSpreadsheet(){
 }
 ```
 
-### Set a range's values
+### 範囲の値を設定する / Set a range's values
 ```.js
 function setRangeValues(){
  
@@ -33,7 +33,7 @@ function setRangeValues(){
 }
 ```
 
-### Log the data of a spreadsheet
+### スプレッドシートのデータをログ出力する / Log the data of a spreadsheet
 ```.js
 function logDataOfSpreadsheet(){
  
@@ -51,7 +51,7 @@ function logDataOfSpreadsheet(){
 }
 ```
 
-### Clear a sheets values
+### シートの値をクリアにする / Clear a sheets values
 ```.js
 function clearSheetsValues(){
      
@@ -65,7 +65,7 @@ function clearSheetsValues(){
 }
 ```
 
-### Report data to a spreadsheet
+### スプレッドシートにレポート情報を出力する / Report data to a spreadsheet
 ```.js
 function reportDataToSpreadsheet(){
  

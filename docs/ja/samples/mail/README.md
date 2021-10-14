@@ -1,6 +1,6 @@
-# Mail
+# メール / Mail
 
-### Send a simple email
+### 簡単なメールを送信する / Send a simple email
 ```.js
 function sendSimpleEmail(){
  
@@ -13,7 +13,7 @@ function sendSimpleEmail(){
 }
 ```
 
-### Send HTML email
+### HTMLメールを送信する / Send HTML email
 ```.js
 function sendHtmlEmail(){
  

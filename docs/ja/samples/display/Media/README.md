@@ -1,6 +1,6 @@
-# Media
+# メディア情報 / Media
 
-### Get all images
+### メディア情報を取得する / Get all images
 ```.js
 function getAllImages(){
  
@@ -24,7 +24,7 @@ function getAllImages(){
 }
 ```
 
-### Add a image from Google Drive
+### Googleドライブからメディア情報を追加する / Add a image from Google Drive
 ```.js
 function addImageFromGoogleDrive(){
   const accountId = AdsUtilities.getCurrentAccountId();
@@ -59,7 +59,7 @@ function addImageFromGoogleDrive(){
 }
 ```
 
-### Pause a image
+### メディア情報を配信停止にする / Pause a image
 ```.js
 function pauseImage(){
      

@@ -1,6 +1,6 @@
-# Targeting
+# ターゲティング / Targeting
 
-### Set location and bid modifiers
+### 地域ターゲティングと入札価格調整率の更新をする / Set location and bid modifiers
 ```.js
 function setLocationAndBidModifiers(){
  
@@ -49,7 +49,7 @@ function setLocationAndBidModifiers(){
 }
 ```
 
-### Set device and bid modifiers
+### デバイスターゲティングと入札価格調整率の更新をする / Set device and bid modifiers
 ```.js
 function setDeviceAndBidModifiers(){
  
@@ -107,7 +107,7 @@ function setDeviceAndBidModifiers(){
 }
 ```
 
-### Set schedule and bid modifiers
+### 曜日時間帯ターゲティングと入札価格調整率の更新をする / Set schedule and bid modifiers
 ```.js
 function setScheduleAndBidModifiers(){
      
@@ -160,7 +160,7 @@ function setScheduleAndBidModifiers(){
 }
 ```
 
-### Set age and bid modifiers
+### 年齢ターゲティングと入札価格調整率の更新をする / Set age and bid modifiers
 ```.js
 function setAgeAndBidModifiers(){
      

@@ -1,6 +1,6 @@
-# Negative Keyword Lists
+# 対象外キーワードリスト / Negative Keyword Lists
 
-### Get all negative keyword lists
+### 全ての対象外キーワードリスト情報を取得する / Get all negative keyword lists
 ```.js
 function getAllNegativeKeywordLists(){
  
@@ -22,7 +22,7 @@ function getAllNegativeKeywordLists(){
 }
 ```
 
-### Add negative keyword list
+### 対象外キーワードリストを新規追加する / Add negative keyword list
 ```.js
 function addNegativeKeywordList(){
      
@@ -48,7 +48,7 @@ function addNegativeKeywordList(){
 }
 ```
 
-### Set negative keyword
+### 対象外キーワードを更新する / Set negative keyword
 ```.js
 function setNegativeKeyword(){
      
@@ -84,7 +84,7 @@ function setNegativeKeyword(){
 }
 ```
 
-### Apply a negative keyword list to a campaign
+### キャンペーンに対象外キーワードリストを付与する / Apply a negative keyword list to a campaign
 ```.js
 function applyNegativeKeywordListToCampaign(){
  

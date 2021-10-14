@@ -1,6 +1,6 @@
-# Ad Groups
+# 広告グループ / Ad Groups
 
-### Add an ad group
+### 広告グループを新規追加する / Add an ad group
 ```.js
 function addAdGroup(){
      
@@ -28,7 +28,7 @@ function addAdGroup(){
 }
 ```
 
-### Pause an ad group
+### 広告グループを配信停止にする / Pause an ad group
 ```.js
 function pauseAdGroup(){
      
@@ -61,7 +61,7 @@ function pauseAdGroup(){
 }
 ```
 
-### Set ad group bid
+### 広告グループの入札価格を更新する / Set ad group bid
 ```.js
 
 function setAdGroupBid(){
@@ -98,7 +98,7 @@ function setAdGroupBid(){
 }
 ```
 
-### Get all ad group
+### アカウント配下の全ての広告グループ情報を取得する / Get all ad group
 ```.js
 
 function getAllAdGroup(){
@@ -116,7 +116,7 @@ function getAllAdGroup(){
 }
 ```
 
-### Get all ad group by id
+### 指定した全ての広告グループ情報を取得する / Get all ad group by id
 ```.js
 function getAllAdGroupById(){
      

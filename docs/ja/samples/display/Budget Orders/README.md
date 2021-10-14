@@ -1,6 +1,6 @@
-# Budget Orders
+# アカウント予算 / Budget Orders
 
-### Set budget order
+### アカウント予算情報の更新をする / Set budget order
 ```.js
 function setBudgetOrder(){
  
@@ -37,7 +37,7 @@ function setBudgetOrder(){
 }
 ```
 
-### Get budget order
+### アカウント予算情報の取得する / Get budget order
 ```.js
 function getBudgetOrder(){
  

@@ -1,7 +1,7 @@
-# Offline Conversion
+# オフラインコンバージョン / Offline Conversion
 
 
-## Upload processing of offline conversion data
+## Googleドライブからオフラインコンバージョン情報をアップロード処理 / Upload processing of offline conversion data from Google Drive
 ```.js
 function uploadProcessingOfOfflineConversionData(){
 

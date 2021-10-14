@@ -1,6 +1,6 @@
-# Campaigns
+# キャンペーン / Campaigns
 
-### Get all campaigns
+### 全てのキャンペーン情報を取得する / Get all campaigns
 ```.js
 function getAllCampaigns() {
      
@@ -18,7 +18,7 @@ function getAllCampaigns() {
 }
 ```
 
-### Get a campaign by id
+### 指定した全てのキャンペーン情報を取得する / Get a campaign by id
 ```.js
 function getCampaignById() {
      
@@ -39,7 +39,7 @@ function getCampaignById() {
 }
 ```
 
-### Add a campaign
+### キャンペーンを新規追加する / Add a campaign
 ```.js
 function addCampaign() {
       
@@ -81,7 +81,7 @@ function addCampaign() {
 }
 ```
 
-### Pause a campaign
+### キャンペーンを配信停止にする / Pause a campaign
 ```.js
 function pauseCampaign() {
  
@@ -117,7 +117,7 @@ function pauseCampaign() {
 }
 ```
 
-### Set campaign budget
+### キャンペーン予算を更新する / Set campaign budget
 ```.js
 function setCampaignBudget() {
      

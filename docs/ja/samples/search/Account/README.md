@@ -1,7 +1,7 @@
-# Account
+# アカウント / Account
 
 
-## Get details on the current account
+## アカウント詳細情報を取得する / Get details on the current account
 ```.js
 function getAccount(){
  
@@ -18,7 +18,7 @@ function getAccount(){
 }
 ```
 
-## Pause a account
+## アカウントを配信停止にする / Pause a account
 ```.js
 function pauseAccount(){
  

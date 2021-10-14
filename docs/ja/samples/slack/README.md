@@ -1,6 +1,6 @@
 # Slack
 
-### Post a message
+### メッセージを投稿する / Post a message
 
 ```
 function sendSlackMessage(){

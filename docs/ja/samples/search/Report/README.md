@@ -1,8 +1,7 @@
-# README.md
+# レポート / report
 
-### Create an account report
+### アカウントレポートを作成する / Create an account report
 ```.js
-
 function createAccountReport(){
  
     const accountId = AdsUtilities.getCurrentAccountId();
@@ -17,7 +16,7 @@ function createAccountReport(){
  
     var report = reports.reports[0].rows;
          
-    for (let i = 1; i < report.length; i++){
+    for (let i = 0; i < report.length; i++){
         Logger.log('ACCOUNT_ID->' + report[i][0]
             + ', IMPS->' + report[i][1]
             + ', CLICKS->' + report[i][2]
@@ -26,7 +25,7 @@ function createAccountReport(){
 }
 ```
 
-### Create a keyword report
+### キーワードレポートを作成する / Create a keyword report
 ```.js
 function createKeywordReport(){
  
@@ -42,7 +41,7 @@ function createKeywordReport(){
 
     var report = reports.reports[0].rows;
          
-    for (let i = 1; i < report.length; i++){
+    for (let i = 0; i < report.length; i++){
         Logger.log('KEYWORD->' + report[i][0]
             + ', IMPS->' + report[i][1]
             + ', CLICKS->' + report[i][2]

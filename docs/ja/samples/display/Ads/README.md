@@ -1,6 +1,6 @@
-# Ads
+# 広告 / Ads
 
-### Add an text ad
+### テキスト広告を新規追加する / Add an text ad
 ```.js
 function addTextAd(){
      
@@ -43,7 +43,7 @@ function addTextAd(){
 }
 ```
 
-### Add a image ad
+### 画像広告を新規追加する / Add a image ad
 ```.js
 function addImageAd(){
      
@@ -85,7 +85,7 @@ function addImageAd(){
 }
 ```
 
-### Pause ads in an ad group
+### 広告グループ配下の広告を配信停止にする / Pause ads in an ad group
 ```.js
 function pauseAdsInAdGroup(){
      
@@ -125,7 +125,7 @@ function pauseAdsInAdGroup(){
 }
 ```
 
-### Get all ads
+### 全ての広告情報を取得する / Get all ads
 ```.js
 function getAllAds(){
  
@@ -151,7 +151,7 @@ function getAllAds(){
 }
 ```
 
-### Get all ads by id
+### 指定の広告情報を取得する / Get all ads by id
 ```.js
 function getAllAdsById(){
  
@@ -180,7 +180,7 @@ function getAllAdsById(){
 }
 ```
 
-### Get text ad in an ad group
+### 広告グループ配下の全てのテキスト広告情報を取得する / Get text ad in an ad group
 ```.js
 function getTextAdInAdGroup(){
  
@@ -214,7 +214,7 @@ function getTextAdInAdGroup(){
 }
 ```
 
-### Get image ad in an ad group
+### 広告グループ配下の全ての画像広告情報を取得する / Get image ad in an ad group
 ```.js
 function getImageAdInAdGroup(){
      

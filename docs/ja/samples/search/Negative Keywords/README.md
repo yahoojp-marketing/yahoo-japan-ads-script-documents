@@ -1,6 +1,6 @@
-# Negative Keywords
+# 対象外キーワード / Negative Keywords
 
-### Add negative keyword to a campaign
+### キャンペーンに対象外キーワードを追加する / Add negative keyword to a campaign
 ```.js
 function addNegativeKeywordToCampaign(){
      
@@ -47,7 +47,7 @@ function addNegativeKeywordToCampaign(){
 }
 ```
 
-### Add a negative keyword to an ad group
+### 広告グループに対象外キーワードを追加する / Add a negative keyword to an ad group
 ```.js
 function addNegativeKeywordToAdGroup(){
      
@@ -82,7 +82,7 @@ function addNegativeKeywordToAdGroup(){
 }
 ```
 
-### Get negative keywords in a campaign
+### キャンペーン配下の対象外キーワード情報を取得する / Get negative keywords in a campaign
 ```.js
 function getNegativeKeywordsInCampaign(){
      
@@ -105,7 +105,7 @@ function getNegativeKeywordsInCampaign(){
 }
 ```
 
-### Get negative keywords in an ad group
+### 広告グループ配下の対象外キーワード情報を取得する / Get negative keywords in an ad group
 ```.js
 
 function getNegativeKeywordsInAdGroup(){

@@ -1,6 +1,6 @@
-# DriveApp
+# Googleドライブ / DriveApp
 
-### Create a new folder
+### 新しいフォルダーを作成する / Create a new folder
 ```.js
 function createNewFolder(){
    
@@ -11,7 +11,7 @@ function createNewFolder(){
 }
 ```
 
-### Create a new file in a folder
+### フォルダー内に新しいファイルを作成する / Create a new file in a folder
 ```.js
 function createNewFileInFolder(){
  
@@ -23,7 +23,7 @@ function createNewFileInFolder(){
 }
 ```
 
-### List of files in a folder
+### フォルダー内のファイルリスト / List of files in a folder
 ```.js
 function listOfFilesInFolder(){
  

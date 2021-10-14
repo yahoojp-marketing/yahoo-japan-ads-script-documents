@@ -1,6 +1,6 @@
-# Ads
+# 広告 / Ads
 
-### Add an expanded text ad
+### テキスト広告を新規追加する / Add an expanded text ad
 ```.js
 function addExpandedTextAd(){
      
@@ -37,7 +37,7 @@ function addExpandedTextAd(){
 }
 ```
 
-### Add a responsive search ad
+### レスポンシブ広告を新規追加する / Add a responsive search ad
 ```.js
 function addResponsiveSearchAd(){
      
@@ -102,7 +102,7 @@ function addResponsiveSearchAd(){
 }
 ```
 
-### Pause ads in an ad group
+### 指定した広告グループ配下の広告を配信停止にする / Pause ads in an ad group
 ```.js
 function pauseAdsInAdGroup(){
      
@@ -142,7 +142,7 @@ function pauseAdsInAdGroup(){
 }
 ```
 
-### Get all ads
+### 全ての広告情報を取得する / Get all ads
 ```.js
 
 function getAllAds(){
@@ -160,7 +160,7 @@ function getAllAds(){
 }
 ```
 
-### Get all ads by id
+### 指定した全ての広告情報を取得する / Get all ads by id
 ```.js
 
 function getAllAdsById(){
@@ -181,7 +181,7 @@ function getAllAdsById(){
 }
 ```
 
-### Get expanded text ads in an ad group
+### 指定した広告グループ配下のテキスト広告情報を取得する / Get expanded text ads in an ad group
 ```.js
 function getExpandedTextAdsInAdGroup(){
      
@@ -210,7 +210,7 @@ function getExpandedTextAdsInAdGroup(){
 }
 ```
 
-### Get responsive search ad in an ad group
+### 指定した広告グループ配下のレスポンシブ広告情報を取得する / Get responsive search ad in an ad group
 ```.js
 function getResponsiveSearchAdInAdGroup(){
      

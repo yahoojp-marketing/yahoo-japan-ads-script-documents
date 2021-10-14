@@ -1,7 +1,7 @@
-# MCC
+# MCCアカウント / MCC account
 
 
-## Get all accounts
+## MCC配下の全てのアカウント情報を取得する / Get all accounts
 ```.js
 function getAllMccAccounts(){
    
@@ -20,7 +20,7 @@ function getAllMccAccounts(){
 }
 ```
 
-## Pause a account
+## MCCアカウント配下の全てのアカウントを配信停止にする / Pause a account
 ```.js
 function pauseAnAccounts(){
 
