@@ -64,7 +64,7 @@ ___
 
 • `Optional` **finalUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">最終リンク先URLです。<br> SET時、このフィールドは省略可能となります。<br> ADD時、finalUrlフィールドとurlフィールドは同時に設定することはできず、どちらか片方の設定が必須となります。<br> finalUrlフィールドを設定する場合、smartphoneFinalUrl、trackingUrl、customParametersは任意になります。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 <br>※現在利用できません</div> 
+<div lang=\"ja\">最終リンク先URLです。<br> SET時、このフィールドは省略可能となります。<br> ADD時、finalUrlフィールドとurlフィールドは同時に設定することはできず、どちらか片方の設定が必須となります。<br> finalUrlフィールドを設定する場合、smartphoneFinalUrl、trackingUrl、customParametersは任意になります。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。<br> キャンペーン目的「アプリ訴求」の場合は、このフィールドには以下のURLのみ設定できます。<br> - iOSの場合：itunes.apple.com<br> - Androidの場合：play.google.com </div> 
 
 **`memberof`** AdGroupAdServiceBannerVideoAd
 
@@ -146,7 +146,7 @@ ___
 
 • `Optional` **smartphoneFinalUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">スマートフォン向けURLです。<br> finalUrlを指定するときのみ、任意で指定できます。<br> キャンペーン目的「アプリ訴求」の場合は、ADD、SETのどちらも指定できません。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 <br>※現在利用できません</div> 
+<div lang=\"ja\">スマートフォン向けURLです。<br> finalUrlを指定するときのみ、任意で指定できます。<br> キャンペーン目的「アプリ訴求」の場合は、ADD、SETのどちらも指定できません。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 </div> 
 
 **`memberof`** AdGroupAdServiceBannerVideoAd
 
@@ -166,7 +166,7 @@ ___
 
 • `Optional` **trackingUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">トラッキングURLです。<br> ADD時、このフィールドは省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。<br> finalUrlを指定するときのみ、任意で指定できます。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 <br>※現在利用できません</div> 
+<div lang=\"ja\">トラッキングURLです。<br> ADD時、このフィールドは省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。<br> finalUrlを指定するときのみ、任意で指定できます。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 </div> 
 
 **`memberof`** AdGroupAdServiceBannerVideoAd
 

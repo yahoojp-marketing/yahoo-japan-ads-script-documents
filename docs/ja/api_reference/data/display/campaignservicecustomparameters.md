@@ -1,7 +1,7 @@
 # CampaignServiceCustomParameters
 
 
-<div lang=\"ja\">CampaignServiceCustomParametersは、カスタムパラメータの設定を表します。<br> ADD時およびSET時、このフィールドは省略可能となります。<br>※現在利用できません</div> 
+<div lang=\"ja\">CampaignServiceCustomParametersは、カスタムパラメータの設定を表します。<br> ADD時およびSET時、このフィールドは省略可能となります。</div> 
 
 ## Table of contents
 

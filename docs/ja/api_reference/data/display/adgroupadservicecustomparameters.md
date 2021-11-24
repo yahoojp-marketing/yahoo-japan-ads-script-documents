@@ -1,7 +1,7 @@
 # AdGroupAdServiceCustomParameters
 
 
-<div lang=\"ja\">AdGroupAdServiceCustomParametersは、カスタムパラメータの設定を表します。<br> finalUrlを指定するときのみ、任意で指定できます。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 <br>※現在利用できません</div> 
+<div lang=\"ja\">AdGroupAdServiceCustomParametersは、カスタムパラメータの設定を表します。<br> finalUrlを指定するときのみ、任意で指定できます。<br> SET時にurlを指定する場合、このフィールドの値はクリアされます。 </div> 
 
 ## Table of contents
 

@@ -176,7 +176,7 @@ ___
 
 • `Optional` **feedId**: ``null`` \| *number*
 
-<div lang=\"ja\"> フィードIDです。<br> このフィールドは、ADD時に省略可能となり、SETおよびREMOVE時に無視されます。<br> ※動的ディスプレイ広告の場合、ADD時に必須となります。 </div> 
+<div lang=\"ja\"> フィードIDです。<br> このフィールドは、ADD時に省略可能となり、SETおよびREMOVE時に無視されます。<br> ※campaignGoalが「ITEM_LIST」の場合、ADD時に必須となります。 </div> 
 
 **`memberof`** Campaign
 
@@ -220,7 +220,7 @@ ___
 
 • `Optional` **trackingUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">トラッキングURLです。<br> ADD時およびSET時、このフィールドは省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。<br>※現在利用できません</div> 
+<div lang=\"ja\">トラッキングURLです。<br> ADD時およびSET時、このフィールドは省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。</div> 
 
 **`memberof`** Campaign
 
@@ -238,7 +238,7 @@ ___
 
 • `Optional` **vendorName**: ``null`` \| *string*
 
-<div lang=\"ja\"> キャンペーンの広告効果測定ツールのベンダー名です。キャンペーン目的「アプリ訴求」の場合にのみ設定されます。<br> このフィールドはキャンペーン作成後、最初にリンク先URLを設定した広告が作成された時に設定されます。<br> キャンペーンに紐づく広告のリンク先URLには、このベンダー名に対応する広告効果測定ツールのURLのみが指定できます。<br> ADDおよびSET時、このフィールドは指定できません。<br> </div> 
+<div lang=\"ja\"> キャンペーンの広告効果測定ツールのベンダー名です。キャンペーン目的「アプリ訴求」の場合にのみ設定されます。<br> このフィールドはキャンペーン作成後、最初にリンク先URLを設定した広告が作成された時に設定されます。<br> キャンペーンに紐づく広告のリンク先URLには、このベンダー名に対応する広告効果測定ツールのURLのみが指定できます。<br> ADD時およびSET時、<code>APPSFLYER</code>, <code>ADJUST</code> および <code>NONE</code> のみ指定可能です。 </div> 
 
 **`memberof`** Campaign
 

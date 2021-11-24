@@ -167,7 +167,7 @@ ___
 
 • `Optional` **trackingUrl**: ``null`` \| *string*
 
-<div lang=\"ja\">トラッキングURLです。<br> このフィールドは、省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。<br>※現在利用できません</div> 
+<div lang=\"ja\">トラッキングURLです。<br> このフィールドは、省略可能となります。<br> ※SET時、こちらが審査中の場合、編集はできません。</div> 
 
 **`memberof`** AdGroup
 
