@@ -2,7 +2,7 @@
 
 ## 2021/12/15
 * 天気連動機能を追加しました。詳細は以下をご確認ください
-  * [WeatherApp](./api_reference/utility/weatherapp.md)
+  * [WeatherApp](./api_reference/utility/weatherapp.md)[（サンプル）](./samples/ｗeather/README.md)　　
   * [制限事項](./limitations.md)
 
 
