@@ -1,7 +1,7 @@
 # GuaranteedPreviewServiceMaterialMedia
 
 
-<div lang=\"ja\">GuaranteedPreviewServiceMaterialMediaオブジェクトは、プレビュー素材（メディア）の情報を保持します。</div> 
+<div lang=\"ja\"> GuaranteedPreviewServiceMaterialMediaオブジェクトは、プレビュー素材（メディア）の情報を保持します。<br> ※materialTypeがMEDIAの場合は必須です。 </div> 
 
 ## Table of contents
 

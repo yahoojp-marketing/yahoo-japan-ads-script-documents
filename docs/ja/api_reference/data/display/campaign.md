@@ -238,7 +238,7 @@ ___
 
 • `Optional` **vendorName**: ``null`` \| *string*
 
-<div lang=\"ja\"> キャンペーンの広告効果測定ツールのベンダー名です。キャンペーン目的「アプリ訴求」の場合にのみ設定されます。<br> このフィールドはキャンペーン作成後、最初にリンク先URLを設定した広告が作成された時に設定されます。<br> キャンペーンに紐づく広告のリンク先URLには、このベンダー名に対応する広告効果測定ツールのURLのみが指定できます。<br> ADD時およびSET時、<code>APPSFLYER</code>, <code>ADJUST</code> および <code>NONE</code> のみ指定可能です。 </div> 
+<div lang=\"ja\"> キャンペーンの広告効果測定ツールのベンダー名です。キャンペーン目的「アプリ訴求」の場合にのみ設定されます。<br> このフィールドはキャンペーン作成後、最初にリンク先URLを設定した広告が作成された時に設定されます。<br> キャンペーンに紐づく広告のリンク先URLには、このベンダー名に対応する広告効果測定ツールのURLのみが指定できます。<br> ADD時およびSET時、<code>APPSFLYER</code>, <code>ADJUST</code>, <code>SINGULAR</code> および <code>NONE</code> のみ指定可能です。 </div> 
 
 **`memberof`** Campaign
 

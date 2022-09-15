@@ -4,36 +4,36 @@
 ```.js
 function setBudgetOrder(){
      
-    const accountId = AdsUtilities.getCurrentAccountId();
-     
-    const budgetOrdersGet = Search.BudgetOrderService.get({
-        "accountIds": [
-            accountId,
-        ]
-    }).rval;
-     
-    let budgetOrderArray = [];
-     
-    for (let i = 0; i < Object.keys(budgetOrdersGet.values).length; i++){
-        let budgetOrder = budgetOrdersGet.values[i].budgetOrder;
-         
-        budgetOrder.amount = 100000;//Budget amount is 1000 yen unit, 3000 yen or more
-         
-        budgetOrderArray.push(budgetOrder);
-    }
-     
-    const budgetOrdersSet = Search.BudgetOrderService.set({
-        "accountId": accountId,
-        "operand": budgetOrderArray,
-    }).rval;
-     
-    for (let i = 0; i < Object.keys(budgetOrdersSet.values).length; i++){
-        let budgetOrder = budgetOrdersSet.values[i].budgetOrder;
-         
-        Logger.log('accountType-> ' + budgetOrder.accountType
-            + ', amount-> ' + budgetOrder.amount
-            + ', limitChargeType-> ' + budgetOrder.limitChargeType);
-    }
+  const accountId = AdsUtilities.getCurrentAccountId();
+   
+  const budgetOrdersGet = Search.BudgetOrderService.get({
+    accountIds: [accountId],
+  }).rval;
+  
+  if (budgetOrdersGet.totalNumEntries == 0) {
+    Logger.log('Target ID does not exist.');
+    return;
+  }
+  
+  let budgetOrder = budgetOrdersGet.values[0].budgetOrder;
+  if (budgetOrder.accountType != 'INVOICE') {
+    Logger.log('Target ID of INVOICE does not exist.');
+    return;
+  }
+  budgetOrder.amount = 3000;//Budget amount is 1000 yen unit, 3000 yen or more
+   
+  const budgetOrdersSet = Search.BudgetOrderService.set({
+    accountId: accountId,
+    operand: [budgetOrder],
+  }).rval;
+   
+  if (budgetOrdersSet.values[0].operationSucceeded) {
+    Logger.log('accountId-> ' + accountId + ' has been changed to amount-> ' + budgetOrdersSet.values[0].budgetOrder);
+          
+  } else {
+    Logger.log('accountId-> ' + accountId + ' budget could not be changed.');
+        
+  }
 }
 ```
 
@@ -41,21 +41,20 @@ function setBudgetOrder(){
 ```.js
 function getBudgetOrder(){
      
-    const accountId = AdsUtilities.getCurrentAccountId();
-     
-    const budgetOrders = Search.BudgetOrderService.get({
-        "accountIds": [
-            accountId,
-        ]
-    }).rval;
-     
-    for (let i = 0; i < Object.keys(budgetOrders.values).length; i++){//Object.keys()
-        let budgetOrder = budgetOrders.values[i].budgetOrder;
-         
-        Logger.log('accountType-> ' + budgetOrder.accountType
-            + ', amount-> ' + budgetOrder.amount
-            + ', limitChargeType-> ' + budgetOrder.limitChargeType);
-    }
+  const accountId = AdsUtilities.getCurrentAccountId();
+   
+  const budgetOrders = Search.BudgetOrderService.get({
+    accountIds: [accountId],
+  }).rval;
+  
+  if (budgetOrders.totalNumEntries == 0) {
+    Logger.log('Target ID does not exist.');
+    return;
+  }
+   
+  let budgetOrder = budgetOrders.values[0].budgetOrder;
+  Logger.log('accountId-> ' + accountId + ', accountType-> ' + budgetOrder.accountType
+    + ', amount-> ' + budgetOrder.amount + ', limitChargeType-> ' + budgetOrder.limitChargeType);
 }
 ```
 

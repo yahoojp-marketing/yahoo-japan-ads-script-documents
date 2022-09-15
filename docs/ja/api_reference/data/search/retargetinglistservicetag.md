@@ -16,7 +16,7 @@
 
 • `Optional` **advancedSnippet**: ``null`` \| *string*
 
-<div lang=\"ja\">   リニューアル版のサイトリターゲティングタグは、従来のタグよりもブラウザーなどの環境の影響を受けづらい新しいフォーマットのタグです。 <br/>   詳細は以下のヘルプを参照してください。<br>   ・<a href=\"https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=ja&aid=7460\">サイトリターゲティング用タグの取得とサイトへの設置</a> </div> 
+<div lang=\"ja\">   リニューアル版のサイトリターゲティングタグは、従来のタグよりもブラウザーなどの環境の影響を受けづらい新しいフォーマットのタグです。 <br/>   詳細は以下のヘルプを参照してください。<br>   ・<a href=\"https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=ja&aid=7460\">サイトリターゲティング用タグの取得とサイトへの設置</a><br>   ※サイトジェネラルタグを含まないため、広告主様のウェブサイトにサイトジェネラルタグを別途設置する必要があります。 </div> 
 
 **`memberof`** RetargetingListServiceTag
 

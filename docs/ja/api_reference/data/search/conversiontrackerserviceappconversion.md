@@ -28,7 +28,7 @@ ___
 
 • `Optional` **appId**: ``null`` \| *string*
 
-<div lang=\"ja\">アプリケーションIDです。<br> このフィールドは、いずれの場合でも省略可能となります。</div> 
+<div lang=\"ja\">アプリケーションIDです。<br> このフィールドは、ADD時に省略可能となり、SET時は無視されます。</div> 
 
 **`memberof`** ConversionTrackerServiceAppConversion
 

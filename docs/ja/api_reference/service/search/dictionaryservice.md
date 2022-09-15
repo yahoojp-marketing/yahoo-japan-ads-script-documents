@@ -31,7 +31,7 @@ ___
 
 ▸ **getDisapprovalReason**(`dictionaryServiceDisapprovalReasonSelector?`: [*DictionaryServiceDisapprovalReasonSelector*](../../data/search/dictionaryservicedisapprovalreasonselector.md)): [*DictionaryServiceGetDisapprovalReasonResponse*](../../data/search/dictionaryservicegetdisapprovalreasonresponse.md)
 
-<div lang=\"ja\">EditorialReasonと推奨する対応方法の一覧を取得します。</div> 
+<div lang=\"ja\">審査否認理由と推奨する対応方法の一覧を取得します。</div> 
 
 #### Parameters
 

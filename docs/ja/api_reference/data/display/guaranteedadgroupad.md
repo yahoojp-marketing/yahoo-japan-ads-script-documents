@@ -1,7 +1,7 @@
 # GuaranteedAdGroupAd
 
 
-<div lang=\"ja\">GuaranteedAdGroupAdオブジェクトは、予約型の広告の情報を格納するコンテナです。</div> 
+<div lang=\"ja\"> GuaranteedAdGroupAdオブジェクトは、予約型の広告の情報を格納するコンテナです。<br> 各広告で設定可能な項目については、<a href=\"https://ads-help.yahoo.co.jp/yahooads/rf/articledetail?lan=ja&aid=103055&o=default\">予約型の広告の種類</a>をご参照ください。 </div> 
 
 ## Table of contents
 
@@ -78,7 +78,7 @@ ___
 
 • `Optional` **adId**: ``null`` \| *number*
 
-<div lang=\"ja\"> 広告IDです。<br> このフィールドは、SET時は必須となり、ADD時は省略可能となります。 </div> 
+<div lang=\"ja\"> 広告IDです。<br> このフィールドは、ADD時は無視され、SET時に必須となります。 </div> 
 
 **`memberof`** GuaranteedAdGroupAd
 
@@ -154,7 +154,7 @@ ___
 
 • `Optional` **impressionBeaconUrls**: ``null`` \| *string*[]
 
-<div lang=\"ja\"> インプレッションビーコンURLです。<br> </div> 
+<div lang=\"ja\"> インプレッションビーコンURLです。<br> ADDおよびSET時、このフィールドは省略可能となります。 </div> 
 
 **`memberof`** GuaranteedAdGroupAd
 
@@ -222,7 +222,7 @@ ___
 
 • `Optional` **mediaId**: ``null`` \| *number*
 
-<div lang=\"ja\"> メディアIDです。<br> </div> 
+<div lang=\"ja\"> メディアIDです。<br> ADDおよびSET時、このフィールドは省略可能となります。 </div> 
 
 **`memberof`** GuaranteedAdGroupAd
 
@@ -242,7 +242,7 @@ ___
 
 • `Optional` **thirdPartyTrackingScriptUrl**: ``null`` \| *string*
 
-<div lang=\"ja\"> 第三者計測スクリプトURLです。<br> </div> 
+<div lang=\"ja\"> 第三者計測スクリプトURLです。<br> ADDおよびSET時、このフィールドは省略可能となります。 </div> 
 
 **`memberof`** GuaranteedAdGroupAd
 

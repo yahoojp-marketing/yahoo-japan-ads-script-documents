@@ -35,6 +35,6 @@ ___
 
 • `Optional` **previewUrl**: ``null`` \| *string*
 
-<div lang=\"ja\"> プレビューURLです。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> 
+<div lang=\"ja\"> プレビューURLです。<br> 有効なプレビューURLを取得する場合、指定されたアカウントID配下にある広告IDおよび各種メディアIDを指定してください。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> 
 
 **`memberof`** GuaranteedPreview

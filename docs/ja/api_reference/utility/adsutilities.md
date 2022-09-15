@@ -9,6 +9,7 @@ Yahoo!広告 のUtilityです。
 
 - [getCurrentAccountId](adsutilities.md#getcurrentaccountid)
 - [getDisplayReport](adsutilities.md#getdisplayreport)
+- [getProductType](adsutilities.md#getproducttype)
 - [getSearchReport](adsutilities.md#getsearchreport)
 
 ## Methods
@@ -40,6 +41,21 @@ Yahoo!広告 ディスプレイ広告 のレポートを取得します。
 **Returns:** [*Reports*](reports.md)
 
 レポートオブジェクト
+
+___
+
+### getProductType
+
+▸ **getProductType**(): *string*
+
+プロダクトタイプを取得します。<br />
+DISPLAY: ディスプレイ広告<br />
+SEARCH: 検索広告<br />
+MCC: MCC
+
+**Returns:** *string*
+
+プロダクトタイプ
 
 ___
 

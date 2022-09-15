@@ -1,7 +1,7 @@
 # GuaranteedPreviewServiceMaterialAd
 
 
-<div lang=\"ja\">GuaranteedPreviewServiceMaterialAdオブジェクトは、プレビュー素材（広告）の情報を保持します。</div> 
+<div lang=\"ja\"> GuaranteedPreviewServiceMaterialAdオブジェクトは、プレビュー素材（広告）の情報を保持します。<br> ※materialTypeがADの場合は必須です。 </div> 
 
 ## Table of contents
 

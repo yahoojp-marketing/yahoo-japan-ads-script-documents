@@ -4,12 +4,12 @@
 
 ```
 function sendSlackMessage(){
-  UrlFetchApp.fetch("http://<Your Incoming Webhook URL>",
+  UrlFetchApp.fetch('http://<Your Incoming Webhook URL>',
   {
     method: 'POST',
-    contentType: "application/json",
+    contentType: 'application/json',
     payload: {
-      "text": `
+      'text': `
         Hello, world.
         http://yahoo.co.jp/
         :cat:`, //specify stamps in English

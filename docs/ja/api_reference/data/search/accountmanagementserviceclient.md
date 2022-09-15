@@ -28,7 +28,7 @@
 
 • `Optional` **building**: ``null`` \| *string*
 
-<div lang=\"ja\">ビル名です。<br>このフィールドは、ADD時に省略可能となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。</div> 
+<div lang=\"ja\">ビル名です。<br>このフィールドは、ADD時に省略可能となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。<br> ※このフィールドは、レスポンスの際に返却されません。</div> 
 
 **`memberof`** AccountManagementServiceClient
 
@@ -38,7 +38,7 @@ ___
 
 • `Optional` **city**: ``null`` \| *string*
 
-<div lang=\"ja\">市区町村名です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。</div> 
+<div lang=\"ja\">市区町村名です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。<br> ※このフィールドは、レスポンスの際に返却されません。</div> 
 
 **`memberof`** AccountManagementServiceClient
 
@@ -94,7 +94,7 @@ ___
 
 • `Optional` **phoneNumber**: ``null`` \| *string*
 
-<div lang=\"ja\">電話番号です。<br> ※xxxxx-xxxxx-xxxxx形式です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。</div> 
+<div lang=\"ja\">電話番号です。<br> ※xxxxx-xxxxx-xxxxx形式です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。<br> ※このフィールドは、レスポンスの際に返却されません。</div> 
 
 **`memberof`** AccountManagementServiceClient
 
@@ -112,7 +112,7 @@ ___
 
 • `Optional` **street1**: ``null`` \| *string*
 
-<div lang=\"ja\">町・字名です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。</div> 
+<div lang=\"ja\">町・字名です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。<br> ※このフィールドは、レスポンスの際に返却されません。</div> 
 
 **`memberof`** AccountManagementServiceClient
 
@@ -122,7 +122,7 @@ ___
 
 • `Optional` **street2**: ``null`` \| *string*
 
-<div lang=\"ja\">丁目・番地・号です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。</div> 
+<div lang=\"ja\">丁目・番地・号です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。<br> ※このフィールドは、レスポンスの際に返却されません。</div> 
 
 **`memberof`** AccountManagementServiceClient
 
@@ -150,6 +150,6 @@ ___
 
 • `Optional` **zip**: ``null`` \| *string*
 
-<div lang=\"ja\">郵便番号です。<br> ※xxx-xxxx形式です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。</div> 
+<div lang=\"ja\">郵便番号です。<br> ※xxx-xxxx形式です。<br> このフィールドは、ADD時に必須となり、SET時に無視されます。<br> ※clientTypeがSELFの場合は、ADD時、SET時ともに無視されます。<br> ※このフィールドは、レスポンスの際に返却されません。</div> 
 
 **`memberof`** AccountManagementServiceClient

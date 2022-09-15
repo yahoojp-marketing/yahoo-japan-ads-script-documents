@@ -29,7 +29,7 @@ ___
 
 • `Optional` **adGroupId**: ``null`` \| *number*
 
-<div lang=\"ja\"> 広告グループIDです。<br> このフィールドは、リクエストの場合は必須です。 </div> 
+<div lang=\"ja\"> 広告グループIDです。<br> このフィールドは、リクエストの場合は必須です。<br> ※GuaranteedAdGroupServiceでADDおよびSETする際、このフィールドは無視されます。 </div> 
 
 **`memberof`** AdGroupTarget
 
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **campaignId**: ``null`` \| *number*
 
-<div lang=\"ja\"> キャンペーンIDです。<br> このフィールドは、リクエストの場合は必須です。 </div> 
+<div lang=\"ja\"> キャンペーンIDです。<br> このフィールドは、リクエストの場合は必須です。<br> ※GuaranteedAdGroupServiceでADDおよびSETする際、このフィールドは無視されます。 </div> 
 
 **`memberof`** AdGroupTarget
 

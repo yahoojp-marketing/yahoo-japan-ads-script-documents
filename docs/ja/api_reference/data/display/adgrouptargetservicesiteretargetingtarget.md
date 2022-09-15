@@ -1,7 +1,7 @@
 # AdGroupTargetServiceSiteRetargetingTarget
 
 
-<div lang=\"ja\"> AdGroupTargetServiceSiteRetargetingTargetオブジェクトは、サイトリターゲティングの設定情報を保持します。<br> ADD、SETおよびREPLACE時、このフィールドは省略可能となります。<br> ※targetTypeがSITE_RETARGETINGの場合は必須です。 </div> 
+<div lang=\"ja\"> AdGroupTargetServiceSiteRetargetingTargetオブジェクトは、サイトリターゲティングの設定情報を保持します。<br> ADD、SETおよびREPLACE時、このフィールドは省略可能となります。<br> ※targetTypeがSITE_RETARGETINGの場合、任意で指定できます。 </div> 
 
 ## Table of contents
 

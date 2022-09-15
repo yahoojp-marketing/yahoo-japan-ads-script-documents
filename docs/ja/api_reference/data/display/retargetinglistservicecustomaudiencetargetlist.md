@@ -1,7 +1,7 @@
 # RetargetingListServiceCustomAudienceTargetList
 
 
-<div lang=\"ja\"> RetargetingListServiceCustomAudienceTargetListオブジェクトは、Yahoo! DMPの行動履歴を利用するターゲットリストを表します。ご利用にはYahoo! DMPのご契約が必要です。<br> このフィールドは、ADDおよびSET時に省略可能となります。<br> ※targetListTypeがCUSTOM_AUDIENCEの場合は、ADDおよびSET時に必須となります。 </div> 
+<div lang=\"ja\"> RetargetingListServiceCustomAudienceTargetListオブジェクトは、Yahoo! DMPの行動履歴を利用するターゲットリストを表します。ご利用にはYahoo! DMPのご契約が必要です。<br> このフィールドは、ADDおよびSET時に省略可能となります。<br> ※targetListTypeがCUSTOM_AUDIENCEの場合は、ADD時に必須となります。 </div> 
 
 ## Table of contents
 

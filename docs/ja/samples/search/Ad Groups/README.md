@@ -4,27 +4,36 @@
 ```.js
 function addAdGroup(){
      
-    const accountId = AdsUtilities.getCurrentAccountId();
- 
-    const adGroups = Search.AdGroupService.add({
-        "accountId": accountId,
-        "operand": [
-            {
-                "adGroupName": "BBBBBB",
-                "bid": {
-                    bidSource: "ADGROUP",
-                    maxCpc: 1000,//default:1
-                },
-                "campaignId": 111111,
-                "userStatus": "ACTIVE",
-            }
-        ]
-    }).rval;
-     
-    for (let i = 0; i < Object.keys(adGroups.values).length; i++) {
-        let adGroup = adGroups.values[i].adGroup;
-        Logger.log('adGroupId-> ' + adGroup.adGroupId + ', adGroupName-> ' + adGroup.adGroupName + ', bidMaxCpc-> ' + adGroup.bid.maxCpc);
+  const accountId = AdsUtilities.getCurrentAccountId();
+
+  const adGroupArray = [
+    {
+      adGroupName: 'adGroupNameAAA',
+      bid: {
+        bidSource: 'ADGROUP',
+        maxCpc: 1000,//default:1
+      },
+      campaignId: 1111111,
+      userStatus: 'ACTIVE',
     }
+  ];//Multiple selections are possible
+  
+  const adGroups = Search.AdGroupService.add({
+    accountId: accountId,
+    operand: adGroupArray,
+  }).rval;
+
+  for (let i = 0; i < Object.keys(adGroups.values).length; i++) {
+    if (adGroups.values[i].operationSucceeded) {
+      let adGroup = adGroups.values[i].adGroup;
+      Logger.log('adGroupId-> ' + adGroup.adGroupId + ', adGroupName-> ' + adGroup.adGroupName
+        + ', bidMaxCpc-> ' + adGroup.bid.maxCpc + ' has been added.');
+      
+    } else {
+      Logger.log('adGroupName-> ' + adGroupArray[i].adGroupName + ' could not be added.');
+
+    }
+  }
 }
 ```
 
@@ -32,106 +41,138 @@ function addAdGroup(){
 ```.js
 function pauseAdGroup(){
      
-    const accountId = AdsUtilities.getCurrentAccountId();
- 
-    const adGroupsGet = Search.AdGroupService.get({
-        "accountId": accountId,
-    }).rval;
- 
-    let adGroupArray = [];
-     
-    for (let i = 0; i < adGroupsGet.totalNumEntries; i++) {
-        let adGroupData = adGroupsGet.values[i].adGroup;
-         
-        adGroupData.userStatus = "PAUSED";
-         
-        adGroupArray.push(adGroupData);
+  const accountId = AdsUtilities.getCurrentAccountId();
+  const adGroupIds = [111111111, 222222222];//Empty when not specified
+  
+  const adGroupsGet = Search.AdGroupService.get({
+    accountId: accountId,
+    adGroupIds: adGroupIds,
+    userStatuses: ['ACTIVE'],
+  }).rval;
+  
+  if (adGroupsGet.totalNumEntries == 0) {
+    Logger.log('Target ID does not exist.');
+    return;
+  }
+  
+  let adGroupArray = [];
+  for (let i = 0; i < Object.keys(adGroupsGet.values).length; i++) {
+    let adGroup = adGroupsGet.values[i].adGroup;
+    adGroup.userStatus = 'PAUSED';
+    adGroupArray.push(adGroup);
+  }
+  
+  const adGroupsSet = Search.AdGroupService.set({
+    accountId: accountId,
+    operand: adGroupArray,
+  }).rval;
+   
+  for (let i = 0; i < Object.keys(adGroupsSet.values).length; i++) {
+    if (adGroupsSet.values[i].operationSucceeded) {
+      let adGroup = adGroupsSet.values[i].adGroup;
+      Logger.log('adGroupId-> ' + adGroup.adGroupId 
+        + ', adGroupName-> ' + adGroup.adGroupName + ' has been paused.');
+      
+    } else {
+      Logger.log('adGroupName-> ' + adGroupsGet.values[i].adGroup.adGroupName 
+        + ' could not be stopped.');
+      
     }
- 
-    const adGroupsSet = Search.AdGroupService.set({
-        "accountId": accountId,
-        "operand": adGroupArray,
-    }).rval;
-     
-    for (let i = 0; i < Object.keys(adGroupsSet.values).length; i++) {
-        let adGroup = adGroupsSet.values[i].adGroup;
-         
-        Logger.log('adGroupId-> ' + adGroup.adGroupId + ', adGroupName-> ' + adGroup.adGroupName + ', userStatus-> ' + adGroup.userStatus);
-    }
+  }
 }
 ```
 
 ### 広告グループの入札価格を更新する / Set ad group bid
 ```.js
-
 function setAdGroupBid(){
-     
-    const accountId = AdsUtilities.getCurrentAccountId();
- 
-    let adGroupArray = [];
- 
-    const adGroupsGet = Search.AdGroupService.get({
-        "accountId": accountId,
-        "adGroupIds": [
-            325446248,//Multiple selections are possible
-        ],
-    }).rval;
-     
-    for (let i = 0; i < adGroupsGet.totalNumEntries; i++) {
-        let adGroup = adGroupsGet.values[i].adGroup;
-         
-        adGroup.bid.maxCpc = 2000;
-         
-        adGroupArray.push(adGroup);
+  
+  const accountId = AdsUtilities.getCurrentAccountId();
+  const adGroupIds = [111111111, 222222222];//Empty when not specified
+  const bidMaxCpc = 500;
+  
+  const adGroupsGet = Search.AdGroupService.get({
+    accountId: accountId,
+    adGroupIds: adGroupIds,
+  }).rval;
+  
+  if (adGroupsGet.totalNumEntries == 0) {
+    Logger.log('Target ID does not exist.');
+    return;
+  }
+  
+  let adGroupArray = [];
+  for (let i = 0; i < Object.keys(adGroupsGet.values).length; i++) {
+    let adGroup = adGroupsGet.values[i].adGroup;
+    adGroup.bid.maxCpc = bidMaxCpc;
+    adGroupArray.push(adGroup);
+  }
+  
+  const adGroupsSet = Search.AdGroupService.set({
+    accountId: accountId,
+    operand: adGroupArray,
+  }).rval;
+   
+  for (let i = 0; i < Object.keys(adGroupsSet.values).length; i++) {
+    if (adGroupsSet.values[i].operationSucceeded) {
+      let adGroup = adGroupsSet.values[i].adGroup;
+      Logger.log('adGroupId-> ' + adGroup.adGroupId 
+        + ', adGroupName-> ' + adGroup.adGroupName
+        + ' has been changed to budgetAmount-> ' + adGroup.bid.maxCpc);
+      
+    } else {
+      Logger.log('adGroupName-> ' + adGroupsGet.values[i].adGroup.adGroupName 
+        + ' budget could not be changed.');
+      
     }
- 
-    const adGroupsSet = Search.AdGroupService.set({
-        "accountId": accountId,
-        "operand": adGroupArray,
-    }).rval;
-     
-    for (let i = 0; i < Object.keys(adGroupsSet.values).length; i++) {
-        let adGroup = adGroupsSet.values[i].adGroup;
-         
-        Logger.log('adGroupId-> ' + adGroup.adGroupId + ', adGroupName-> ' + adGroup.adGroupName + ', bidMaxCpc-> ' + adGroup.bid.maxCpc);
-    }
+  }
 }
 ```
 
 ### アカウント配下の全ての広告グループ情報を取得する / Get all ad group
 ```.js
-
 function getAllAdGroup(){
-     
-    const accountId = AdsUtilities.getCurrentAccountId();
- 
-    const adGroups = Search.AdGroupService.get({
-        "accountId": accountId,
-    }).rval;
-     
-    for (let i = 0; i < adGroups.totalNumEntries; i++) {
-        let adGroupData = adGroups.values[i].adGroup;
-        Logger.log('adGroupId-> ' + adGroupData.adGroupId + ', adGroupName-> ' + adGroupData.adGroupName);
-    }
+  
+  const accountId = AdsUtilities.getCurrentAccountId();
+  
+  const adGroups = Search.AdGroupService.get({
+    accountId: accountId,
+    numberResults: 10000,//Max adGroups you can get is 10000.
+  }).rval;
+  
+  if (adGroups.totalNumEntries == 0) {
+    Logger.log('Ad group does not exist.');
+    return;
+  }
+  
+  for (let i = 0; i < Object.keys(adGroups.values).length; i++) {
+    let adGroup = adGroups.values[i].adGroup;
+    Logger.log('adGroupId-> ' + adGroup.adGroupId 
+      + ', adGroupName-> ' + adGroup.adGroupName);
+  }
 }
 ```
 
 ### 指定した全ての広告グループ情報を取得する / Get all ad group by id
 ```.js
 function getAllAdGroupById(){
-     
-    const accountId = AdsUtilities.getCurrentAccountId();
- 
-    const adGroups = Search.AdGroupService.get({
-        "accountId": accountId,
-        "adGroupIds": [
-            111111111, 222222222,//Multiple selections are possible
-        ],
-    }).rval;
-     
-    for (let i = 0; i < adGroups.totalNumEntries; i++) {
-        let adGroupData = adGroups.values[i].adGroup;
-        Logger.log('adGroupId-> ' + adGroupData.adGroupId + ', adGroupName-> ' + adGroupData.adGroupName);
-    }
+  
+  const accountId = AdsUtilities.getCurrentAccountId();
+  const adGroupIds = [111111111, 222222222];//Multiple selections are possible
+  
+  const adGroups = Search.AdGroupService.get({
+    accountId: accountId,
+    adGroupIds: adGroupIds,
+  }).rval;
+  
+  if (adGroups.totalNumEntries == 0) {
+    Logger.log('Target ID does not exist.');
+    return;
+  }
+  
+  for (let i = 0; i < Object.keys(adGroups.values).length; i++) {
+    let adGroup = adGroups.values[i].adGroup;
+    Logger.log('adGroupId-> ' + adGroup.adGroupId 
+      + ', adGroupName-> ' + adGroup.adGroupName);
+  }
 }
 ```

@@ -62,7 +62,7 @@ ___
 
 • `Optional` **appVendorId**: ``null`` \| *string*
 
-<div lang=\"ja\">アプリ計測ベンダーIDです。<br> ADD時、このフィールドは必須となります。</div> 
+<div lang=\"ja\">アプリ計測ベンダーIDです。<br> ADD時、このフィールドは必須となります。<br> ※DictionaryService/getAppLinkVendorで取得できるappVendorIdのみ使用できます。</div> 
 
 **`memberof`** AppLink
 

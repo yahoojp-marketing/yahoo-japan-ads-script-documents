@@ -30,7 +30,7 @@ ___
 
 ▸ **set**(`campaignFeedServiceOperation?`: [*CampaignFeedServiceOperation*](../../data/search/campaignfeedserviceoperation.md)): [*CampaignFeedServiceMutateResponse*](../../data/search/campaignfeedservicemutateresponse.md)
 
-<div lang=\"ja\">キャンペーンにFeedItem情報を追加・更新・解除（削除）します。<br> ・FeedItem情報を解除するときは空の情報で更新します。<br> ・1つのキャンペーンに設定できるFeedItem情報は、QUICKLINKS、CALLEXTENSIONでそれぞれ20件までです。<br> ・CALLEXTENSIONについて1キャンペーンあたり1件の設定をお薦めします。<br> ・1リクエスト内で同一のcampaignIdに複数のFeedItem情報は設定できません。 </div>
+<div lang=\"ja\">キャンペーンにFeedItem情報を追加・更新・解除（削除）します。<br> ・FeedItem情報を解除するときは空の情報で更新します。<br> ・1つのキャンペーンに設定できるFeedItem情報は、QUICKLINKS、CALLEXTENSIONでそれぞれ20件までです。<br> ・CALLEXTENSIONについて1キャンペーンあたり1件の設定をお薦めします。<br> ・1リクエスト内で同一のcampaignIdに複数のFeedItem情報は設定できません。<br> ※現在、こちらのサービスは利用できません。 </div>
 
 #### Parameters
 
